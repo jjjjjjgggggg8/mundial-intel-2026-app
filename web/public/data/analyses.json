@@ -77,8 +77,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
-    "gemini_analysis": "La ventaja Elo de Estados Unidos de 51.6 puntos, sumada a sus mayores goles esperados de 1.701 frente a los 1.1107 de Turquía, justifica su probabilidad de victoria del 51.0% en el modelo matemático. Sin embargo, Estados Unidos ya ha asegurado su clasificación a los octavos de final del Mundial y podría rotar jugadores clave para evitar suspensiones por tarjetas amarillas o gestionar la recuperación de Christian Pulisic de una lesión menor, lo que mitigaría su ventaja de rendimiento. Por su parte, Turquía, ya eliminada y con figuras como Hakan Çalhanoğlu y Arda Güler con problemas de forma o lesiones, ha tenido un torneo decepcionante a pesar de una buena racha previa y la posesión, sin lograr anotar en sus dos partidos anteriores. Dadas estas circunstancias que afectan la motivación y la alineación de ambos equipos, el modelo no detecta valor significativo en las cuotas actuales de ningún mercado, lo que sugiere que el mercado está bien ajustado a la alta incertidumbre y el contexto del partido.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "La ventaja Elo de 51.6 puntos de Estados Unidos es coherente con las probabilidades del modelo, que les otorgan un 51.0% de victoria y una expectativa de goles significativamente mayor de 1.701 frente a los 1.1107 de Türkiye. Aunque la posible baja o limitada participación de Christian Pulisic y la situación de Chris Richards por lesión podrían afectar ligeramente a Estados Unidos, Türkiye llega sin puntos en el torneo, lo que mitiga ese impacto percibido. El modelo concluye que las cuotas de Bet365 y Winamax están bien valoradas y reflejan adecuadamente la dinámica del partido, sin ofrecer oportunidades de valor. En consecuencia, no existe un argumento matemático para realizar apuestas en ningún mercado en este encuentro.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "PAR-AUS-20260625": {
@@ -160,7 +160,7 @@
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": "El modelo asigna 29% de probabilidad a la victoria de Paraguay, con Australia 12.7 puntos Elo por encima de Paraguay. Los goles esperados son 1.1992 para Paraguay y 1.5522 para Australia. El modelo no detecta valor claro en las cuotas actuales del mercado.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "CUW-CIV-20260625": {
@@ -241,8 +241,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo Elo otorga a Côte d'Ivoire una ventaja sustancial de 137.6 puntos sobre Curaçao, lo que se traduce en una probabilidad de victoria del 63.6% y un esperado de 2.08 goles, reflejando su superioridad teórica. En cuanto a noticias recientes, Curaçao no tiene suspensiones confirmadas, aunque Jürgen Locadia era duda por un golpe pero parece que estará disponible, mientras que Wilfried Singo de Costa de Marfil sufrió un golpe en la rodilla contra Alemania pero las pruebas no mostraron lesión grave, aunque se le dará descanso preventivo. A pesar de la victoria de Costa de Marfil contra Ecuador y su derrota por la mínima ante Alemania, las cuotas de las casas de apuestas para este encuentro final de fase de grupos están eficientemente valoradas, como demuestra que el modelo no detecta valor en ningún mercado con un EV superior al 5%. Por lo tanto, no hay argumento matemático para realizar una apuesta en este partido, ya que los precios de las casas de apuestas reflejan adecuadamente las probabilidades del modelo y la información disponible.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 16% de probabilidad a la victoria de Curaçao, con Côte d'Ivoire 137.6 puntos Elo por encima de Curaçao. Los goles esperados son 0.9376 para Curaçao y 2.0824 para Côte d'Ivoire. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "ECU-GER-20260625": {
@@ -323,8 +323,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
-    "gemini_analysis": "La ventaja Elo de Alemania de 84.6 puntos es considerable y se traduce en su dominio proyectado del partido, con un xG de 1.8381 frente a 1.0409 de Ecuador, justificando la probabilidad del modelo de victoria alemana del 55.9%. Aunque el modelo no detecta valor significativo (EV < 5%) en ninguna cuota actual, esto sugiere que el mercado está eficientemente valorando la superioridad alemana, a pesar de la reciente lesión del defensor clave Nico Schlotterbeck. Alemania llega con un récord perfecto en el Mundial y 11 victorias consecutivas, mientras que Ecuador no ha ganado en sus dos partidos de fase de grupos y tiene dificultades para concretar oportunidades, fallando la mayor cantidad de grandes ocasiones en el torneo. Por lo tanto, no hay un argumento matemático claro para apostar en este encuentro, ya que las cuotas parecen reflejar adecuadamente las probabilidades del modelo y la dinámica actual de ambos equipos.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "La diferencia de 84.6 puntos Elo a favor de Alemania justifica su alta probabilidad de victoria del 55.9% y el dominio en los goles esperados, indicando que son el claro favorito en este encuentro. El modelo no detecta apuestas de valor (EV < 5%) en ningún mercado, lo que sugiere que las cuotas de las casas de apuestas están eficientemente ajustadas a las probabilidades del modelo. Aunque Alemania tiene la baja confirmada de Nico Schlotterbeck por lesión en el tobillo, lo cual podría afectar su solidez defensiva, la profundidad de su plantilla es considerable y se espera que roten jugadores ya que su clasificación a octavos está asegurada. Por lo tanto, no hay un argumento matemático sólido para apostar en este partido bajo las condiciones actuales.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "JPN-SWE-20260625": {
@@ -405,8 +405,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de 190.1 puntos a favor de Japón, respaldada por un xG superior (1.7877 vs 0.9635), indica que el modelo considera a Japón como claro favorito para ganar el partido, lo que se traduce en un rendimiento esperado significativamente mejor en el campo. A pesar de que Japón arrastra bajas importantes como las de Endo, Mitoma, Minamino y Kubo, su reciente forma es sólida con un empate 2-2 contra Países Bajos y una victoria 4-0 contra Túnez, además de una defensa que mantenía la portería a cero en seis de sus últimos siete encuentros. Por su parte, Suecia llega sin bajas significativas pero con resultados dispares (victoria 5-1 contra Túnez y derrota 5-1 contra Países Bajos), mostrando tendencia a partidos con muchos goles y ambos equipos marcando. Sin embargo, el modelo no detecta valor en las cuotas actuales de Bet365 y Winamax (EV < 5%) en ningún mercado, lo que sugiere que las cuotas ya reflejan adecuadamente la probabilidad de los resultados, incluso considerando las ausencias japonesas y la forma reciente de ambos equipos. Por lo tanto, no hay un argumento matemático claro para realizar una apuesta en este encuentro.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 57% de probabilidad a la victoria de Japan, con Japan 190.1 puntos Elo por encima de Sweden. Los goles esperados son 1.7877 para Japan y 0.9635 para Sweden. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "TUN-NED-20260625": {
@@ -487,8 +487,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja de 277.5 puntos Elo de Países Bajos no solo es significativa, sino que se alinea perfectamente con su rendimiento reciente, goleando 5-1 a Suecia y buscando el primer puesto del grupo, mientras Túnez ha sido eliminado tras encajar nueve goles en dos partidos. El modelo predice un dominio abrumador con 2.8932 goles esperados para Países Bajos y solo 0.7119 para Túnez, reflejando la mala racha tunecina con cuatro derrotas consecutivas y la solidez ofensiva neerlandesa. Aunque Países Bajos tiene algunas dudas como Depay o Brobbey, las noticias más recientes indican que no hay bajas confirmadas para este encuentro. Lamentablemente, el modelo no detecta valor en las cuotas actuales de Bet365 y Winamax en ningún mercado, indicando que las bookies han ajustado muy bien sus líneas a la probabilidad real del encuentro, considerando la disparidad entre ambos equipos y su forma actual.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 6% de probabilidad a la victoria de Tunisia, con Netherlands 277.5 puntos Elo por encima de Tunisia. Los goles esperados son 0.7119 para Tunisia y 2.8932 para Netherlands. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "EGY-IRN-20260626": {
@@ -570,7 +570,7 @@
     "has_value_bet": false,
     "confidence": "medium",
     "gemini_analysis": "El modelo asigna 25% de probabilidad a la victoria de Egypt, con Iran 49.2 puntos Elo por encima de Egypt. Los goles esperados son 1.1161 para Egypt y 1.6912 para Iran. El modelo no detecta valor claro en las cuotas actuales del mercado.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "NZL-BEL-20260626": {
@@ -651,8 +651,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo asigna 13% de probabilidad a la victoria de New Zealand, con Belgium 167.3 puntos Elo por encima de New Zealand. Los goles esperados son 0.8844 para New Zealand y 2.2328 para Belgium. El modelo no detecta valor claro en las cuotas actuales del mercado.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "La ventaja Elo de 167.3 puntos para Bélgica es considerable, lo que respalda la alta probabilidad de victoria del 67.8% del modelo y los 2.23 goles esperados, indicando que son un equipo superior que debería dominar el encuentro. A pesar de esto, el modelo no ha detectado valor en las cuotas de Bet365 y Winamax en ningún mercado, sugiriendo que el mercado está valorando correctamente el favoritismo belga y la resiliencia mostrada por Nueva Zelanda en sus partidos anteriores del Mundial 2026. Bélgica llega con la obligación de ganar para avanzar de fase, habiendo empatado sus dos primeros partidos y mostrando una ofensiva \"misfiring\" a pesar de contar con Kevin De Bruyne y Romelu Lukaku, sumado a la baja de Nathan Ngoy por suspensión y la duda de Jeremy Doku. Por lo tanto, no existe un argumento matemático sólido para realizar apuestas en este partido, ya que las cuotas actuales ya reflejan adecuadamente las probabilidades y el contexto de ambos equipos.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "CPV-KSA-20260626": {
@@ -733,8 +733,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La ventaja Elo de 33.2 puntos para Arabia Saudita sugiere una ligera superioridad en el rendimiento esperado, reflejándose en una probabilidad de victoria del 48.3% frente al 26.8% de Cabo Verde. Sin embargo, Cabo Verde ha mostrado una sorprendente resiliencia en este Mundial, empatando con España y Uruguay, lo que indica que las casas de apuestas como Bet365 y Winamax han ajustado bien sus cuotas. Aunque Cabo Verde tiene la baja por suspensión de Sidny Lopes Cabral y algunas dudas por lesión, Arabia Saudita afronta el encuentro con la presión de una victoria obligatoria tras una reciente derrota abultada ante España y una tendencia a planteamientos defensivos. Dada la eficiencia del mercado y que el modelo no detecta valor (EV < 5%) en ninguna de las cuotas actuales, no hay un argumento matemático sólido para realizar una apuesta en este partido.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 27% de probabilidad a la victoria de Cape Verde, con Saudi Arabia 33.2 puntos Elo por encima de Cape Verde. Los goles esperados son 1.1516 para Cape Verde y 1.6291 para Saudi Arabia. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "URU-ESP-20260626": {
@@ -815,8 +815,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de España de 175.7 puntos es sustancial y se traduce en una probabilidad de victoria del 69% según el modelo, reflejando una clara superioridad en el rendimiento esperado. Uruguay enfrenta este encuentro crucial con la baja confirmada de Giorgian de Arrascaeta y la probable ausencia de Ronald Araujo por lesión, además de llegar con dos empates consecutivos en la fase de grupos. España, aunque sin Fermín López y Victor Muñoz para este partido, cuenta con Lamine Yamal y Nico Williams recuperados y demostró su potencial goleando a Arabia Saudita 4-0. Dado que el modelo no detecta valor (EV < 5%) en ningún mercado, no hay argumento matemático para realizar una apuesta en este partido.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 13% de probabilidad a la victoria de Uruguay, con Spain 175.7 puntos Elo por encima de Uruguay. Los goles esperados son 0.87 para Uruguay y 2.2773 para Spain. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "NOR-FRA-20260626": {
@@ -897,8 +897,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo asigna 15% de probabilidad a la victoria de Norway, con France 148.9 puntos Elo por encima de Norway. Los goles esperados son 0.917 para Norway y 2.1384 para France. El modelo no detecta valor claro en las cuotas actuales del mercado.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "La ventaja de 148.9 puntos Elo a favor de Francia subraya su superioridad inherente, respaldando la alta probabilidad del modelo de 65.2% para su victoria. Ambos equipos llegan a este encuentro de la Jornada 16 con pleno de victorias en la fase de grupos y sin lesiones o suspensiones clave que afecten a sus principales figuras, como Kylian Mbappé o Erling Haaland, aunque Francia solo necesita un empate para asegurar el primer puesto del grupo. A pesar de las altas probabilidades de Over 2.5 goles (58.9%) y Ambos Marcan (53.1%), el modelo no detecta valor en las cuotas actuales, indicando que el mercado está eficientemente valorado con un EV inferior al 5% en todos los mercados. Por tanto, no hay argumento matemático para apostar en este partido.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "SEN-IRQ-20260626": {
@@ -979,8 +979,8 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de 141.0 puntos para Senegal indica una superioridad considerable, justificando las probabilidades del modelo que le dan casi un 50% de victoria, lo que en rendimiento real se traduce en un equipo con mayor calidad y expectativas de control del partido. Sin embargo, la ausencia del portero clave Édouard Mendy por lesión es un golpe importante para Senegal, mientras que Iraq también sufre la baja de sus atacantes principales Ayman Hussein y Mohannad Ali, lo que disminuye su capacidad ofensiva y agrava su ya mala racha de tres derrotas consecutivas. Considerando estas bajas y la pobre forma reciente de Iraq, las probabilidades del modelo parecen razonables, pero la incertidumbre generada por las lesiones clave en ambos bandos equilibra ligeramente el panorama. No obstante, el modelo no detecta valor en las cuotas actuales, por lo que no hay argumento matemático para apostar en ningún mercado concreto en este encuentro.",
-    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "gemini_analysis": "El modelo asigna 50% de probabilidad a la victoria de Senegal, con Senegal 141.0 puntos Elo por encima de Iraq. Los goles esperados son 1.6229 para Senegal y 1.0815 para Iraq. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:53.456018Z",
     "is_upcoming": true
   },
   "ALG-AUT-20260627": {
