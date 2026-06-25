@@ -1,4 +1,4 @@
-type BarColor = 'blue' | 'gray' | 'red' | 'green' | 'indigo' | 'yellow'
+type BarColor = 'blue' | 'gray' | 'red' | 'green' | 'indigo' | 'yellow' | 'purple'
 
 type Props = {
   label: string
@@ -14,6 +14,7 @@ const colorMap: Record<BarColor, string> = {
   green:  'bg-green-600',
   indigo: 'bg-indigo-500',
   yellow: 'bg-yellow-500',
+  purple: 'bg-purple-500',
 }
 
 export default function HorizontalBar({

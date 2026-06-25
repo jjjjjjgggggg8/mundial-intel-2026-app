@@ -18,6 +18,34 @@ export type Match = {
   updated_at: string
 }
 
+export type AsianHandicapLine = {
+  prob_home_covers: number
+  prob_away_covers: number
+  prob_push: number
+  is_asian: boolean
+}
+
+export type AsianTotalLine = {
+  prob_over: number
+  prob_under: number
+  prob_push: number
+  is_asian: boolean
+}
+
+export type GoalRange = {
+  label: string
+  min_goals: number
+  max_goals: number
+  prob: number
+}
+
+export type TopScorer = {
+  name: string
+  position: string
+  prob_anytime_scorer: number
+  lambda_goals: number
+}
+
 export type Analysis = {
   elo_home: number
   elo_away: number
@@ -36,20 +64,27 @@ export type Analysis = {
   }
   top_scorelines: Array<{ score: string; prob: number }>
   high_prob_events: Array<{ event: string; prob: number }>
+  asian_handicap?: Record<string, AsianHandicapLine>
+  asian_total?: Record<string, AsianTotalLine>
+  goal_ranges?: GoalRange[]
+  top_scorers?: {
+    home: TopScorer[]
+    away: TopScorer[]
+  }
   value_bets: Array<{
     market: string
     model_prob: number
     fair_odds: number
     best_ev: number
     best_bookmaker: string
-    odds_bet365: number
-    ev_bet365: number
-    odds_winamax: number
-    ev_winamax: number
+    odds_bet365: number | null
+    ev_bet365: number | null
+    odds_winamax: number | null
+    ev_winamax: number | null
     where_to_bet: string
   }>
-  gemini_analysis: string
-  odds_updated_at: string
+  gemini_analysis: string | null
+  odds_updated_at: string | null
 }
 
 export function getMatches(): Match[] {

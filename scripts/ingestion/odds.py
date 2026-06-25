@@ -57,7 +57,7 @@ def fetch_upcoming_odds(api_key: str, days_ahead: int = 3) -> dict:
     params = {
         "apiKey":           api_key,
         "bookmakers":       "bet365,winamax",
-        "markets":          "h2h,totals",
+        "markets":          "h2h,totals,spreads,alternate_spreads,alternate_totals,btts",
         "oddsFormat":       "decimal",
         "commenceTimeFrom": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "commenceTimeTo":   (now_utc + timedelta(days=days_ahead)).strftime(
@@ -152,8 +152,13 @@ def extract_fair_odds(raw_odds: dict, method: str = "power") -> dict:
             for market_key, outcomes_list in bm_data.get("markets", {}).items():
                 prices: dict[str, float] = {}
                 for o in outcomes_list:
-                    if market_key == "totals" and "point" in o:
+                    if market_key in ("totals", "alternate_totals") and "point" in o:
                         label = f"{o['name']} {o['point']}"
+                    elif market_key in ("spreads", "alternate_spreads") and "point" in o:
+                        # "Spain -1.0" format expected by ev_calculator
+                        point = o["point"]
+                        sign  = "+" if point >= 0 else ""
+                        label = f"{o['name']} {sign}{point}"
                     else:
                         label = o["name"]
                     prices[label] = float(o["price"])

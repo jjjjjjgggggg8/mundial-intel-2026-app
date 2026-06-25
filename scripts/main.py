@@ -25,6 +25,9 @@ from scripts.models.poisson import DixonColesModel
 from scripts.ingestion.historical import load_matches, load_wc2026_calendar, normalize_team_name
 from scripts.ingestion.odds import fetch_upcoming_odds, extract_fair_odds, save_odds_snapshot
 from scripts.analysis.gemini_analyst import analyze_match
+from scripts.analysis.ev_calculator import calculate_ev_all_markets
+from scripts.analysis.player_markets import PlayerMarketAnalyzer
+from scripts.config import EV_THRESHOLD, SQUADS_PATH
 
 # ---------------------------------------------------------------------------
 # Rutas del proyecto
@@ -36,9 +39,8 @@ _DATA_LOGS   = _ROOT / "data" / "logs"
 _ODDS_SNAP   = _ROOT / "data" / "output" / "odds.json"
 _WEB_PUBLIC  = _ROOT / "web" / "public" / "data"
 
-_ODDS_STALE_HOURS    = 6.0
-_UPCOMING_HOURS      = 48
-_EV_THRESHOLD        = 0.05
+_ODDS_STALE_HOURS = 6.0
+_UPCOMING_HOURS   = 48
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -282,6 +284,7 @@ def _build_analysis(
     gemini_text: str | None,
     snapshot_ts: str | None,
     is_upcoming: bool,
+    player_markets: dict | None = None,
 ) -> dict:
     """Construye el dict completo de análisis para un partido."""
     date_str    = str(row["date"])[:10] if row["date"] else ""
@@ -290,6 +293,11 @@ def _build_analysis(
 
     elo_diff   = abs(elo_home - elo_away)
     confidence = "high" if elo_diff > 100 else "medium" if elo_diff > 40 else "low"
+
+    # Mercados asiáticos — solo si get_all_markets fue llamado
+    asian_handicap = preds.get("asian_handicap", {})
+    asian_total    = preds.get("asian_total", {})
+    goal_ranges    = preds.get("goal_ranges", [])
 
     return {
         "match_id":    row["match_id"],
@@ -322,12 +330,19 @@ def _build_analysis(
             {"event": "Al menos 1 gol en cada tiempo",
              "prob": round(preds["prob_over_0_5"] * 0.72, 3)},
         ],
-        "value_bets":    value_bets,
-        "has_value_bet": len(value_bets) > 0,
-        "confidence":    confidence,
-        "gemini_analysis": gemini_text,
-        "odds_updated_at": snapshot_ts,
-        "is_upcoming":   is_upcoming,
+        "asian_handicap": asian_handicap,
+        "asian_total":    asian_total,
+        "goal_ranges":    goal_ranges,
+        "value_bets":     value_bets,
+        "has_value_bet":  len(value_bets) > 0,
+        "confidence":     confidence,
+        "gemini_analysis":  gemini_text,
+        "odds_updated_at":  snapshot_ts,
+        "is_upcoming":      is_upcoming,
+        "top_scorers": {
+            "home": (player_markets or {}).get("top_home_picks", []),
+            "away": (player_markets or {}).get("top_away_picks", []),
+        },
     }
 
 
@@ -353,12 +368,20 @@ def main() -> None:
     calendar_df = load_wc2026_calendar(str(_DATA_RAW / "wc2026" / "worldcup.json"))
     log.info(f"Calendario cargado: {len(calendar_df)} partidos en total")
 
-    # ── PASO 2: Entrenamiento de modelos ────────────────────────────────────
+    # ── PASO 2: Entrenamiento de modelos e inicialización de analizadores ───
     elo_model = EloModel()
     elo_model.fit(matches_df)
     dc_model = DixonColesModel()
     dc_model.fit(matches_df)
     log.info("Modelos entrenados correctamente")
+
+    squads_path = str(_ROOT / SQUADS_PATH)
+    try:
+        player_analyzer = PlayerMarketAnalyzer(squads_path)
+        log.info(f"PlayerMarketAnalyzer cargado: {len(player_analyzer.squads)} equipos")
+    except FileNotFoundError:
+        player_analyzer = None
+        log.warning(f"Plantillas no encontradas en {squads_path}. Mercados de jugadores desactivados.")
 
     # ── PASO 3: Separar upcoming (48h) vs. resto ───────────────────────────
     now_utc     = datetime.now(tz=timezone.utc)
@@ -442,19 +465,28 @@ def main() -> None:
         elo_away = elo_model.get_rating(away_team)
         log.info(f"  Elo {home_team}: {elo_home:.0f} | {away_team}: {elo_away:.0f}")
 
-        # b) Predicciones Dixon-Coles
-        preds = dc_model.predict_match(home_team, away_team, elo_home, elo_away, neutral=True)
+        # b) Predicciones Dixon-Coles — todos los mercados
+        preds = dc_model.get_all_markets(home_team, away_team, elo_home, elo_away, neutral=True)
 
-        # c-e) Value bets
+        # c) Value bets con ev_calculator (todos los mercados)
         value_bets: list = []
-        if mid in fair_by_match and mid in raw_by_match:
+        if mid in fair_by_match:
             try:
-                value_bets = _calc_value_bets(
-                    home_team, away_team, preds,
-                    fair_by_match[mid], raw_by_match[mid],
+                value_bets = calculate_ev_all_markets(
+                    preds, fair_by_match[mid], home_team, away_team, EV_THRESHOLD
                 )
             except Exception as exc:
                 log.warning(f"  Error calculando EV para {mid}: {exc}")
+
+        # d) Mercados de jugadores
+        player_markets: dict | None = None
+        if player_analyzer is not None:
+            try:
+                player_markets = player_analyzer.analyze_match_players(
+                    home_team, away_team, preds
+                )
+            except Exception as exc:
+                log.warning(f"  Error en mercados de jugadores para {mid}: {exc}")
 
         total_value_bets += len(value_bets)
         log.info(f"  Value bets encontrados: {len(value_bets)}")
@@ -502,7 +534,8 @@ def main() -> None:
         # g) Dict completo
         analyses[mid] = _build_analysis(
             row, preds, elo_home, elo_away,
-            value_bets, gemini_text, snapshot_ts, is_upcoming=True,
+            value_bets, gemini_text, snapshot_ts,
+            is_upcoming=True, player_markets=player_markets,
         )
 
     # ── PASO 6: Resto del torneo (sin cuotas ni Gemini) ────────────────────
