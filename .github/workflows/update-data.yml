@@ -1,0 +1,57 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC = 09:00 Madrid (verano)
+    - cron: '0 15 * * *'  # 15:00 UTC = 17:00 Madrid
+  workflow_dispatch:       # ejecución manual desde la pestaña Actions
+
+permissions:
+  contents: write  # necesario para que el bot pueda hacer git push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar el script principal
+        id: run_script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python scripts/main.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Commit y push de los datos actualizados
+        if: steps.run_script.outcome == 'success'
+        run: |
+          git config user.name "Mundial Intel Bot"
+          git config user.email "bot@mundial-intel.com"
+          git add web/public/data/
+          git commit -m "update: análisis $(date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git push
+
+      - name: Notificar error
+        if: steps.run_script.outcome == 'failure'
+        run: |
+          echo "❌ ERROR: scripts/main.py terminó con error."
+          echo "Revisa los logs de este workflow para más detalles."
+          echo "No se ha hecho commit. Los datos en web/public/data/ no han cambiado."
+          exit 1
