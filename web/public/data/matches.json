@@ -12,7 +12,8 @@
     "prob_home": 0.47,
     "prob_draw": 0.27,
     "prob_away": 0.26,
-    "updated_at": "2026-06-26T07:15:00Z"
+    "updated_at": "2026-06-26T07:15:00Z",
+    "version": "1.0"
   },
   {
     "id": "fra-bra-20260626",
