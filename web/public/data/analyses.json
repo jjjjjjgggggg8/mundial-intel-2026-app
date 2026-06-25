@@ -1,0 +1,63 @@
+{
+  "esp-ger-20260626": {
+    "elo_home": 2012,
+    "elo_away": 1976,
+    "elo_advantage": 36,
+    "probs": {
+      "home_win": 0.47,
+      "draw": 0.27,
+      "away_win": 0.26,
+      "over_0_5": 0.95,
+      "over_1_5": 0.83,
+      "over_2_5": 0.61,
+      "over_3_5": 0.38,
+      "btts": 0.68,
+      "expected_goals_home": 1.42,
+      "expected_goals_away": 1.18
+    },
+    "top_scorelines": [
+      {"score": "1-1", "prob": 0.14},
+      {"score": "2-1", "prob": 0.11},
+      {"score": "1-0", "prob": 0.10},
+      {"score": "2-0", "prob": 0.08},
+      {"score": "0-0", "prob": 0.07},
+      {"score": "2-2", "prob": 0.06},
+      {"score": "3-1", "prob": 0.05},
+      {"score": "0-1", "prob": 0.05}
+    ],
+    "high_prob_events": [
+      {"event": "Ambos equipos marcan", "prob": 0.68},
+      {"event": "Goles en la 2ª parte", "prob": 0.81},
+      {"event": "Más de 1 gol en el partido", "prob": 0.91},
+      {"event": "Al menos 1 tarjeta amarilla", "prob": 0.89}
+    ],
+    "value_bets": [
+      {
+        "market": "Over 2.5 goles",
+        "model_prob": 0.61,
+        "fair_odds": 1.64,
+        "best_ev": 0.189,
+        "best_bookmaker": "Winamax",
+        "odds_bet365": 1.90,
+        "ev_bet365": 0.159,
+        "odds_winamax": 1.95,
+        "ev_winamax": 0.189,
+        "where_to_bet": "Winamax › Fútbol › Mundial 2026 › España–Alemania › Más/Menos › Más de 2.5"
+      },
+      {
+        "market": "Ambos equipos marcan",
+        "model_prob": 0.68,
+        "fair_odds": 1.47,
+        "best_ev": 0.082,
+        "best_bookmaker": "Bet365",
+        "odds_bet365": 1.59,
+        "ev_bet365": 0.082,
+        "odds_winamax": 1.55,
+        "ev_winamax": 0.055,
+        "where_to_bet": "Bet365 › Fútbol › Mundial 2026 › España–Alemania › Ambos marcan — Sí"
+      }
+    ],
+    "gemini_analysis": "España llega como el equipo más sólido del torneo con un Elo de 2012 frente al 1976 de Alemania. La Mannschaft mostró vulnerabilidades defensivas ante equipos con presión alta. Ambos prefieren posesión y presión adelantada, lo que históricamente genera encuentros con más de 2.5 goles. El modelo detecta valor claro en Over 2.5 y ambos marcan.",
+    "odds_updated_at": "2026-06-26T09:15:00Z"
+  }
+}

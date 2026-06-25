@@ -1,0 +1,47 @@
+[
+  {
+    "id": "esp-ger-20260626",
+    "phase": "Grupo E · Jornada 3",
+    "date": "2026-06-26",
+    "kickoff": "21:00",
+    "home_team": "España",
+    "away_team": "Alemania",
+    "venue": "MetLife Stadium",
+    "has_value_bet": true,
+    "confidence": "high",
+    "prob_home": 0.47,
+    "prob_draw": 0.27,
+    "prob_away": 0.26,
+    "updated_at": "2026-06-26T07:15:00Z"
+  },
+  {
+    "id": "fra-bra-20260626",
+    "phase": "Grupo D · Jornada 3",
+    "date": "2026-06-26",
+    "kickoff": "18:00",
+    "home_team": "Francia",
+    "away_team": "Brasil",
+    "venue": "SoFi Stadium",
+    "has_value_bet": false,
+    "confidence": null,
+    "prob_home": 0.39,
+    "prob_draw": 0.29,
+    "prob_away": 0.32,
+    "updated_at": "2026-06-26T07:15:00Z"
+  },
+  {
+    "id": "arg-por-20260627",
+    "phase": "Grupo F · Jornada 3",
+    "date": "2026-06-27",
+    "kickoff": "21:00",
+    "home_team": "Argentina",
+    "away_team": "Portugal",
+    "venue": "Rose Bowl",
+    "has_value_bet": true,
+    "confidence": "medium",
+    "prob_home": 0.44,
+    "prob_draw": 0.28,
+    "prob_away": 0.28,
+    "updated_at": "2026-06-26T07:15:00Z"
+  }
+]

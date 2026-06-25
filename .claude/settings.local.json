@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($total = \\(Import-Csv \"C:\\\\Users\\\\jaime\\\\Downloads\\\\mundial-intel-2026\\\\data\\\\raw\\\\results.csv\" | Measure-Object\\).Count; Write-Host \"Total rows: $total\")",
+      "PowerShell(Import-Csv *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(npm *)",
+      "PowerShell(npm run *)",
+      "PowerShell(npm install *)",
+      "PowerShell(Out-Null *)",
+      "PowerShell(netstat *)"
+    ]
+  }
+}
