@@ -1,63 +1,4102 @@
 {
-  "esp-ger-20260626": {
-    "elo_home": 2012,
-    "elo_away": 1976,
-    "elo_advantage": 36,
+  "TUR-USA-20260625": {
+    "match_id": "TUR-USA-20260625",
+    "home_team": "Türkiye",
+    "away_team": "United States",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "02:00",
+    "venue": "Los Angeles (Inglewood)",
+    "elo_home": 1848.7,
+    "elo_away": 1900.3,
+    "elo_advantage": -51.6,
     "probs": {
-      "home_win": 0.47,
-      "draw": 0.27,
-      "away_win": 0.26,
-      "over_0_5": 0.95,
-      "over_1_5": 0.83,
-      "over_2_5": 0.61,
-      "over_3_5": 0.38,
-      "btts": 0.68,
-      "expected_goals_home": 1.42,
-      "expected_goals_away": 1.18
+      "home_win": 0.2469,
+      "draw": 0.2428,
+      "away_win": 0.5103,
+      "over_0_5": 0.9385,
+      "over_1_5": 0.7723,
+      "over_2_5": 0.5333,
+      "over_3_5": 0.3106,
+      "btts": 0.5496,
+      "expected_goals_home": 1.1107,
+      "expected_goals_away": 1.701
     },
     "top_scorelines": [
-      {"score": "1-1", "prob": 0.14},
-      {"score": "2-1", "prob": 0.11},
-      {"score": "1-0", "prob": 0.10},
-      {"score": "2-0", "prob": 0.08},
-      {"score": "0-0", "prob": 0.07},
-      {"score": "2-2", "prob": 0.06},
-      {"score": "3-1", "prob": 0.05},
-      {"score": "0-1", "prob": 0.05}
-    ],
-    "high_prob_events": [
-      {"event": "Ambos equipos marcan", "prob": 0.68},
-      {"event": "Goles en la 2ª parte", "prob": 0.81},
-      {"event": "Más de 1 gol en el partido", "prob": 0.91},
-      {"event": "Al menos 1 tarjeta amarilla", "prob": 0.89}
-    ],
-    "value_bets": [
       {
-        "market": "Over 2.5 goles",
-        "model_prob": 0.61,
-        "fair_odds": 1.64,
-        "best_ev": 0.189,
-        "best_bookmaker": "Winamax",
-        "odds_bet365": 1.90,
-        "ev_bet365": 0.159,
-        "odds_winamax": 1.95,
-        "ev_winamax": 0.189,
-        "where_to_bet": "Winamax › Fútbol › Mundial 2026 › España–Alemania › Más/Menos › Más de 2.5"
+        "score": "1-1",
+        "prob": 0.1149
       },
       {
-        "market": "Ambos equipos marcan",
-        "model_prob": 0.68,
-        "fair_odds": 1.47,
-        "best_ev": 0.082,
-        "best_bookmaker": "Bet365",
-        "odds_bet365": 1.59,
-        "ev_bet365": 0.082,
-        "odds_winamax": 1.55,
-        "ev_winamax": 0.055,
-        "where_to_bet": "Bet365 › Fútbol › Mundial 2026 › España–Alemania › Ambos marcan — Sí"
+        "score": "0-1",
+        "prob": 0.1009
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0966
+      },
+      {
+        "score": "0-2",
+        "prob": 0.087
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0654
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0631
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0615
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0548
       }
     ],
-    "gemini_analysis": "España llega como el equipo más sólido del torneo con un Elo de 2012 frente al 1976 de Alemania. La Mannschaft mostró vulnerabilidades defensivas ante equipos con presión alta. Ambos prefieren posesión y presión adelantada, lo que históricamente genera encuentros con más de 2.5 goles. El modelo detecta valor claro en Over 2.5 y ambos marcan.",
-    "odds_updated_at": "2026-06-26T09:15:00Z"
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5496
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7723
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5333
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.676
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "medium",
+    "gemini_analysis": "La ventaja Elo de Estados Unidos de 51.6 puntos, sumada a sus mayores goles esperados de 1.701 frente a los 1.1107 de Turquía, justifica su probabilidad de victoria del 51.0% en el modelo matemático. Sin embargo, Estados Unidos ya ha asegurado su clasificación a los octavos de final del Mundial y podría rotar jugadores clave para evitar suspensiones por tarjetas amarillas o gestionar la recuperación de Christian Pulisic de una lesión menor, lo que mitigaría su ventaja de rendimiento. Por su parte, Turquía, ya eliminada y con figuras como Hakan Çalhanoğlu y Arda Güler con problemas de forma o lesiones, ha tenido un torneo decepcionante a pesar de una buena racha previa y la posesión, sin lograr anotar en sus dos partidos anteriores. Dadas estas circunstancias que afectan la motivación y la alineación de ambos equipos, el modelo no detecta valor significativo en las cuotas actuales de ningún mercado, lo que sugiere que el mercado está bien ajustado a la alta incertidumbre y el contexto del partido.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "PAR-AUS-20260625": {
+    "match_id": "PAR-AUS-20260625",
+    "home_team": "Paraguay",
+    "away_team": "Australia",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "02:00",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "elo_home": 1867.0,
+    "elo_away": 1879.6,
+    "elo_advantage": -12.7,
+    "probs": {
+      "home_win": 0.2929,
+      "draw": 0.2537,
+      "away_win": 0.4534,
+      "over_0_5": 0.9347,
+      "over_1_5": 0.7619,
+      "over_2_5": 0.5189,
+      "over_3_5": 0.2972,
+      "btts": 0.5521,
+      "expected_goals_home": 1.1992,
+      "expected_goals_away": 1.5522
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1203
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0977
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0922
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0769
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0751
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0713
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0653
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0553
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5521
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7619
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5189
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.673
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": "El modelo asigna 29% de probabilidad a la victoria de Paraguay, con Australia 12.7 puntos Elo por encima de Paraguay. Los goles esperados son 1.1992 para Paraguay y 1.5522 para Australia. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "CUW-CIV-20260625": {
+    "match_id": "CUW-CIV-20260625",
+    "home_team": "Curaçao",
+    "away_team": "Côte d'Ivoire",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "20:00",
+    "venue": "Philadelphia",
+    "elo_home": 1655.6,
+    "elo_away": 1793.2,
+    "elo_advantage": -137.6,
+    "probs": {
+      "home_win": 0.1592,
+      "draw": 0.2044,
+      "away_win": 0.6364,
+      "over_0_5": 0.95,
+      "over_1_5": 0.8049,
+      "over_2_5": 0.5811,
+      "over_3_5": 0.357,
+      "btts": 0.5337,
+      "expected_goals_home": 0.9376,
+      "expected_goals_away": 2.0824
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1058
+      },
+      {
+        "score": "0-1",
+        "prob": 0.1005
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0992
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0965
+      },
+      {
+        "score": "0-3",
+        "prob": 0.0735
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0689
+      },
+      {
+        "score": "0-0",
+        "prob": 0.05
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0465
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5337
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8049
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5811
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.684
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "El modelo Elo otorga a Côte d'Ivoire una ventaja sustancial de 137.6 puntos sobre Curaçao, lo que se traduce en una probabilidad de victoria del 63.6% y un esperado de 2.08 goles, reflejando su superioridad teórica. En cuanto a noticias recientes, Curaçao no tiene suspensiones confirmadas, aunque Jürgen Locadia era duda por un golpe pero parece que estará disponible, mientras que Wilfried Singo de Costa de Marfil sufrió un golpe en la rodilla contra Alemania pero las pruebas no mostraron lesión grave, aunque se le dará descanso preventivo. A pesar de la victoria de Costa de Marfil contra Ecuador y su derrota por la mínima ante Alemania, las cuotas de las casas de apuestas para este encuentro final de fase de grupos están eficientemente valoradas, como demuestra que el modelo no detecta valor en ningún mercado con un EV superior al 5%. Por lo tanto, no hay argumento matemático para realizar una apuesta en este partido, ya que los precios de las casas de apuestas reflejan adecuadamente las probabilidades del modelo y la información disponible.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "ECU-GER-20260625": {
+    "match_id": "ECU-GER-20260625",
+    "home_team": "Ecuador",
+    "away_team": "Germany",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "20:00",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "elo_home": 1910.3,
+    "elo_away": 1994.9,
+    "elo_advantage": -84.6,
+    "probs": {
+      "home_win": 0.2109,
+      "draw": 0.2301,
+      "away_win": 0.559,
+      "over_0_5": 0.9425,
+      "over_1_5": 0.7833,
+      "over_2_5": 0.5491,
+      "over_3_5": 0.3256,
+      "btts": 0.5452,
+      "expected_goals_home": 1.0409,
+      "expected_goals_away": 1.8381
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1088
+      },
+      {
+        "score": "0-1",
+        "prob": 0.102
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0988
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0949
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0605
+      },
+      {
+        "score": "0-3",
+        "prob": 0.0582
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0575
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0572
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5452
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7833
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5491
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.679
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "medium",
+    "gemini_analysis": "La ventaja Elo de Alemania de 84.6 puntos es considerable y se traduce en su dominio proyectado del partido, con un xG de 1.8381 frente a 1.0409 de Ecuador, justificando la probabilidad del modelo de victoria alemana del 55.9%. Aunque el modelo no detecta valor significativo (EV < 5%) en ninguna cuota actual, esto sugiere que el mercado está eficientemente valorando la superioridad alemana, a pesar de la reciente lesión del defensor clave Nico Schlotterbeck. Alemania llega con un récord perfecto en el Mundial y 11 victorias consecutivas, mientras que Ecuador no ha ganado en sus dos partidos de fase de grupos y tiene dificultades para concretar oportunidades, fallando la mayor cantidad de grandes ocasiones en el torneo. Por lo tanto, no hay un argumento matemático claro para apostar en este encuentro, ya que las cuotas parecen reflejar adecuadamente las probabilidades del modelo y la dinámica actual de ambos equipos.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "JPN-SWE-20260625": {
+    "match_id": "JPN-SWE-20260625",
+    "home_team": "Japan",
+    "away_team": "Sweden",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "23:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1980.5,
+    "elo_away": 1790.4,
+    "elo_advantage": 190.1,
+    "probs": {
+      "home_win": 0.5662,
+      "draw": 0.234,
+      "away_win": 0.1999,
+      "over_0_5": 0.9348,
+      "over_1_5": 0.7618,
+      "over_2_5": 0.5188,
+      "over_3_5": 0.2972,
+      "btts": 0.5163,
+      "expected_goals_home": 1.7877,
+      "expected_goals_away": 0.9635
+    },
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.1128
+      },
+      {
+        "score": "1-1",
+        "prob": 0.1113
+      },
+      {
+        "score": "2-0",
+        "prob": 0.102
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0983
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0652
+      },
+      {
+        "score": "3-0",
+        "prob": 0.0608
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0602
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0586
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5163
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7618
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5188
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.673
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "La ventaja Elo de 190.1 puntos a favor de Japón, respaldada por un xG superior (1.7877 vs 0.9635), indica que el modelo considera a Japón como claro favorito para ganar el partido, lo que se traduce en un rendimiento esperado significativamente mejor en el campo. A pesar de que Japón arrastra bajas importantes como las de Endo, Mitoma, Minamino y Kubo, su reciente forma es sólida con un empate 2-2 contra Países Bajos y una victoria 4-0 contra Túnez, además de una defensa que mantenía la portería a cero en seis de sus últimos siete encuentros. Por su parte, Suecia llega sin bajas significativas pero con resultados dispares (victoria 5-1 contra Túnez y derrota 5-1 contra Países Bajos), mostrando tendencia a partidos con muchos goles y ambos equipos marcando. Sin embargo, el modelo no detecta valor en las cuotas actuales de Bet365 y Winamax (EV < 5%) en ningún mercado, lo que sugiere que las cuotas ya reflejan adecuadamente la probabilidad de los resultados, incluso considerando las ausencias japonesas y la forma reciente de ambos equipos. Por lo tanto, no hay un argumento matemático claro para realizar una apuesta en este encuentro.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "TUN-NED-20260625": {
+    "match_id": "TUN-NED-20260625",
+    "home_team": "Tunisia",
+    "away_team": "Netherlands",
+    "phase": "Matchday 15",
+    "date": "2026-06-25",
+    "kickoff": "23:00",
+    "venue": "Kansas City",
+    "elo_home": 1707.9,
+    "elo_away": 1985.4,
+    "elo_advantage": -277.5,
+    "probs": {
+      "home_win": 0.0631,
+      "draw": 0.1213,
+      "away_win": 0.8156,
+      "over_0_5": 0.9721,
+      "over_1_5": 0.8751,
+      "over_2_5": 0.6972,
+      "over_3_5": 0.4843,
+      "btts": 0.4817,
+      "expected_goals_home": 0.7119,
+      "expected_goals_away": 2.8932
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1141
+      },
+      {
+        "score": "0-3",
+        "prob": 0.1101
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0812
+      },
+      {
+        "score": "0-4",
+        "prob": 0.0796
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0784
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0782
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0568
+      },
+      {
+        "score": "1-4",
+        "prob": 0.0567
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.4817
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8751
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6972
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.7
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "La ventaja de 277.5 puntos Elo de Países Bajos no solo es significativa, sino que se alinea perfectamente con su rendimiento reciente, goleando 5-1 a Suecia y buscando el primer puesto del grupo, mientras Túnez ha sido eliminado tras encajar nueve goles en dos partidos. El modelo predice un dominio abrumador con 2.8932 goles esperados para Países Bajos y solo 0.7119 para Túnez, reflejando la mala racha tunecina con cuatro derrotas consecutivas y la solidez ofensiva neerlandesa. Aunque Países Bajos tiene algunas dudas como Depay o Brobbey, las noticias más recientes indican que no hay bajas confirmadas para este encuentro. Lamentablemente, el modelo no detecta valor en las cuotas actuales de Bet365 y Winamax en ningún mercado, indicando que las bookies han ajustado muy bien sus líneas a la probabilidad real del encuentro, considerando la disparidad entre ambos equipos y su forma actual.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "EGY-IRN-20260626": {
+    "match_id": "EGY-IRN-20260626",
+    "home_team": "Egypt",
+    "away_team": "Iran",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "03:00",
+    "venue": "Seattle",
+    "elo_home": 1831.3,
+    "elo_away": 1880.4,
+    "elo_advantage": -49.2,
+    "probs": {
+      "home_win": 0.2497,
+      "draw": 0.2436,
+      "away_win": 0.5067,
+      "over_0_5": 0.9382,
+      "over_1_5": 0.7715,
+      "over_2_5": 0.5323,
+      "over_3_5": 0.3096,
+      "btts": 0.5499,
+      "expected_goals_home": 1.1161,
+      "expected_goals_away": 1.6912
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1153
+      },
+      {
+        "score": "0-1",
+        "prob": 0.1007
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0964
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0863
+      },
+      {
+        "score": "1-0",
+        "prob": 0.066
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0636
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0618
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0543
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5499
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7715
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5323
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.676
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "medium",
+    "gemini_analysis": "El modelo asigna 25% de probabilidad a la victoria de Egypt, con Iran 49.2 puntos Elo por encima de Egypt. Los goles esperados son 1.1161 para Egypt y 1.6912 para Iran. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "NZL-BEL-20260626": {
+    "match_id": "NZL-BEL-20260626",
+    "home_team": "New Zealand",
+    "away_team": "Belgium",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "03:00",
+    "venue": "Vancouver",
+    "elo_home": 1757.9,
+    "elo_away": 1925.2,
+    "elo_advantage": -167.3,
+    "probs": {
+      "home_win": 0.134,
+      "draw": 0.1878,
+      "away_win": 0.6782,
+      "over_0_5": 0.9546,
+      "over_1_5": 0.8187,
+      "over_2_5": 0.6024,
+      "over_3_5": 0.3787,
+      "btts": 0.5251,
+      "expected_goals_home": 0.8844,
+      "expected_goals_away": 2.2328
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1104
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0979
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0977
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0885
+      },
+      {
+        "score": "0-3",
+        "prob": 0.0822
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0727
+      },
+      {
+        "score": "0-4",
+        "prob": 0.0459
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0454
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5251
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8187
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6024
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.687
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "El modelo asigna 13% de probabilidad a la victoria de New Zealand, con Belgium 167.3 puntos Elo por encima de New Zealand. Los goles esperados son 0.8844 para New Zealand y 2.2328 para Belgium. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "CPV-KSA-20260626": {
+    "match_id": "CPV-KSA-20260626",
+    "home_team": "Cape Verde",
+    "away_team": "Saudi Arabia",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "00:00",
+    "venue": "Houston",
+    "elo_home": 1697.1,
+    "elo_away": 1730.3,
+    "elo_advantage": -33.2,
+    "probs": {
+      "home_win": 0.2682,
+      "draw": 0.2485,
+      "away_win": 0.4833,
+      "over_0_5": 0.9366,
+      "over_1_5": 0.767,
+      "over_2_5": 0.5259,
+      "over_3_5": 0.3037,
+      "btts": 0.5512,
+      "expected_goals_home": 1.1516,
+      "expected_goals_away": 1.6291
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1177
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0996
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0947
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0823
+      },
+      {
+        "score": "1-0",
+        "prob": 0.07
+      },
+      {
+        "score": "2-1",
+        "prob": 0.067
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0634
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0546
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5512
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.767
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5259
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.674
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": "La ventaja Elo de 33.2 puntos para Arabia Saudita sugiere una ligera superioridad en el rendimiento esperado, reflejándose en una probabilidad de victoria del 48.3% frente al 26.8% de Cabo Verde. Sin embargo, Cabo Verde ha mostrado una sorprendente resiliencia en este Mundial, empatando con España y Uruguay, lo que indica que las casas de apuestas como Bet365 y Winamax han ajustado bien sus cuotas. Aunque Cabo Verde tiene la baja por suspensión de Sidny Lopes Cabral y algunas dudas por lesión, Arabia Saudita afronta el encuentro con la presión de una victoria obligatoria tras una reciente derrota abultada ante España y una tendencia a planteamientos defensivos. Dada la eficiencia del mercado y que el modelo no detecta valor (EV < 5%) en ninguna de las cuotas actuales, no hay un argumento matemático sólido para realizar una apuesta en este partido.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "URU-ESP-20260626": {
+    "match_id": "URU-ESP-20260626",
+    "home_team": "Uruguay",
+    "away_team": "Spain",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "00:00",
+    "venue": "Guadalajara (Zapopan)",
+    "elo_home": 1918.7,
+    "elo_away": 2094.4,
+    "elo_advantage": -175.7,
+    "probs": {
+      "home_win": 0.1273,
+      "draw": 0.183,
+      "away_win": 0.6897,
+      "over_0_5": 0.956,
+      "over_1_5": 0.8227,
+      "over_2_5": 0.6087,
+      "over_3_5": 0.3853,
+      "btts": 0.5224,
+      "expected_goals_home": 0.87,
+      "expected_goals_away": 2.2773
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1115
+      },
+      {
+        "score": "1-2",
+        "prob": 0.097
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0969
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0862
+      },
+      {
+        "score": "0-3",
+        "prob": 0.0846
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-4",
+        "prob": 0.0482
+      },
+      {
+        "score": "0-0",
+        "prob": 0.044
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5224
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8227
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6087
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.688
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "La ventaja Elo de España de 175.7 puntos es sustancial y se traduce en una probabilidad de victoria del 69% según el modelo, reflejando una clara superioridad en el rendimiento esperado. Uruguay enfrenta este encuentro crucial con la baja confirmada de Giorgian de Arrascaeta y la probable ausencia de Ronald Araujo por lesión, además de llegar con dos empates consecutivos en la fase de grupos. España, aunque sin Fermín López y Victor Muñoz para este partido, cuenta con Lamine Yamal y Nico Williams recuperados y demostró su potencial goleando a Arabia Saudita 4-0. Dado que el modelo no detecta valor (EV < 5%) en ningún mercado, no hay argumento matemático para realizar una apuesta en este partido.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "NOR-FRA-20260626": {
+    "match_id": "NOR-FRA-20260626",
+    "home_team": "Norway",
+    "away_team": "France",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "19:00",
+    "venue": "Boston (Foxborough)",
+    "elo_home": 1932.7,
+    "elo_away": 2081.7,
+    "elo_advantage": -148.9,
+    "probs": {
+      "home_win": 0.1493,
+      "draw": 0.1982,
+      "away_win": 0.6525,
+      "over_0_5": 0.9518,
+      "over_1_5": 0.81,
+      "over_2_5": 0.589,
+      "over_3_5": 0.3649,
+      "btts": 0.5306,
+      "expected_goals_home": 0.917,
+      "expected_goals_away": 2.1384
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1077
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0996
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0988
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0935
+      },
+      {
+        "score": "0-3",
+        "prob": 0.0768
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0704
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0482
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0453
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5306
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.81
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.589
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.685
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "El modelo asigna 15% de probabilidad a la victoria de Norway, con France 148.9 puntos Elo por encima de Norway. Los goles esperados son 0.917 para Norway y 2.1384 para France. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "SEN-IRQ-20260626": {
+    "match_id": "SEN-IRQ-20260626",
+    "home_team": "Senegal",
+    "away_team": "Iraq",
+    "phase": "Matchday 16",
+    "date": "2026-06-26",
+    "kickoff": "19:00",
+    "venue": "Toronto",
+    "elo_home": 1855.1,
+    "elo_away": 1714.1,
+    "elo_advantage": 141.0,
+    "probs": {
+      "home_win": 0.4982,
+      "draw": 0.25,
+      "away_win": 0.2519,
+      "over_0_5": 0.9317,
+      "over_1_5": 0.7535,
+      "over_2_5": 0.5074,
+      "over_3_5": 0.2868,
+      "btts": 0.5319,
+      "expected_goals_home": 1.6229,
+      "expected_goals_away": 1.0815
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1189
+      },
+      {
+        "score": "1-0",
+        "prob": 0.1072
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0953
+      },
+      {
+        "score": "2-0",
+        "prob": 0.0881
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0709
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0683
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0635
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0516
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5319
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7535
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5074
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.671
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": "La ventaja Elo de 141.0 puntos para Senegal indica una superioridad considerable, justificando las probabilidades del modelo que le dan casi un 50% de victoria, lo que en rendimiento real se traduce en un equipo con mayor calidad y expectativas de control del partido. Sin embargo, la ausencia del portero clave Édouard Mendy por lesión es un golpe importante para Senegal, mientras que Iraq también sufre la baja de sus atacantes principales Ayman Hussein y Mohannad Ali, lo que disminuye su capacidad ofensiva y agrava su ya mala racha de tres derrotas consecutivas. Considerando estas bajas y la pobre forma reciente de Iraq, las probabilidades del modelo parecen razonables, pero la incertidumbre generada por las lesiones clave en ambos bandos equilibra ligeramente el panorama. No obstante, el modelo no detecta valor en las cuotas actuales, por lo que no hay argumento matemático para apostar en ningún mercado concreto en este encuentro.",
+    "odds_updated_at": "2026-06-25T15:56:43Z",
+    "is_upcoming": true
+  },
+  "ALG-AUT-20260627": {
+    "match_id": "ALG-AUT-20260627",
+    "home_team": "Algeria",
+    "away_team": "Austria",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "02:00",
+    "venue": "Kansas City",
+    "elo_home": 1837.0,
+    "elo_away": 1869.6,
+    "elo_advantage": -32.6,
+    "probs": {
+      "home_win": 0.269,
+      "draw": 0.2487,
+      "away_win": 0.4824,
+      "over_0_5": 0.9365,
+      "over_1_5": 0.7668,
+      "over_2_5": 0.5257,
+      "over_3_5": 0.3035,
+      "btts": 0.5512,
+      "expected_goals_home": 1.1531,
+      "expected_goals_away": 1.6265
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1178
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0995
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0947
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0821
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0702
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0671
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0635
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0546
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5512
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7668
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5257
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.674
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "JOR-ARG-20260627": {
+    "match_id": "JOR-ARG-20260627",
+    "home_team": "Jordan",
+    "away_team": "Argentina",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "02:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1749.3,
+    "elo_away": 2106.1,
+    "elo_advantage": -356.8,
+    "probs": {
+      "home_win": 0.0325,
+      "draw": 0.0774,
+      "away_win": 0.8901,
+      "over_0_5": 0.9828,
+      "over_1_5": 0.9148,
+      "over_2_5": 0.7734,
+      "over_3_5": 0.5809,
+      "btts": 0.4424,
+      "expected_goals_home": 0.609,
+      "expected_goals_away": 3.4866
+    },
+    "top_scorelines": [
+      {
+        "score": "0-3",
+        "prob": 0.1187
+      },
+      {
+        "score": "0-4",
+        "prob": 0.1035
+      },
+      {
+        "score": "0-2",
+        "prob": 0.1022
+      },
+      {
+        "score": "1-3",
+        "prob": 0.0723
+      },
+      {
+        "score": "0-5",
+        "prob": 0.0722
+      },
+      {
+        "score": "1-4",
+        "prob": 0.063
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0622
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0582
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.4424
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.9148
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.7734
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.708
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "COL-POR-20260627": {
+    "match_id": "COL-POR-20260627",
+    "home_team": "Colombia",
+    "away_team": "Portugal",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "23:30",
+    "venue": "Miami (Miami Gardens)",
+    "elo_home": 2026.5,
+    "elo_away": 1986.3,
+    "elo_advantage": 40.2,
+    "probs": {
+      "home_win": 0.3603,
+      "draw": 0.261,
+      "away_win": 0.3787,
+      "over_0_5": 0.9314,
+      "over_1_5": 0.7531,
+      "over_2_5": 0.5067,
+      "over_3_5": 0.2862,
+      "btts": 0.5504,
+      "expected_goals_home": 1.3308,
+      "expected_goals_away": 1.3707
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1239
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0878
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0839
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0815
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0686
+      },
+      {
+        "score": "0-2",
+        "prob": 0.063
+      },
+      {
+        "score": "2-0",
+        "prob": 0.0594
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5504
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7531
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5067
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.671
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "medium",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "COD-UZB-20260627": {
+    "match_id": "COD-UZB-20260627",
+    "home_team": "DR Congo",
+    "away_team": "Uzbekistan",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "23:30",
+    "venue": "Atlanta",
+    "elo_home": 1767.3,
+    "elo_away": 1790.2,
+    "elo_advantage": -22.9,
+    "probs": {
+      "home_win": 0.2805,
+      "draw": 0.2513,
+      "away_win": 0.4682,
+      "over_0_5": 0.9356,
+      "over_1_5": 0.7644,
+      "over_2_5": 0.5222,
+      "over_3_5": 0.3003,
+      "btts": 0.5517,
+      "expected_goals_home": 1.1753,
+      "expected_goals_away": 1.59
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1191
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0987
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0935
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0796
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0726
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0691
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0644
+      },
+      {
+        "score": "2-2",
+        "prob": 0.055
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5517
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7644
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5222
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.674
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "PAN-ENG-20260627": {
+    "match_id": "PAN-ENG-20260627",
+    "home_team": "Panama",
+    "away_team": "England",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "21:00",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "elo_home": 1796.1,
+    "elo_away": 2031.9,
+    "elo_advantage": -235.8,
+    "probs": {
+      "home_win": 0.0858,
+      "draw": 0.1466,
+      "away_win": 0.7677,
+      "over_0_5": 0.9656,
+      "over_1_5": 0.8533,
+      "over_2_5": 0.6589,
+      "over_3_5": 0.4399,
+      "btts": 0.5,
+      "expected_goals_home": 0.7728,
+      "expected_goals_away": 2.6231
+    },
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.1155
+      },
+      {
+        "score": "0-3",
+        "prob": 0.101
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0892
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0872
+      },
+      {
+        "score": "1-3",
+        "prob": 0.078
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0689
+      },
+      {
+        "score": "0-4",
+        "prob": 0.0662
+      },
+      {
+        "score": "1-4",
+        "prob": 0.0512
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8533
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6589
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.695
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "CRO-GHA-20260627": {
+    "match_id": "CRO-GHA-20260627",
+    "home_team": "Croatia",
+    "away_team": "Ghana",
+    "phase": "Matchday 17",
+    "date": "2026-06-27",
+    "kickoff": "21:00",
+    "venue": "Philadelphia",
+    "elo_home": 1935.8,
+    "elo_away": 1721.3,
+    "elo_advantage": 214.5,
+    "probs": {
+      "home_win": 0.5994,
+      "draw": 0.224,
+      "away_win": 0.1766,
+      "over_0_5": 0.937,
+      "over_1_5": 0.7677,
+      "over_2_5": 0.527,
+      "over_3_5": 0.3048,
+      "btts": 0.5071,
+      "expected_goals_home": 1.8759,
+      "expected_goals_away": 0.9097
+    },
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.1145
+      },
+      {
+        "score": "2-0",
+        "prob": 0.1086
+      },
+      {
+        "score": "1-1",
+        "prob": 0.1066
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0988
+      },
+      {
+        "score": "3-0",
+        "prob": 0.0679
+      },
+      {
+        "score": "0-0",
+        "prob": 0.063
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0618
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0549
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5071
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7677
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.527
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.675
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "2A-2B-20260628": {
+    "match_id": "2A-2B-20260628",
+    "home_team": "2A",
+    "away_team": "2B",
+    "phase": "Round of 32",
+    "date": "2026-06-28",
+    "kickoff": "19:00",
+    "venue": "Los Angeles (Inglewood)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "GER-3A/-20260629": {
+    "match_id": "GER-3A/-20260629",
+    "home_team": "Germany",
+    "away_team": "3A/B/C/D/F",
+    "phase": "Round of 32",
+    "date": "2026-06-29",
+    "kickoff": "20:30",
+    "venue": "Boston (Foxborough)",
+    "elo_home": 1994.9,
+    "elo_away": 1500.0,
+    "elo_advantage": 494.9,
+    "probs": {
+      "home_win": 0.8938,
+      "draw": 0.079,
+      "away_win": 0.0272,
+      "over_0_5": 0.9754,
+      "over_1_5": 0.8861,
+      "over_2_5": 0.7176,
+      "over_3_5": 0.5087,
+      "btts": 0.3612,
+      "expected_goals_home": 3.2582,
+      "expected_goals_away": 0.4705
+    },
+    "top_scorelines": [
+      {
+        "score": "3-0",
+        "prob": 0.1394
+      },
+      {
+        "score": "2-0",
+        "prob": 0.1283
+      },
+      {
+        "score": "4-0",
+        "prob": 0.1135
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0783
+      },
+      {
+        "score": "5-0",
+        "prob": 0.074
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0656
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0604
+      },
+      {
+        "score": "4-1",
+        "prob": 0.0534
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.3612
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8861
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.7176
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.702
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1F-2C-20260629": {
+    "match_id": "1F-2C-20260629",
+    "home_team": "1F",
+    "away_team": "2C",
+    "phase": "Round of 32",
+    "date": "2026-06-29",
+    "kickoff": "01:00",
+    "venue": "Monterrey (Guadalupe)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1C-2F-20260629": {
+    "match_id": "1C-2F-20260629",
+    "home_team": "1C",
+    "away_team": "2F",
+    "phase": "Round of 32",
+    "date": "2026-06-29",
+    "kickoff": "17:00",
+    "venue": "Houston",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1I-3C/-20260630": {
+    "match_id": "1I-3C/-20260630",
+    "home_team": "1I",
+    "away_team": "3C/D/F/G/H",
+    "phase": "Round of 32",
+    "date": "2026-06-30",
+    "kickoff": "21:00",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "2E-2I-20260630": {
+    "match_id": "2E-2I-20260630",
+    "home_team": "2E",
+    "away_team": "2I",
+    "phase": "Round of 32",
+    "date": "2026-06-30",
+    "kickoff": "17:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "MEX-3C/-20260630": {
+    "match_id": "MEX-3C/-20260630",
+    "home_team": "Mexico",
+    "away_team": "3C/E/F/H/I",
+    "phase": "Round of 32",
+    "date": "2026-06-30",
+    "kickoff": "01:00",
+    "venue": "Mexico City",
+    "elo_home": 1938.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 438.0,
+    "probs": {
+      "home_win": 0.851,
+      "draw": 0.1062,
+      "away_win": 0.0428,
+      "over_0_5": 0.9676,
+      "over_1_5": 0.859,
+      "over_2_5": 0.6689,
+      "over_3_5": 0.451,
+      "btts": 0.3939,
+      "expected_goals_home": 2.913,
+      "expected_goals_away": 0.5378
+    },
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.135
+      },
+      {
+        "score": "3-0",
+        "prob": 0.1311
+      },
+      {
+        "score": "4-0",
+        "prob": 0.0955
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0921
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0726
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0705
+      },
+      {
+        "score": "5-0",
+        "prob": 0.0556
+      },
+      {
+        "score": "4-1",
+        "prob": 0.0513
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.3939
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.859
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6689
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.697
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1L-3E/-20260701": {
+    "match_id": "1L-3E/-20260701",
+    "home_team": "1L",
+    "away_team": "3E/H/I/J/K",
+    "phase": "Round of 32",
+    "date": "2026-07-01",
+    "kickoff": "16:00",
+    "venue": "Atlanta",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "USA-3B/-20260701": {
+    "match_id": "USA-3B/-20260701",
+    "home_team": "United States",
+    "away_team": "3B/E/F/I/J",
+    "phase": "Round of 32",
+    "date": "2026-07-01",
+    "kickoff": "00:00",
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "elo_home": 1900.3,
+    "elo_away": 1500.0,
+    "elo_advantage": 400.3,
+    "probs": {
+      "home_win": 0.8174,
+      "draw": 0.126,
+      "away_win": 0.0566,
+      "over_0_5": 0.962,
+      "over_1_5": 0.8408,
+      "over_2_5": 0.6383,
+      "over_3_5": 0.4168,
+      "btts": 0.4153,
+      "expected_goals_home": 2.7042,
+      "expected_goals_away": 0.5878
+    },
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.1362
+      },
+      {
+        "score": "3-0",
+        "prob": 0.1228
+      },
+      {
+        "score": "1-0",
+        "prob": 0.1
+      },
+      {
+        "score": "4-0",
+        "prob": 0.083
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0801
+      },
+      {
+        "score": "3-1",
+        "prob": 0.0722
+      },
+      {
+        "score": "1-1",
+        "prob": 0.0599
+      },
+      {
+        "score": "4-1",
+        "prob": 0.0488
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.4153
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.8408
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.6383
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.693
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "high",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1G-3A/-20260701": {
+    "match_id": "1G-3A/-20260701",
+    "home_team": "1G",
+    "away_team": "3A/E/H/I/J",
+    "phase": "Round of 32",
+    "date": "2026-07-01",
+    "kickoff": "20:00",
+    "venue": "Seattle",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "2K-2L-20260702": {
+    "match_id": "2K-2L-20260702",
+    "home_team": "2K",
+    "away_team": "2L",
+    "phase": "Round of 32",
+    "date": "2026-07-02",
+    "kickoff": "23:00",
+    "venue": "Toronto",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1H-2J-20260702": {
+    "match_id": "1H-2J-20260702",
+    "home_team": "1H",
+    "away_team": "2J",
+    "phase": "Round of 32",
+    "date": "2026-07-02",
+    "kickoff": "19:00",
+    "venue": "Los Angeles (Inglewood)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1B-3E/-20260702": {
+    "match_id": "1B-3E/-20260702",
+    "home_team": "1B",
+    "away_team": "3E/F/G/I/J",
+    "phase": "Round of 32",
+    "date": "2026-07-02",
+    "kickoff": "03:00",
+    "venue": "Vancouver",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1J-2H-20260703": {
+    "match_id": "1J-2H-20260703",
+    "home_team": "1J",
+    "away_team": "2H",
+    "phase": "Round of 32",
+    "date": "2026-07-03",
+    "kickoff": "22:00",
+    "venue": "Miami (Miami Gardens)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "1K-3D/-20260703": {
+    "match_id": "1K-3D/-20260703",
+    "home_team": "1K",
+    "away_team": "3D/E/I/J/L",
+    "phase": "Round of 32",
+    "date": "2026-07-03",
+    "kickoff": "01:30",
+    "venue": "Kansas City",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "2D-2G-20260703": {
+    "match_id": "2D-2G-20260703",
+    "home_team": "2D",
+    "away_team": "2G",
+    "phase": "Round of 32",
+    "date": "2026-07-03",
+    "kickoff": "18:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W74-W77-20260704": {
+    "match_id": "W74-W77-20260704",
+    "home_team": "W74",
+    "away_team": "W77",
+    "phase": "Round of 16",
+    "date": "2026-07-04",
+    "kickoff": "21:00",
+    "venue": "Philadelphia",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W73-W75-20260704": {
+    "match_id": "W73-W75-20260704",
+    "home_team": "W73",
+    "away_team": "W75",
+    "phase": "Round of 16",
+    "date": "2026-07-04",
+    "kickoff": "17:00",
+    "venue": "Houston",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W76-W78-20260705": {
+    "match_id": "W76-W78-20260705",
+    "home_team": "W76",
+    "away_team": "W78",
+    "phase": "Round of 16",
+    "date": "2026-07-05",
+    "kickoff": "20:00",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W79-W80-20260705": {
+    "match_id": "W79-W80-20260705",
+    "home_team": "W79",
+    "away_team": "W80",
+    "phase": "Round of 16",
+    "date": "2026-07-05",
+    "kickoff": "00:00",
+    "venue": "Mexico City",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W83-W84-20260706": {
+    "match_id": "W83-W84-20260706",
+    "home_team": "W83",
+    "away_team": "W84",
+    "phase": "Round of 16",
+    "date": "2026-07-06",
+    "kickoff": "19:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W81-W82-20260706": {
+    "match_id": "W81-W82-20260706",
+    "home_team": "W81",
+    "away_team": "W82",
+    "phase": "Round of 16",
+    "date": "2026-07-06",
+    "kickoff": "00:00",
+    "venue": "Seattle",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W86-W88-20260707": {
+    "match_id": "W86-W88-20260707",
+    "home_team": "W86",
+    "away_team": "W88",
+    "phase": "Round of 16",
+    "date": "2026-07-07",
+    "kickoff": "16:00",
+    "venue": "Atlanta",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W85-W87-20260707": {
+    "match_id": "W85-W87-20260707",
+    "home_team": "W85",
+    "away_team": "W87",
+    "phase": "Round of 16",
+    "date": "2026-07-07",
+    "kickoff": "20:00",
+    "venue": "Vancouver",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W89-W90-20260709": {
+    "match_id": "W89-W90-20260709",
+    "home_team": "W89",
+    "away_team": "W90",
+    "phase": "Quarter-final",
+    "date": "2026-07-09",
+    "kickoff": "20:00",
+    "venue": "Boston (Foxborough)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W93-W94-20260710": {
+    "match_id": "W93-W94-20260710",
+    "home_team": "W93",
+    "away_team": "W94",
+    "phase": "Quarter-final",
+    "date": "2026-07-10",
+    "kickoff": "19:00",
+    "venue": "Los Angeles (Inglewood)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W91-W92-20260711": {
+    "match_id": "W91-W92-20260711",
+    "home_team": "W91",
+    "away_team": "W92",
+    "phase": "Quarter-final",
+    "date": "2026-07-11",
+    "kickoff": "21:00",
+    "venue": "Miami (Miami Gardens)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W95-W96-20260711": {
+    "match_id": "W95-W96-20260711",
+    "home_team": "W95",
+    "away_team": "W96",
+    "phase": "Quarter-final",
+    "date": "2026-07-11",
+    "kickoff": "01:00",
+    "venue": "Kansas City",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W97-W98-20260714": {
+    "match_id": "W97-W98-20260714",
+    "home_team": "W97",
+    "away_team": "W98",
+    "phase": "Semi-final",
+    "date": "2026-07-14",
+    "kickoff": "19:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W99-W10-20260715": {
+    "match_id": "W99-W10-20260715",
+    "home_team": "W99",
+    "away_team": "W100",
+    "phase": "Semi-final",
+    "date": "2026-07-15",
+    "kickoff": "19:00",
+    "venue": "Atlanta",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "L10-L10-20260718": {
+    "match_id": "L10-L10-20260718",
+    "home_team": "L101",
+    "away_team": "L102",
+    "phase": "Match for third place",
+    "date": "2026-07-18",
+    "kickoff": "21:00",
+    "venue": "Miami (Miami Gardens)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
+  },
+  "W10-W10-20260719": {
+    "match_id": "W10-W10-20260719",
+    "home_team": "W101",
+    "away_team": "W102",
+    "phase": "Final",
+    "date": "2026-07-19",
+    "kickoff": "19:00",
+    "venue": "New York/New Jersey (East Rutherford)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": null,
+    "odds_updated_at": null,
+    "is_upcoming": false
   }
 }

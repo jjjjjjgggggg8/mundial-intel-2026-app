@@ -1,0 +1,95 @@
+2026-06-25 17:56:43,520 [INFO] Iniciando pipeline Mundial Intel 2026
+2026-06-25 17:56:43,607 [INFO] Calendario cargado: 104 partidos en total
+2026-06-25 17:56:52,857 [INFO] Modelos entrenados correctamente
+2026-06-25 17:56:52,860 [INFO] Próximas 48h: 12 partidos. Resto del torneo: 38 partidos
+2026-06-25 17:56:52,860 [INFO] Descargando cuotas desde The Odds API...
+2026-06-25 17:56:52,860 [INFO] Iniciando fetch de cuotas para 3 días adelante
+2026-06-25 17:56:53,452 [WARNING] Winamax sin cuotas para partido a5a0b544a984ab16e564264f3e859b43 (Curaçao vs Ivory Coast)
+2026-06-25 17:56:53,452 [WARNING] Winamax sin cuotas para partido 0ec28b84ec399bd4dffbe8d1bc72b3c4 (Ecuador vs Germany)
+2026-06-25 17:56:53,452 [WARNING] Winamax sin cuotas para partido 0ed0233bddc4eafc8507f86a9c17b998 (Japan vs Sweden)
+2026-06-25 17:56:53,453 [WARNING] Winamax sin cuotas para partido f3c4657daa143a0c5bd62cb370d01ce4 (Tunisia vs Netherlands)
+2026-06-25 17:56:53,453 [WARNING] Winamax sin cuotas para partido 22f6ac06dfcc88a847920f62633e6459 (Paraguay vs Australia)
+2026-06-25 17:56:53,453 [WARNING] Winamax sin cuotas para partido f41aeac9a8343a84b4950f15ea25fba2 (Turkey vs USA)
+2026-06-25 17:56:53,453 [WARNING] Winamax sin cuotas para partido b86b4d60f773e9e3c46c00e9a6496e79 (Norway vs France)
+2026-06-25 17:56:53,453 [WARNING] Winamax sin cuotas para partido 7e6aee294ea1a4792c59558791084528 (Senegal vs Iraq)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido e07b1926be5a4d515c7eb108dbcee9c5 (Cape Verde vs Saudi Arabia)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido dcff2e31c0bce001a4db5caaf4fa8822 (Uruguay vs Spain)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 581691da05dcd75b5c6d3be91ee9d2ab (New Zealand vs Belgium)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 3e3b5fa2b3c963e74cf044c60db0b573 (Egypt vs Iran)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 537c0997cd899394f47f16545b7068b2 (Croatia vs Ghana)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 4be17c8e1ccfecb0f2a5ef79e045c415 (Panama vs England)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 67ae5751c401a98409b8566ae4897069 (Colombia vs Portugal)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 13eab94a136b9c264ba974cf437a5f71 (DR Congo vs Uzbekistan)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 8756200e539155e571557c4f2e0d7f05 (Algeria vs Austria)
+2026-06-25 17:56:53,454 [WARNING] Winamax sin cuotas para partido 54697f453437ab26276d773be1d72e9b (Jordan vs Argentina)
+2026-06-25 17:56:53,456 [INFO] Cuotas descargadas para 18 partidos. Peticiones API restantes: 498
+2026-06-25 17:56:53,460 [INFO] Procesando partido próximo: Türkiye vs United States
+2026-06-25 17:56:53,460 [INFO]   Elo Türkiye: 1849 | United States: 1900
+2026-06-25 17:56:53,467 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:03,384 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:03,395 [INFO]   Análisis Gemini generado (1011 chars)
+2026-06-25 17:57:03,395 [INFO] Procesando partido próximo: Paraguay vs Australia
+2026-06-25 17:57:03,395 [INFO]   Elo Paraguay: 1867 | Australia: 1880
+2026-06-25 17:57:03,403 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:05,948 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:05,954 [WARNING] Gemini no disponible, usando fallback. Error: 'NoneType' object is not iterable
+2026-06-25 17:57:05,956 [INFO]   Análisis Gemini generado (256 chars)
+2026-06-25 17:57:05,956 [INFO] Procesando partido próximo: Curaçao vs Côte d'Ivoire
+2026-06-25 17:57:05,956 [INFO]   Elo Curaçao: 1656 | Côte d'Ivoire: 1793
+2026-06-25 17:57:05,967 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:14,966 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:14,979 [INFO]   Análisis Gemini generado (1057 chars)
+2026-06-25 17:57:14,980 [INFO] Procesando partido próximo: Ecuador vs Germany
+2026-06-25 17:57:14,980 [INFO]   Elo Ecuador: 1910 | Germany: 1995
+2026-06-25 17:57:14,994 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:24,930 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:24,945 [INFO]   Análisis Gemini generado (929 chars)
+2026-06-25 17:57:24,945 [INFO] Procesando partido próximo: Japan vs Sweden
+2026-06-25 17:57:24,945 [INFO]   Elo Japan: 1980 | Sweden: 1790
+2026-06-25 17:57:24,953 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:33,034 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:33,043 [INFO]   Análisis Gemini generado (1148 chars)
+2026-06-25 17:57:33,043 [INFO] Procesando partido próximo: Tunisia vs Netherlands
+2026-06-25 17:57:33,043 [INFO]   Elo Tunisia: 1708 | Netherlands: 1985
+2026-06-25 17:57:33,055 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:46,000 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:46,020 [INFO]   Análisis Gemini generado (898 chars)
+2026-06-25 17:57:46,020 [INFO] Procesando partido próximo: Egypt vs Iran
+2026-06-25 17:57:46,020 [INFO]   Elo Egypt: 1831 | Iran: 1880
+2026-06-25 17:57:46,029 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:49,119 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:57:49,124 [WARNING] Gemini no disponible, usando fallback. Error: 'NoneType' object is not iterable
+2026-06-25 17:57:49,126 [INFO]   Análisis Gemini generado (237 chars)
+2026-06-25 17:57:49,126 [INFO] Procesando partido próximo: New Zealand vs Belgium
+2026-06-25 17:57:49,126 [INFO]   Elo New Zealand: 1758 | Belgium: 1925
+2026-06-25 17:57:49,134 [INFO]   Value bets encontrados: 0
+2026-06-25 17:57:49,511 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 429 Too Many Requests"
+2026-06-25 17:57:50,092 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 429 Too Many Requests"
+2026-06-25 17:57:51,167 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 429 Too Many Requests"
+2026-06-25 17:57:53,050 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 429 Too Many Requests"
+2026-06-25 17:57:53,055 [WARNING] Gemini no disponible, usando fallback. Error: Error code: 429 - {'error': {'message': 'You do not have enough quota to make this request.', 'code': 'too_many_requests'}}
+2026-06-25 17:57:53,056 [INFO]   Análisis Gemini generado (262 chars)
+2026-06-25 17:57:53,056 [INFO] Procesando partido próximo: Cape Verde vs Saudi Arabia
+2026-06-25 17:57:53,056 [INFO]   Elo Cape Verde: 1697 | Saudi Arabia: 1730
+2026-06-25 17:57:53,063 [INFO]   Value bets encontrados: 0
+2026-06-25 17:58:05,108 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:58:05,119 [INFO]   Análisis Gemini generado (859 chars)
+2026-06-25 17:58:05,120 [INFO] Procesando partido próximo: Uruguay vs Spain
+2026-06-25 17:58:05,120 [INFO]   Elo Uruguay: 1919 | Spain: 2094
+2026-06-25 17:58:05,127 [INFO]   Value bets encontrados: 0
+2026-06-25 17:58:19,759 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:58:19,774 [INFO]   Análisis Gemini generado (704 chars)
+2026-06-25 17:58:19,774 [INFO] Procesando partido próximo: Norway vs France
+2026-06-25 17:58:19,774 [INFO]   Elo Norway: 1933 | France: 2082
+2026-06-25 17:58:19,782 [INFO]   Value bets encontrados: 0
+2026-06-25 17:58:21,734 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:58:21,741 [WARNING] Gemini no disponible, usando fallback. Error: 'NoneType' object is not iterable
+2026-06-25 17:58:21,743 [INFO]   Análisis Gemini generado (244 chars)
+2026-06-25 17:58:21,743 [INFO] Procesando partido próximo: Senegal vs Iraq
+2026-06-25 17:58:21,743 [INFO]   Elo Senegal: 1855 | Iraq: 1714
+2026-06-25 17:58:21,750 [INFO]   Value bets encontrados: 0
+2026-06-25 17:58:34,455 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/interactions "HTTP/1.1 200 OK"
+2026-06-25 17:58:34,463 [INFO]   Análisis Gemini generado (945 chars)
+2026-06-25 17:58:34,463 [INFO] Procesando 38 partidos sin cuotas...
+2026-06-25 17:58:34,805 [INFO] JSON escritos en web/public/data/
+2026-06-25 17:58:34,805 [INFO] Pipeline completado en 111.3s
