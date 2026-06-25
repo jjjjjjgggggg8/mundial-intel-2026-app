@@ -3,9 +3,13 @@ import json
 import logging
 from pathlib import Path
 from datetime import date
+import truststore
+truststore.inject_into_ssl()
 from google import genai
 
 logger = logging.getLogger(__name__)
+
+_last_used_fallback = False
 
 USAGE_LOG_PATH = Path("data/logs/gemini_usage.json")
 
@@ -167,7 +171,7 @@ def analyze_match(
         client = genai.Client(api_key=api_key)
 
         interaction = client.interactions.create(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             system_instruction=SYSTEM_PROMPT,
             input=user_prompt,
             tools=[{"type": "google_search"}],
@@ -191,6 +195,8 @@ def analyze_match(
     except Exception as e:
         logger.warning("Gemini no disponible, usando fallback. Error: %s", e)
         _log_request(False)
+        global _last_used_fallback
+        _last_used_fallback = True
         return _fallback_analysis(match_data, model_predictions, odds_data)
 
 
@@ -240,21 +246,10 @@ if __name__ == "__main__":
         "has_value": True,
     }
 
-    used_fallback = False
-    original_fallback = _fallback_analysis
-
-    def _tracked_fallback(m, p, o):
-        global used_fallback
-        used_fallback = True
-        return original_fallback(m, p, o)
-
-    import scripts.analysis.gemini_analyst as _self
-    _self._fallback_analysis = _tracked_fallback
-
     result = analyze_match(sample_match, sample_predictions, sample_odds, api_key)
 
     print("=== ANÁLISIS GENERADO ===")
     print(result)
     print("=== FIN DEL ANÁLISIS ===")
-    if used_fallback:
+    if _last_used_fallback:
         print("AVISO: Se usó el análisis de fallback (Gemini no disponible)")
