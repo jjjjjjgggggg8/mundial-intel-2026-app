@@ -74,12 +74,172 @@
         "prob": 0.676
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0952,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9048,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0952,
+        "prob_push": 0.0759,
+        "prob_away_covers": 0.8289,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0952,
+        "prob_push": 0.1518,
+        "prob_away_covers": 0.7531,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.171,
+        "prob_push": 0.0759,
+        "prob_away_covers": 0.753,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.2469,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7531,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.2469,
+        "prob_push": 0.1214,
+        "prob_away_covers": 0.6317,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.3683,
+        "prob_push": 0.1214,
+        "prob_away_covers": 0.5103,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.4897,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.5103,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.4897,
+        "prob_push": 0.1166,
+        "prob_away_covers": 0.3938,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.4897,
+        "prob_push": 0.2331,
+        "prob_away_covers": 0.2772,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6062,
+        "prob_push": 0.1166,
+        "prob_away_covers": 0.2772,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7228,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2772,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7723,
+        "prob_push": 0.0,
+        "prob_under": 0.2277,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5333,
+        "prob_push": 0.239,
+        "prob_under": 0.2277,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5333,
+        "prob_push": 0.0,
+        "prob_under": 0.4667,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3106,
+        "prob_push": 0.2227,
+        "prob_under": 0.4667,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3106,
+        "prob_push": 0.0,
+        "prob_under": 0.6894,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1541,
+        "prob_push": 0.1565,
+        "prob_under": 0.6894,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2277
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4617
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2445
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0661
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
-    "gemini_analysis": "La ventaja Elo de 51.6 puntos de Estados Unidos es coherente con las probabilidades del modelo, que les otorgan un 51.0% de victoria y una expectativa de goles significativamente mayor de 1.701 frente a los 1.1107 de Türkiye. Aunque la posible baja o limitada participación de Christian Pulisic y la situación de Chris Richards por lesión podrían afectar ligeramente a Estados Unidos, Türkiye llega sin puntos en el torneo, lo que mitiga ese impacto percibido. El modelo concluye que las cuotas de Bet365 y Winamax están bien valoradas y reflejan adecuadamente la dinámica del partido, sin ofrecer oportunidades de valor. En consecuencia, no existe un argumento matemático para realizar apuestas en ningún mercado en este encuentro.",
+    "gemini_analysis": "La ventaja Elo de 51.6 puntos para Estados Unidos justifica las probabilidades del modelo que les otorgan un 51.0% de victoria y un mayor xG, reflejando su superioridad teórica. Sin embargo, Estados Unidos ya aseguró el primer puesto de su grupo, lo que probablemente implicará rotaciones significativas y el descanso de jugadores clave como Pulisic y aquellos con riesgo de suspensión, lo que diluirá su ventaja real en el campo. Türkiye, eliminada pero jugando por orgullo y sin bajas importantes reportadas, buscará cerrar con una buena imagen, lo que podría estrechar el margen de rendimiento esperado. A pesar de estos factores contextuales que podrían favorecer a Türkiye, el modelo no detecta valor en las cuotas actuales para ningún mercado, indicando que las casas de apuestas han ajustado eficientemente los precios considerando la dinámica del partido o que la incertidumbre es demasiado alta para encontrar una ventaja matemática clara.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "PAR-AUS-20260625": {
     "match_id": "PAR-AUS-20260625",
@@ -156,12 +316,172 @@
         "prob": 0.673
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1207,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8793,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1207,
+        "prob_push": 0.0861,
+        "prob_away_covers": 0.7932,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1207,
+        "prob_push": 0.1722,
+        "prob_away_covers": 0.7071,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.2068,
+        "prob_push": 0.0861,
+        "prob_away_covers": 0.7071,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.2929,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7071,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.2929,
+        "prob_push": 0.1268,
+        "prob_away_covers": 0.5802,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.4198,
+        "prob_push": 0.1268,
+        "prob_away_covers": 0.4534,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5466,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4534,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5466,
+        "prob_push": 0.1117,
+        "prob_away_covers": 0.3417,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5466,
+        "prob_push": 0.2234,
+        "prob_away_covers": 0.23,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6583,
+        "prob_push": 0.1117,
+        "prob_away_covers": 0.23,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.77,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.23,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7619,
+        "prob_push": 0.0,
+        "prob_under": 0.2381,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5189,
+        "prob_push": 0.2431,
+        "prob_under": 0.2381,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5189,
+        "prob_push": 0.0,
+        "prob_under": 0.4811,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2972,
+        "prob_push": 0.2216,
+        "prob_under": 0.4811,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2972,
+        "prob_push": 0.0,
+        "prob_under": 0.7028,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1448,
+        "prob_push": 0.1524,
+        "prob_under": 0.7028,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2381
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4647
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2363
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0609
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": "El modelo asigna 29% de probabilidad a la victoria de Paraguay, con Australia 12.7 puntos Elo por encima de Paraguay. Los goles esperados son 1.1992 para Paraguay y 1.5522 para Australia. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "CUW-CIV-20260625": {
     "match_id": "CUW-CIV-20260625",
@@ -238,12 +558,172 @@
         "prob": 0.684
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0528,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9472,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0528,
+        "prob_push": 0.0532,
+        "prob_away_covers": 0.894,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0528,
+        "prob_push": 0.1065,
+        "prob_away_covers": 0.8408,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.106,
+        "prob_push": 0.0532,
+        "prob_away_covers": 0.8408,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.1592,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8408,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.1592,
+        "prob_push": 0.1022,
+        "prob_away_covers": 0.7386,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.2614,
+        "prob_push": 0.1022,
+        "prob_away_covers": 0.6364,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.3636,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6364,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.3636,
+        "prob_push": 0.1189,
+        "prob_away_covers": 0.5175,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.3636,
+        "prob_push": 0.2378,
+        "prob_away_covers": 0.3985,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.4826,
+        "prob_push": 0.1189,
+        "prob_away_covers": 0.3985,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.6015,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.3985,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.8049,
+        "prob_push": 0.0,
+        "prob_under": 0.1951,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5811,
+        "prob_push": 0.2238,
+        "prob_under": 0.1951,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5811,
+        "prob_push": 0.0,
+        "prob_under": 0.4189,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.357,
+        "prob_push": 0.2241,
+        "prob_under": 0.4189,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.357,
+        "prob_push": 0.0,
+        "prob_under": 0.643,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1879,
+        "prob_push": 0.1692,
+        "prob_under": 0.643,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.1951
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4479
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2714
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0857
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo asigna 16% de probabilidad a la victoria de Curaçao, con Côte d'Ivoire 137.6 puntos Elo por encima de Curaçao. Los goles esperados son 0.9376 para Curaçao y 2.0824 para Côte d'Ivoire. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "La ventaja de 137.6 puntos Elo para Côte d'Ivoire sugiere que son significativamente superiores, lo que se traduce en una probabilidad del modelo del 63.6% de victoria y un promedio de 2.08 goles esperados frente a los 0.93 de Curaçao. Curaçao llega a este encuentro con una forma reciente inestable, incluyendo una derrota por 7-1 ante Alemania, aunque logró un meritorio empate a cero con Ecuador, mientras que Côte d'Ivoire venció a Ecuador y sufrió una estrecha derrota ante Alemania. En cuanto a las bajas, Wilfried Singo de Côte d'Ivoire está lesionado por una lesión en el isquiotibial, con Evan N'Dicka también en duda por un problema en el muslo, aunque Curaçao parece tener a su equipo principal disponible, incluyendo a los hermanos Bacuna y Eloy Room. Dado que el modelo no detecta valor en las cuotas actuales (EV < 5%), y las casas de apuestas ya han ajustado los precios para reflejar la clara superioridad de Côte d'Ivoire y las noticias de lesiones, no hay un argumento matemático sólido para apostar en ningún mercado en este partido.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "ECU-GER-20260625": {
     "match_id": "ECU-GER-20260625",
@@ -320,12 +800,172 @@
         "prob": 0.679
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0768,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9232,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0768,
+        "prob_push": 0.067,
+        "prob_away_covers": 0.8562,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0768,
+        "prob_push": 0.1341,
+        "prob_away_covers": 0.7891,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.1438,
+        "prob_push": 0.067,
+        "prob_away_covers": 0.7891,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.2109,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7891,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.2109,
+        "prob_push": 0.115,
+        "prob_away_covers": 0.674,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.326,
+        "prob_push": 0.115,
+        "prob_away_covers": 0.559,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.441,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.559,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.441,
+        "prob_push": 0.119,
+        "prob_away_covers": 0.44,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.441,
+        "prob_push": 0.2379,
+        "prob_away_covers": 0.3211,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.5599,
+        "prob_push": 0.119,
+        "prob_away_covers": 0.3211,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.6789,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.3211,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7833,
+        "prob_push": 0.0,
+        "prob_under": 0.2167,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5491,
+        "prob_push": 0.2342,
+        "prob_under": 0.2167,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5491,
+        "prob_push": 0.0,
+        "prob_under": 0.4509,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3256,
+        "prob_push": 0.2235,
+        "prob_under": 0.4509,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3256,
+        "prob_push": 0.0,
+        "prob_under": 0.6744,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1647,
+        "prob_push": 0.1609,
+        "prob_under": 0.6744,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2167
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4577
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2535
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0721
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
-    "gemini_analysis": "La diferencia de 84.6 puntos Elo a favor de Alemania justifica su alta probabilidad de victoria del 55.9% y el dominio en los goles esperados, indicando que son el claro favorito en este encuentro. El modelo no detecta apuestas de valor (EV < 5%) en ningún mercado, lo que sugiere que las cuotas de las casas de apuestas están eficientemente ajustadas a las probabilidades del modelo. Aunque Alemania tiene la baja confirmada de Nico Schlotterbeck por lesión en el tobillo, lo cual podría afectar su solidez defensiva, la profundidad de su plantilla es considerable y se espera que roten jugadores ya que su clasificación a octavos está asegurada. Por lo tanto, no hay un argumento matemático sólido para apostar en este partido bajo las condiciones actuales.",
+    "gemini_analysis": "El modelo asigna 21% de probabilidad a la victoria de Ecuador, con Germany 84.6 puntos Elo por encima de Ecuador. Los goles esperados son 1.0409 para Ecuador y 1.8381 para Germany. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "JPN-SWE-20260625": {
     "match_id": "JPN-SWE-20260625",
@@ -402,12 +1042,172 @@
         "prob": 0.673
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.3224,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6776,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.3224,
+        "prob_push": 0.1219,
+        "prob_away_covers": 0.5557,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.3224,
+        "prob_push": 0.2438,
+        "prob_away_covers": 0.4338,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.4443,
+        "prob_push": 0.1219,
+        "prob_away_covers": 0.4338,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.5662,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4338,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.5662,
+        "prob_push": 0.117,
+        "prob_away_covers": 0.3168,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.6832,
+        "prob_push": 0.117,
+        "prob_away_covers": 0.1998,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.8001,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.1999,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.8001,
+        "prob_push": 0.0654,
+        "prob_away_covers": 0.1345,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.8001,
+        "prob_push": 0.1308,
+        "prob_away_covers": 0.0691,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.8655,
+        "prob_push": 0.0654,
+        "prob_away_covers": 0.0691,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.9309,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.0691,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7618,
+        "prob_push": 0.0,
+        "prob_under": 0.2382,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5188,
+        "prob_push": 0.243,
+        "prob_under": 0.2382,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5188,
+        "prob_push": 0.0,
+        "prob_under": 0.4812,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2972,
+        "prob_push": 0.2216,
+        "prob_under": 0.4812,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2972,
+        "prob_push": 0.0,
+        "prob_under": 0.7028,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1447,
+        "prob_push": 0.1524,
+        "prob_under": 0.7028,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2382
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4646
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2363
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0608
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo asigna 57% de probabilidad a la victoria de Japan, con Japan 190.1 puntos Elo por encima de Sweden. Los goles esperados son 1.7877 para Japan y 0.9635 para Sweden. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "La ventaja Elo de 190.1 puntos a favor de Japón y sus probabilidades del 56.6% de victoria, junto con unos goles esperados de 1.79 frente a 0.96 de Suecia, reflejan su claro favoritismo y la excelente forma que han mostrado en el torneo, superando incluso las bajas importantes de jugadores clave como Wataru Endo y Takefusa Kubo. A pesar de estas ausencias, la profundidad de plantilla de Japón ha permitido un rendimiento sólido, incluyendo un empate 2-2 con Holanda y una victoria 4-0 contra Túnez. Por su parte, Suecia ha tenido un rendimiento mixto, con una derrota abultada de 5-1 contra Holanda y una victoria por el mismo marcador ante Túnez, lo que subraya una cierta inconsistencia en su defensa, a pesar de contar con atacantes peligrosos como Viktor Gyökeres y Alexander Isak, quienes se encuentran disponibles. Dado que el modelo no detecta valor en ninguna de las cuotas actuales con un EV inferior al 5%, esto sugiere que el mercado está eficientemente valorado, incorporando ya la ventaja de Japón y las circunstancias de ambos equipos. Por lo tanto, no hay un argumento matemático claro para realizar una apuesta en este encuentro.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "TUN-NED-20260625": {
     "match_id": "TUN-NED-20260625",
@@ -484,12 +1284,172 @@
         "prob": 0.7
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0162,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9838,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0162,
+        "prob_push": 0.0234,
+        "prob_away_covers": 0.9604,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0162,
+        "prob_push": 0.0469,
+        "prob_away_covers": 0.9369,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.0397,
+        "prob_push": 0.0234,
+        "prob_away_covers": 0.9369,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.0631,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9369,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.0631,
+        "prob_push": 0.0606,
+        "prob_away_covers": 0.8762,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.1238,
+        "prob_push": 0.0606,
+        "prob_away_covers": 0.8156,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.1844,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8156,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.1844,
+        "prob_push": 0.0964,
+        "prob_away_covers": 0.7192,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.1844,
+        "prob_push": 0.1927,
+        "prob_away_covers": 0.623,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.2807,
+        "prob_push": 0.0964,
+        "prob_away_covers": 0.623,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.377,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.623,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.8751,
+        "prob_push": 0.0,
+        "prob_under": 0.1249,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.6972,
+        "prob_push": 0.1779,
+        "prob_under": 0.1249,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.6972,
+        "prob_push": 0.0,
+        "prob_under": 0.3028,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.4843,
+        "prob_push": 0.2129,
+        "prob_under": 0.3028,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.4843,
+        "prob_push": 0.0,
+        "prob_under": 0.5157,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.2924,
+        "prob_push": 0.1919,
+        "prob_under": 0.5157,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.1249
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.3908
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.3303
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.154
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": "El modelo asigna 6% de probabilidad a la victoria de Tunisia, con Netherlands 277.5 puntos Elo por encima de Tunisia. Los goles esperados son 0.7119 para Tunisia y 2.8932 para Netherlands. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "EGY-IRN-20260626": {
     "match_id": "EGY-IRN-20260626",
@@ -566,12 +1526,172 @@
         "prob": 0.676
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0966,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9034,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0966,
+        "prob_push": 0.0766,
+        "prob_away_covers": 0.8268,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0966,
+        "prob_push": 0.1531,
+        "prob_away_covers": 0.7503,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.1732,
+        "prob_push": 0.0766,
+        "prob_away_covers": 0.7503,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.2497,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7503,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.2497,
+        "prob_push": 0.1218,
+        "prob_away_covers": 0.6285,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.3715,
+        "prob_push": 0.1218,
+        "prob_away_covers": 0.5067,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.4933,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.5067,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.4933,
+        "prob_push": 0.1163,
+        "prob_away_covers": 0.3904,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.4933,
+        "prob_push": 0.2326,
+        "prob_away_covers": 0.2741,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6096,
+        "prob_push": 0.1163,
+        "prob_away_covers": 0.2741,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7259,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2741,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7715,
+        "prob_push": 0.0,
+        "prob_under": 0.2285,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5323,
+        "prob_push": 0.2393,
+        "prob_under": 0.2285,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5323,
+        "prob_push": 0.0,
+        "prob_under": 0.4677,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3096,
+        "prob_push": 0.2226,
+        "prob_under": 0.4677,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3096,
+        "prob_push": 0.0,
+        "prob_under": 0.6904,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1534,
+        "prob_push": 0.1562,
+        "prob_under": 0.6904,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2285
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4619
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.244
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0657
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
     "gemini_analysis": "El modelo asigna 25% de probabilidad a la victoria de Egypt, con Iran 49.2 puntos Elo por encima de Egypt. Los goles esperados son 1.1161 para Egypt y 1.6912 para Iran. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "NZL-BEL-20260626": {
     "match_id": "NZL-BEL-20260626",
@@ -648,12 +1768,172 @@
         "prob": 0.687
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0421,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9579,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0421,
+        "prob_push": 0.046,
+        "prob_away_covers": 0.912,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0421,
+        "prob_push": 0.0919,
+        "prob_away_covers": 0.866,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.088,
+        "prob_push": 0.046,
+        "prob_away_covers": 0.866,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.134,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.866,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.134,
+        "prob_push": 0.0939,
+        "prob_away_covers": 0.7721,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.2279,
+        "prob_push": 0.0939,
+        "prob_away_covers": 0.6782,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.3218,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6782,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.3218,
+        "prob_push": 0.1168,
+        "prob_away_covers": 0.5614,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.3218,
+        "prob_push": 0.2335,
+        "prob_away_covers": 0.4447,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.4386,
+        "prob_push": 0.1168,
+        "prob_away_covers": 0.4447,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.5553,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4447,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.8187,
+        "prob_push": 0.0,
+        "prob_under": 0.1813,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.6024,
+        "prob_push": 0.2163,
+        "prob_under": 0.1813,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.6024,
+        "prob_push": 0.0,
+        "prob_under": 0.3976,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3787,
+        "prob_push": 0.2237,
+        "prob_under": 0.3976,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3787,
+        "prob_push": 0.0,
+        "prob_under": 0.6213,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.2044,
+        "prob_push": 0.1743,
+        "prob_under": 0.6213,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.1813
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.44
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.283
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0957
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de 167.3 puntos para Bélgica es considerable, lo que respalda la alta probabilidad de victoria del 67.8% del modelo y los 2.23 goles esperados, indicando que son un equipo superior que debería dominar el encuentro. A pesar de esto, el modelo no ha detectado valor en las cuotas de Bet365 y Winamax en ningún mercado, sugiriendo que el mercado está valorando correctamente el favoritismo belga y la resiliencia mostrada por Nueva Zelanda en sus partidos anteriores del Mundial 2026. Bélgica llega con la obligación de ganar para avanzar de fase, habiendo empatado sus dos primeros partidos y mostrando una ofensiva \"misfiring\" a pesar de contar con Kevin De Bruyne y Romelu Lukaku, sumado a la baja de Nathan Ngoy por suspensión y la duda de Jeremy Doku. Por lo tanto, no existe un argumento matemático sólido para realizar apuestas en este partido, ya que las cuotas actuales ya reflejan adecuadamente las probabilidades y el contexto de ambos equipos.",
+    "gemini_analysis": "El modelo asigna 13% de probabilidad a la victoria de New Zealand, con Belgium 167.3 puntos Elo por encima de New Zealand. Los goles esperados son 0.8844 para New Zealand y 2.2328 para Belgium. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "CPV-KSA-20260626": {
     "match_id": "CPV-KSA-20260626",
@@ -730,12 +2010,172 @@
         "prob": 0.674
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1067,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8933,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1067,
+        "prob_push": 0.0808,
+        "prob_away_covers": 0.8126,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1067,
+        "prob_push": 0.1615,
+        "prob_away_covers": 0.7318,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.1874,
+        "prob_push": 0.0808,
+        "prob_away_covers": 0.7318,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.2682,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7318,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.2682,
+        "prob_push": 0.1242,
+        "prob_away_covers": 0.6076,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.3924,
+        "prob_push": 0.1242,
+        "prob_away_covers": 0.4833,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5167,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4833,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5167,
+        "prob_push": 0.1146,
+        "prob_away_covers": 0.3687,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5167,
+        "prob_push": 0.2291,
+        "prob_away_covers": 0.2543,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6312,
+        "prob_push": 0.1146,
+        "prob_away_covers": 0.2543,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7457,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2543,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.767,
+        "prob_push": 0.0,
+        "prob_under": 0.233,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5259,
+        "prob_push": 0.2411,
+        "prob_under": 0.233,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5259,
+        "prob_push": 0.0,
+        "prob_under": 0.4741,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3037,
+        "prob_push": 0.2222,
+        "prob_under": 0.4741,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3037,
+        "prob_push": 0.0,
+        "prob_under": 0.6963,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1493,
+        "prob_push": 0.1545,
+        "prob_under": 0.6963,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.233
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4633
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2403
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0634
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": "El modelo asigna 27% de probabilidad a la victoria de Cape Verde, con Saudi Arabia 33.2 puntos Elo por encima de Cape Verde. Los goles esperados son 1.1516 para Cape Verde y 1.6291 para Saudi Arabia. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "URU-ESP-20260626": {
     "match_id": "URU-ESP-20260626",
@@ -812,12 +2252,172 @@
         "prob": 0.688
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0394,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9606,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0394,
+        "prob_push": 0.044,
+        "prob_away_covers": 0.9166,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0394,
+        "prob_push": 0.0879,
+        "prob_away_covers": 0.8727,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.0833,
+        "prob_push": 0.044,
+        "prob_away_covers": 0.8727,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.1273,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8727,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.1273,
+        "prob_push": 0.0915,
+        "prob_away_covers": 0.7812,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.2188,
+        "prob_push": 0.0915,
+        "prob_away_covers": 0.6897,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.3103,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6897,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.3103,
+        "prob_push": 0.1158,
+        "prob_away_covers": 0.5738,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.3103,
+        "prob_push": 0.2317,
+        "prob_away_covers": 0.458,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.4262,
+        "prob_push": 0.1158,
+        "prob_away_covers": 0.458,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.542,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.458,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.8227,
+        "prob_push": 0.0,
+        "prob_under": 0.1773,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.6087,
+        "prob_push": 0.214,
+        "prob_under": 0.1773,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.6087,
+        "prob_push": 0.0,
+        "prob_under": 0.3913,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3853,
+        "prob_push": 0.2234,
+        "prob_under": 0.3913,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3853,
+        "prob_push": 0.0,
+        "prob_under": 0.6147,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.2096,
+        "prob_push": 0.1758,
+        "prob_under": 0.6147,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.1773
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4374
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2864
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0989
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": "El modelo asigna 13% de probabilidad a la victoria de Uruguay, con Spain 175.7 puntos Elo por encima de Uruguay. Los goles esperados son 0.87 para Uruguay y 2.2773 para Spain. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "NOR-FRA-20260626": {
     "match_id": "NOR-FRA-20260626",
@@ -894,12 +2494,172 @@
         "prob": 0.685
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.0485,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.9515,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.0485,
+        "prob_push": 0.0504,
+        "prob_away_covers": 0.9011,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.0485,
+        "prob_push": 0.1008,
+        "prob_away_covers": 0.8507,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.0989,
+        "prob_push": 0.0504,
+        "prob_away_covers": 0.8507,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.1493,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8507,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.1493,
+        "prob_push": 0.0991,
+        "prob_away_covers": 0.7516,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.2484,
+        "prob_push": 0.0991,
+        "prob_away_covers": 0.6525,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.3475,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6525,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.3475,
+        "prob_push": 0.1183,
+        "prob_away_covers": 0.5342,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.3475,
+        "prob_push": 0.2366,
+        "prob_away_covers": 0.4159,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.4658,
+        "prob_push": 0.1183,
+        "prob_away_covers": 0.4159,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.5841,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4159,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.81,
+        "prob_push": 0.0,
+        "prob_under": 0.19,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.589,
+        "prob_push": 0.2211,
+        "prob_under": 0.19,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.589,
+        "prob_push": 0.0,
+        "prob_under": 0.411,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.3649,
+        "prob_push": 0.224,
+        "prob_under": 0.411,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.3649,
+        "prob_push": 0.0,
+        "prob_under": 0.6351,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1938,
+        "prob_push": 0.1711,
+        "prob_under": 0.6351,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.19
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4451
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2757
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0893
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja de 148.9 puntos Elo a favor de Francia subraya su superioridad inherente, respaldando la alta probabilidad del modelo de 65.2% para su victoria. Ambos equipos llegan a este encuentro de la Jornada 16 con pleno de victorias en la fase de grupos y sin lesiones o suspensiones clave que afecten a sus principales figuras, como Kylian Mbappé o Erling Haaland, aunque Francia solo necesita un empate para asegurar el primer puesto del grupo. A pesar de las altas probabilidades de Over 2.5 goles (58.9%) y Ambos Marcan (53.1%), el modelo no detecta valor en las cuotas actuales, indicando que el mercado está eficientemente valorado con un EV inferior al 5% en todos los mercados. Por tanto, no hay argumento matemático para apostar en este partido.",
+    "gemini_analysis": "El modelo asigna 15% de probabilidad a la victoria de Norway, con France 148.9 puntos Elo por encima de Norway. Los goles esperados son 0.917 para Norway y 2.1384 para France. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "SEN-IRQ-20260626": {
     "match_id": "SEN-IRQ-20260626",
@@ -976,12 +2736,172 @@
         "prob": 0.671
       }
     ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.2633,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.7367,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.2633,
+        "prob_push": 0.1174,
+        "prob_away_covers": 0.6193,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.2633,
+        "prob_push": 0.2348,
+        "prob_away_covers": 0.5018,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.3808,
+        "prob_push": 0.1174,
+        "prob_away_covers": 0.5019,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.4982,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.5018,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.4982,
+        "prob_push": 0.125,
+        "prob_away_covers": 0.3768,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.6232,
+        "prob_push": 0.125,
+        "prob_away_covers": 0.2518,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.7481,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2519,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.7481,
+        "prob_push": 0.078,
+        "prob_away_covers": 0.1739,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.7481,
+        "prob_push": 0.156,
+        "prob_away_covers": 0.0959,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.8261,
+        "prob_push": 0.078,
+        "prob_away_covers": 0.0959,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.9041,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.0959,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7535,
+        "prob_push": 0.0,
+        "prob_under": 0.2465,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5074,
+        "prob_push": 0.2461,
+        "prob_under": 0.2465,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5074,
+        "prob_push": 0.0,
+        "prob_under": 0.4926,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2868,
+        "prob_push": 0.2206,
+        "prob_under": 0.4926,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2868,
+        "prob_push": 0.0,
+        "prob_under": 0.7132,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1377,
+        "prob_push": 0.1491,
+        "prob_under": 0.7132,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2465
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4667
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2298
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.057
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": "El modelo asigna 50% de probabilidad a la victoria de Senegal, con Senegal 141.0 puntos Elo por encima de Iraq. Los goles esperados son 1.6229 para Senegal y 1.0815 para Iraq. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": "2026-06-25T15:56:53.456018Z",
-    "is_upcoming": true
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "ALG-AUT-20260627": {
     "match_id": "ALG-AUT-20260627",
@@ -1058,12 +2978,19 @@
         "prob": 0.674
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "JOR-ARG-20260627": {
     "match_id": "JOR-ARG-20260627",
@@ -1140,12 +3067,19 @@
         "prob": 0.708
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "COL-POR-20260627": {
     "match_id": "COL-POR-20260627",
@@ -1222,12 +3156,19 @@
         "prob": 0.671
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "COD-UZB-20260627": {
     "match_id": "COD-UZB-20260627",
@@ -1304,12 +3245,19 @@
         "prob": 0.674
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "PAN-ENG-20260627": {
     "match_id": "PAN-ENG-20260627",
@@ -1386,12 +3334,19 @@
         "prob": 0.695
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "CRO-GHA-20260627": {
     "match_id": "CRO-GHA-20260627",
@@ -1468,12 +3423,19 @@
         "prob": 0.675
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "2A-2B-20260628": {
     "match_id": "2A-2B-20260628",
@@ -1550,12 +3512,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "GER-3A/-20260629": {
     "match_id": "GER-3A/-20260629",
@@ -1632,12 +3601,19 @@
         "prob": 0.702
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1F-2C-20260629": {
     "match_id": "1F-2C-20260629",
@@ -1714,12 +3690,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1C-2F-20260629": {
     "match_id": "1C-2F-20260629",
@@ -1796,12 +3779,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1I-3C/-20260630": {
     "match_id": "1I-3C/-20260630",
@@ -1878,12 +3868,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "2E-2I-20260630": {
     "match_id": "2E-2I-20260630",
@@ -1960,12 +3957,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "MEX-3C/-20260630": {
     "match_id": "MEX-3C/-20260630",
@@ -2042,12 +4046,19 @@
         "prob": 0.697
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1L-3E/-20260701": {
     "match_id": "1L-3E/-20260701",
@@ -2124,12 +4135,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "USA-3B/-20260701": {
     "match_id": "USA-3B/-20260701",
@@ -2206,12 +4224,19 @@
         "prob": 0.693
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1G-3A/-20260701": {
     "match_id": "1G-3A/-20260701",
@@ -2288,12 +4313,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "2K-2L-20260702": {
     "match_id": "2K-2L-20260702",
@@ -2370,12 +4402,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1H-2J-20260702": {
     "match_id": "1H-2J-20260702",
@@ -2452,12 +4491,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1B-3E/-20260702": {
     "match_id": "1B-3E/-20260702",
@@ -2534,12 +4580,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1J-2H-20260703": {
     "match_id": "1J-2H-20260703",
@@ -2616,12 +4669,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "1K-3D/-20260703": {
     "match_id": "1K-3D/-20260703",
@@ -2698,12 +4758,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "2D-2G-20260703": {
     "match_id": "2D-2G-20260703",
@@ -2780,12 +4847,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W74-W77-20260704": {
     "match_id": "W74-W77-20260704",
@@ -2862,12 +4936,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W73-W75-20260704": {
     "match_id": "W73-W75-20260704",
@@ -2944,12 +5025,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W76-W78-20260705": {
     "match_id": "W76-W78-20260705",
@@ -3026,12 +5114,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W79-W80-20260705": {
     "match_id": "W79-W80-20260705",
@@ -3108,12 +5203,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W83-W84-20260706": {
     "match_id": "W83-W84-20260706",
@@ -3190,12 +5292,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W81-W82-20260706": {
     "match_id": "W81-W82-20260706",
@@ -3272,12 +5381,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W86-W88-20260707": {
     "match_id": "W86-W88-20260707",
@@ -3354,12 +5470,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W85-W87-20260707": {
     "match_id": "W85-W87-20260707",
@@ -3436,12 +5559,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W89-W90-20260709": {
     "match_id": "W89-W90-20260709",
@@ -3518,12 +5648,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W93-W94-20260710": {
     "match_id": "W93-W94-20260710",
@@ -3600,12 +5737,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W91-W92-20260711": {
     "match_id": "W91-W92-20260711",
@@ -3682,12 +5826,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W95-W96-20260711": {
     "match_id": "W95-W96-20260711",
@@ -3764,12 +5915,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W97-W98-20260714": {
     "match_id": "W97-W98-20260714",
@@ -3846,12 +6004,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W99-W10-20260715": {
     "match_id": "W99-W10-20260715",
@@ -3928,12 +6093,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "L10-L10-20260718": {
     "match_id": "L10-L10-20260718",
@@ -4010,12 +6182,19 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   },
   "W10-W10-20260719": {
     "match_id": "W10-W10-20260719",
@@ -4092,11 +6271,18 @@
         "prob": 0.672
       }
     ],
+    "asian_handicap": {},
+    "asian_total": {},
+    "goal_ranges": [],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
     "gemini_analysis": null,
     "odds_updated_at": null,
-    "is_upcoming": false
+    "is_upcoming": false,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    }
   }
 }
