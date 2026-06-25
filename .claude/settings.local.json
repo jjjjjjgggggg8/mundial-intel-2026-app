@@ -8,7 +8,10 @@
       "PowerShell(npm run *)",
       "PowerShell(npm install *)",
       "PowerShell(Out-Null *)",
-      "PowerShell(netstat *)"
+      "PowerShell(netstat *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
