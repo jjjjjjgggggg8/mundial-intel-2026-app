@@ -4,3 +4,4 @@ scipy>=1.11
 pytest>=7.4
 requests>=2.31
 python-dotenv>=1.0
+google-genai>=1.0.0
