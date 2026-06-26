@@ -4,10 +4,10 @@ type ValueBet = {
   fair_odds: number
   best_ev: number
   best_bookmaker: string
-  odds_bet365: number
-  ev_bet365: number
-  odds_winamax: number
-  ev_winamax: number
+  odds_bet365: number | null
+  ev_bet365: number | null
+  odds_winamax: number | null
+  ev_winamax: number | null
   where_to_bet: string
 }
 
@@ -50,10 +50,10 @@ export default function ValueBetCard({ bet }: Props) {
             Bet365{isBest365 && ' ☆'}
           </p>
           <p className="text-2xl font-bold text-gray-900 mt-1 tabular-nums">
-            {bet.odds_bet365.toFixed(2)}
+            {bet.odds_bet365 != null ? bet.odds_bet365.toFixed(2) : '—'}
           </p>
           <p className="text-xs text-green-600 font-medium mt-0.5">
-            {evLabel(bet.ev_bet365)}
+            {bet.ev_bet365 != null ? evLabel(bet.ev_bet365) : '—'}
           </p>
         </div>
 
@@ -63,10 +63,10 @@ export default function ValueBetCard({ bet }: Props) {
             Winamax{isBestWina && ' ☆'}
           </p>
           <p className="text-2xl font-bold text-gray-900 mt-1 tabular-nums">
-            {bet.odds_winamax.toFixed(2)}
+            {bet.odds_winamax != null ? bet.odds_winamax.toFixed(2) : '—'}
           </p>
           <p className="text-xs text-green-600 font-medium mt-0.5">
-            {evLabel(bet.ev_winamax)}
+            {bet.ev_winamax != null ? evLabel(bet.ev_winamax) : '—'}
           </p>
         </div>
       </div>
