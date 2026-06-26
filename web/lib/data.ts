@@ -46,6 +46,26 @@ export type TopScorer = {
   lambda_goals: number
 }
 
+export type SmartPick = {
+  market_key: string
+  label: string
+  model_prob: number
+  baseline_mean: number
+  baseline_std: number
+  notability_score: number
+  direction: 'HIGH' | 'LOW'
+  has_ev: boolean
+  ev_bet365: number | null
+  ev_winamax: number | null
+  best_ev: number | null
+  best_bookmaker: string | null
+  odds_bet365: number | null
+  odds_winamax: number | null
+  where_to_bet_winamax: string
+  where_to_bet_bet365: string
+  reasoning: string
+}
+
 export type Analysis = {
   elo_home: number
   elo_away: number
@@ -85,6 +105,7 @@ export type Analysis = {
   }>
   gemini_analysis: string | null
   odds_updated_at: string | null
+  smart_picks?: SmartPick[]
 }
 
 export function getMatches(): Match[] {

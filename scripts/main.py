@@ -27,6 +27,7 @@ from scripts.ingestion.odds import fetch_upcoming_odds, extract_fair_odds, save_
 from scripts.analysis.gemini_analyst import analyze_match
 from scripts.analysis.ev_calculator import calculate_ev_all_markets
 from scripts.analysis.player_markets import PlayerMarketAnalyzer
+from scripts.analysis.smart_picks import compute_smart_picks
 from scripts.config import EV_THRESHOLD, SQUADS_PATH
 
 # ---------------------------------------------------------------------------
@@ -272,6 +273,81 @@ def _calc_value_bets(
 
 
 # ---------------------------------------------------------------------------
+# Conversión de cuotas para smart_picks
+# ---------------------------------------------------------------------------
+
+def _build_smart_picks_odds(
+    fair_for_match: dict,
+    home_team: str,
+    away_team: str,
+) -> dict:
+    """Convierte fair_by_match[mid] al formato {market_key: {bet365, winamax}} esperado por compute_smart_picks."""
+    home_lo = home_team.lower().strip()
+    away_lo = away_team.lower().strip()
+    result: dict = {}
+
+    for bk, bk_data in fair_for_match.items():
+        if bk not in ("bet365", "winamax"):
+            continue
+        for market_key, market_data in bk_data.items():
+            for label, odata in market_data.get("outcomes", {}).items():
+                price = odata.get("price")
+                if not price or price <= 1.0:
+                    continue
+                label_lo = label.lower().strip()
+                pick_key: str | None = None
+
+                if market_key == "h2h":
+                    if label_lo == "draw":
+                        pick_key = "draw"
+                    elif label_lo in (home_lo, home_lo.split()[0]):
+                        pick_key = "home_win"
+                    elif label_lo in (away_lo, away_lo.split()[0]):
+                        pick_key = "away_win"
+
+                elif market_key in ("totals", "alternate_totals"):
+                    parts = label_lo.split()
+                    if len(parts) >= 2:
+                        try:
+                            line = float(parts[1])
+                            line_key = f"{line:.1f}".replace(".", "_")
+                            if parts[0] == "over":
+                                pick_key = f"over_{line_key}"
+                            elif parts[0] == "under":
+                                pick_key = f"under_{line_key}"
+                        except ValueError:
+                            pass
+
+                elif market_key == "btts":
+                    if "yes" in label_lo:
+                        pick_key = "btts_yes"
+                    elif "no" in label_lo:
+                        pick_key = "btts_no"
+
+                elif market_key in ("spreads", "alternate_spreads"):
+                    parts = label.rsplit(None, 1)
+                    if len(parts) == 2:
+                        team_lo2 = parts[0].strip().lower()
+                        try:
+                            hc = float(parts[1].strip())
+                            if team_lo2 in (home_lo, home_lo.split()[0]):
+                                if hc == -0.5:
+                                    pick_key = "ah_home_minus_0_5"
+                                elif hc == -1.5:
+                                    pick_key = "ah_home_minus_1_5"
+                            elif team_lo2 in (away_lo, away_lo.split()[0]):
+                                if hc == 0.5:
+                                    pick_key = "ah_away_plus_0_5"
+                        except ValueError:
+                            pass
+
+                if pick_key:
+                    result.setdefault(pick_key, {})[bk] = price
+
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Construcción de dict de análisis completo
 # ---------------------------------------------------------------------------
 
@@ -285,6 +361,7 @@ def _build_analysis(
     snapshot_ts: str | None,
     is_upcoming: bool,
     player_markets: dict | None = None,
+    smart_picks: list | None = None,
 ) -> dict:
     """Construye el dict completo de análisis para un partido."""
     date_str    = str(row["date"])[:10] if row["date"] else ""
@@ -343,6 +420,7 @@ def _build_analysis(
             "home": (player_markets or {}).get("top_home_picks", []),
             "away": (player_markets or {}).get("top_away_picks", []),
         },
+        "smart_picks": smart_picks or [],
     }
 
 
@@ -491,6 +569,29 @@ def main() -> None:
         total_value_bets += len(value_bets)
         log.info(f"  Value bets encontrados: {len(value_bets)}")
 
+        # e) Smart picks
+        smart_picks_result: list = []
+        try:
+            match_data_for_sp = {
+                "home_team": home_team,
+                "away_team": away_team,
+                "phase": row.get("phase", "group"),
+                "elo_home": elo_home,
+                "elo_away": elo_away,
+            }
+            odds_data_for_sp = _build_smart_picks_odds(
+                fair_by_match.get(mid, {}), home_team, away_team
+            )
+            smart_picks_result = compute_smart_picks(
+                match_data=match_data_for_sp,
+                model_probs=preds,
+                player_markets=player_markets or {},
+                odds_data=odds_data_for_sp,
+            )
+            log.info(f"  Smart picks generados: {len(smart_picks_result)}")
+        except Exception as exc:
+            log.warning(f"  Error en smart_picks para {mid}: {exc}")
+
         # f) Gemini
         if GEMINI_API_KEY:
             date_str    = str(row["date"])[:10] if row["date"] else ""
@@ -536,6 +637,7 @@ def main() -> None:
             row, preds, elo_home, elo_away,
             value_bets, gemini_text, snapshot_ts,
             is_upcoming=True, player_markets=player_markets,
+            smart_picks=smart_picks_result,
         )
 
     # ── PASO 6: Resto del torneo (sin cuotas ni Gemini) ────────────────────
@@ -547,10 +649,27 @@ def main() -> None:
         elo_home  = elo_model.get_rating(home_team)
         elo_away  = elo_model.get_rating(away_team)
         preds     = dc_model.predict_match(home_team, away_team, elo_home, elo_away, neutral=True)
+        rest_sp: list = []
+        try:
+            rest_sp = compute_smart_picks(
+                match_data={
+                    "home_team": home_team,
+                    "away_team": away_team,
+                    "phase": row.get("phase", "group"),
+                    "elo_home": elo_home,
+                    "elo_away": elo_away,
+                },
+                model_probs=preds,
+                player_markets={},
+                odds_data={},
+            )
+        except Exception as exc:
+            log.warning(f"  Error en smart_picks (rest) para {mid}: {exc}")
         analyses[mid] = _build_analysis(
             row, preds, elo_home, elo_away,
             value_bets=[], gemini_text=None,
             snapshot_ts=None, is_upcoming=False,
+            smart_picks=rest_sp,
         )
 
     # ── PASO 7: Escribir JSON de salida ────────────────────────────────────

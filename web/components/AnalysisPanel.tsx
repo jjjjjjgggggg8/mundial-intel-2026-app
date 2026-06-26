@@ -1,8 +1,7 @@
-import type { Match, Analysis } from '@/lib/data'
+import type { Match, Analysis, SmartPick } from '@/lib/data'
 import { formatRelativeTime } from '@/lib/utils'
 import HorizontalBar from './HorizontalBar'
 import EloComparison from './EloComparison'
-import ValueBetCard from './ValueBetCard'
 
 type Props = {
   match: Match
@@ -10,26 +9,9 @@ type Props = {
 }
 
 export default function AnalysisPanel({ match, analysis }: Props) {
-  const { probs, top_scorelines, high_prob_events, value_bets } = analysis
+  const { probs, top_scorelines, high_prob_events } = analysis
   const topScore = top_scorelines[0]
-
-  const asianHcLines = analysis.asian_handicap
-    ? Object.entries(analysis.asian_handicap)
-        .map(([line, d]) => ({ line: parseFloat(line), ...d }))
-        .sort((a, b) => a.line - b.line)
-    : []
-
-  const asianTotalLines = analysis.asian_total
-    ? Object.entries(analysis.asian_total)
-        .map(([line, d]) => ({ line: parseFloat(line), ...d }))
-        .sort((a, b) => a.line - b.line)
-    : []
-
-  const goalRanges = analysis.goal_ranges ?? []
-
-  const topHome = analysis.top_scorers?.home ?? []
-  const topAway = analysis.top_scorers?.away ?? []
-  const hasTopScorers = topHome.length > 0 || topAway.length > 0
+  const smart_picks = analysis.smart_picks ?? []
 
   const updatedAt = analysis.odds_updated_at
     ? new Date(analysis.odds_updated_at).toLocaleString('es-ES', {
@@ -141,163 +123,20 @@ export default function AnalysisPanel({ match, analysis }: Props) {
         </div>
       </div>
 
-      {/* ── Asian Markets ── */}
-      {(asianHcLines.length > 0 || asianTotalLines.length > 0) && (
+      {/* ── Smart Picks ── */}
+      {smart_picks.length > 0 && (
         <>
           <Divider />
           <div>
             <p className="text-[11px] uppercase tracking-widest text-gray-400 font-medium mb-3">
-              Mercados asiáticos
-            </p>
-            {asianHcLines.length > 0 && (
-              <div className="mb-4">
-                <p className="text-xs text-gray-500 mb-1">Hándicap Asiático</p>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-xs">
-                    <thead>
-                      <tr className="text-gray-400 border-b border-gray-100">
-                        <th className="text-left py-1 pr-3 font-medium">Línea</th>
-                        <th className="text-right py-1 pr-3 font-medium">{match.home_team}</th>
-                        <th className="text-right py-1 pr-3 font-medium">Push</th>
-                        <th className="text-right py-1 font-medium">{match.away_team}</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {asianHcLines.map(({ line, prob_home_covers, prob_away_covers, prob_push }) => (
-                        <tr key={line} className="border-b border-gray-50 last:border-0">
-                          <td className="py-1.5 pr-3 font-mono text-gray-600">
-                            {line > 0 ? `+${line}` : line}
-                          </td>
-                          <td className="text-right py-1.5 pr-3 font-semibold text-blue-600">
-                            {Math.round(prob_home_covers * 100)}%
-                          </td>
-                          <td className="text-right py-1.5 pr-3 text-gray-400">
-                            {prob_push > 0 ? `${Math.round(prob_push * 100)}%` : '—'}
-                          </td>
-                          <td className="text-right py-1.5 font-semibold text-red-500">
-                            {Math.round(prob_away_covers * 100)}%
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )}
-            {asianTotalLines.length > 0 && (
-              <div>
-                <p className="text-xs text-gray-500 mb-1">Total Asiático (Goles)</p>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-xs">
-                    <thead>
-                      <tr className="text-gray-400 border-b border-gray-100">
-                        <th className="text-left py-1 pr-3 font-medium">Línea</th>
-                        <th className="text-right py-1 pr-3 font-medium">Over</th>
-                        <th className="text-right py-1 pr-3 font-medium">Push</th>
-                        <th className="text-right py-1 font-medium">Under</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {asianTotalLines.map(({ line, prob_over, prob_under, prob_push }) => (
-                        <tr key={line} className="border-b border-gray-50 last:border-0">
-                          <td className="py-1.5 pr-3 font-mono text-gray-600">{line}</td>
-                          <td className="text-right py-1.5 pr-3 font-semibold text-green-600">
-                            {Math.round(prob_over * 100)}%
-                          </td>
-                          <td className="text-right py-1.5 pr-3 text-gray-400">
-                            {prob_push > 0 ? `${Math.round(prob_push * 100)}%` : '—'}
-                          </td>
-                          <td className="text-right py-1.5 font-semibold text-orange-500">
-                            {Math.round(prob_under * 100)}%
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )}
-          </div>
-        </>
-      )}
-
-      {/* ── Goal Ranges (Winamax) ── */}
-      {goalRanges.length > 0 && (
-        <>
-          <Divider />
-          <div>
-            <p className="text-[11px] uppercase tracking-widest text-gray-400 font-medium mb-3">
-              Intervalos de goles (Winamax)
-            </p>
-            <div className="space-y-2">
-              {goalRanges.map(range => (
-                <HorizontalBar
-                  key={range.label}
-                  label={range.label}
-                  value={range.prob}
-                  displayValue={`${Math.round(range.prob * 100)}%`}
-                  color="purple"
-                />
-              ))}
-            </div>
-          </div>
-        </>
-      )}
-
-      {/* ── Top Scorers ── */}
-      {hasTopScorers && (
-        <>
-          <Divider />
-          <div>
-            <p className="text-[11px] uppercase tracking-widest text-gray-400 font-medium mb-3">
-              Máximos goleadores probables
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <p className="text-xs text-gray-500 mb-2 font-medium">{match.home_team}</p>
-                {topHome.map(p => (
-                  <div key={p.name} className="flex items-center justify-between py-1.5 border-b border-gray-50 last:border-0">
-                    <div>
-                      <p className="text-sm font-medium text-gray-800">{p.name}</p>
-                      <p className="text-[10px] text-gray-400 uppercase">{p.position}</p>
-                    </div>
-                    <span className="text-xs font-semibold text-blue-600 ml-2 shrink-0">
-                      {Math.round(p.prob_anytime_scorer * 100)}%
-                    </span>
-                  </div>
-                ))}
-              </div>
-              <div>
-                <p className="text-xs text-gray-500 mb-2 font-medium">{match.away_team}</p>
-                {topAway.map(p => (
-                  <div key={p.name} className="flex items-center justify-between py-1.5 border-b border-gray-50 last:border-0">
-                    <div>
-                      <p className="text-sm font-medium text-gray-800">{p.name}</p>
-                      <p className="text-[10px] text-gray-400 uppercase">{p.position}</p>
-                    </div>
-                    <span className="text-xs font-semibold text-red-500 ml-2 shrink-0">
-                      {Math.round(p.prob_anytime_scorer * 100)}%
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </>
-      )}
-
-      {value_bets.length > 0 && (
-        <>
-          <Divider />
-
-          {/* ── Value bets ── */}
-          <div>
-            <p className="text-[11px] uppercase tracking-widest text-gray-400 font-medium mb-3">
-              Value bets detectados
+              Top picks del partido
             </p>
             <div className="space-y-3">
-              {value_bets.map(bet => (
-                <ValueBetCard key={bet.market} bet={bet} />
+              {smart_picks.map((pick) => (
+                <SmartPickCard
+                  key={pick.market_key}
+                  pick={pick}
+                />
               ))}
             </div>
           </div>
@@ -308,6 +147,63 @@ export default function AnalysisPanel({ match, analysis }: Props) {
       <p className="text-xs text-gray-400 text-right pt-1">
         Cuotas: {updatedAt} · Modelo: Elo + Dixon-Coles Poisson v2
       </p>
+    </div>
+  )
+}
+
+function SmartPickCard({ pick }: { pick: SmartPick }) {
+  const probPct = Math.round(pick.model_prob * 100)
+  const bestOdds =
+    pick.best_bookmaker === 'bet365' ? pick.odds_bet365
+    : pick.best_bookmaker === 'winamax' ? pick.odds_winamax
+    : null
+
+  return (
+    <div className="rounded-lg border border-gray-100 bg-white p-4 space-y-2.5 shadow-sm">
+      {/* Header: label + EV badge */}
+      <div className="flex items-start justify-between gap-2">
+        <p className="text-sm font-semibold text-gray-800 leading-tight">{pick.label}</p>
+        {pick.has_ev && (
+          <span className="shrink-0 text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-green-100 text-green-700">
+            Value ✓
+          </span>
+        )}
+      </div>
+
+      {/* Probability bar */}
+      <div className="flex items-center gap-3">
+        <div className="flex-1 bg-gray-100 rounded-full h-1.5 overflow-hidden">
+          <div
+            className="h-1.5 rounded-full bg-blue-500 transition-all"
+            style={{ width: `${probPct}%` }}
+          />
+        </div>
+        <span className="text-xs font-bold text-gray-700 shrink-0 w-10 text-right">
+          {probPct}%
+        </span>
+      </div>
+
+      {/* Reasoning */}
+      <p className="text-[11px] text-gray-500 leading-relaxed">{pick.reasoning}</p>
+
+      {/* EV info */}
+      {pick.has_ev && pick.best_ev !== null && (
+        <p className="text-[11px] font-semibold text-green-600">
+          EV: +{Math.round(pick.best_ev * 100)}%
+          {pick.best_bookmaker ? ` · ${pick.best_bookmaker}` : ''}
+          {bestOdds ? ` @ ${bestOdds}` : ''}
+        </p>
+      )}
+
+      {/* Navigation paths */}
+      <div className="space-y-1 pt-0.5">
+        <p className="text-[10px] text-gray-400 leading-tight truncate">
+          <span className="font-medium text-gray-500">W</span> {pick.where_to_bet_winamax}
+        </p>
+        <p className="text-[10px] text-gray-400 leading-tight truncate">
+          <span className="font-medium text-gray-500">B</span> {pick.where_to_bet_bet365}
+        </p>
+      </div>
     </div>
   )
 }
