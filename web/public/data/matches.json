@@ -13,7 +13,7 @@
     "prob_draw": 0.2485,
     "prob_away": 0.4833,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "URU-ESP-20260626",
@@ -29,7 +29,7 @@
     "prob_draw": 0.183,
     "prob_away": 0.6897,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "EGY-IRN-20260626",
@@ -45,7 +45,7 @@
     "prob_draw": 0.2436,
     "prob_away": 0.5067,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "NZL-BEL-20260626",
@@ -61,39 +61,7 @@
     "prob_draw": 0.1878,
     "prob_away": 0.6782,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
-  },
-  {
-    "id": "NOR-FRA-20260626",
-    "phase": "Matchday 16",
-    "date": "2026-06-26",
-    "kickoff": "19:00",
-    "home_team": "Norway",
-    "away_team": "France",
-    "venue": "Boston (Foxborough)",
-    "has_value_bet": false,
-    "confidence": "high",
-    "prob_home": 0.1493,
-    "prob_draw": 0.1982,
-    "prob_away": 0.6525,
-    "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
-  },
-  {
-    "id": "SEN-IRQ-20260626",
-    "phase": "Matchday 16",
-    "date": "2026-06-26",
-    "kickoff": "19:00",
-    "home_team": "Senegal",
-    "away_team": "Iraq",
-    "venue": "Toronto",
-    "has_value_bet": false,
-    "confidence": "high",
-    "prob_home": 0.4982,
-    "prob_draw": 0.25,
-    "prob_away": 0.2519,
-    "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "ALG-AUT-20260627",
@@ -109,7 +77,7 @@
     "prob_draw": 0.2487,
     "prob_away": 0.4824,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "JOR-ARG-20260627",
@@ -125,7 +93,7 @@
     "prob_draw": 0.0774,
     "prob_away": 0.8901,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "PAN-ENG-20260627",
@@ -141,7 +109,7 @@
     "prob_draw": 0.1466,
     "prob_away": 0.7677,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "CRO-GHA-20260627",
@@ -157,7 +125,7 @@
     "prob_draw": 0.224,
     "prob_away": 0.1766,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "COL-POR-20260627",
@@ -173,7 +141,7 @@
     "prob_draw": 0.261,
     "prob_away": 0.3787,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "COD-UZB-20260627",
@@ -189,7 +157,7 @@
     "prob_draw": 0.2513,
     "prob_away": 0.4682,
     "is_upcoming": true,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "2A-2B-20260628",
@@ -204,8 +172,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "is_upcoming": true,
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1F-2C-20260629",
@@ -221,7 +189,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1C-2F-20260629",
@@ -237,7 +205,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "GER-3A/-20260629",
@@ -253,7 +221,7 @@
     "prob_draw": 0.079,
     "prob_away": 0.0272,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "MEX-3C/-20260630",
@@ -269,7 +237,7 @@
     "prob_draw": 0.1062,
     "prob_away": 0.0428,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "2E-2I-20260630",
@@ -285,7 +253,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1I-3C/-20260630",
@@ -301,7 +269,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "USA-3B/-20260701",
@@ -317,7 +285,7 @@
     "prob_draw": 0.126,
     "prob_away": 0.0566,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1L-3E/-20260701",
@@ -333,7 +301,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1G-3A/-20260701",
@@ -349,7 +317,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1B-3E/-20260702",
@@ -365,7 +333,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1H-2J-20260702",
@@ -381,7 +349,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "2K-2L-20260702",
@@ -397,7 +365,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1K-3D/-20260703",
@@ -413,7 +381,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "2D-2G-20260703",
@@ -429,7 +397,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "1J-2H-20260703",
@@ -445,7 +413,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W73-W75-20260704",
@@ -461,7 +429,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W74-W77-20260704",
@@ -477,7 +445,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W79-W80-20260705",
@@ -493,7 +461,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W76-W78-20260705",
@@ -509,7 +477,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W81-W82-20260706",
@@ -525,7 +493,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W83-W84-20260706",
@@ -541,7 +509,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W86-W88-20260707",
@@ -557,7 +525,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W85-W87-20260707",
@@ -573,7 +541,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W89-W90-20260709",
@@ -589,7 +557,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W93-W94-20260710",
@@ -605,7 +573,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W95-W96-20260711",
@@ -621,7 +589,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W91-W92-20260711",
@@ -637,7 +605,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W97-W98-20260714",
@@ -653,7 +621,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W99-W10-20260715",
@@ -669,7 +637,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "L10-L10-20260718",
@@ -685,7 +653,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -701,6 +669,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-26T17:56:27Z"
+    "updated_at": "2026-06-26T21:00:36Z"
   }
 ]
