@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La ventaja Elo de 32.6 puntos para Austria sugiere una ligera superioridad, respaldada por un xG de 1.6265 frente al 1.1531 de Argelia, indicando que Austria debería tener una mayor capacidad ofensiva en este encuentro. A pesar de que Argelia ha perdido al atacante clave Mohamed Amoura por lesión y Austria no contará con el centrocampista Christoph Baumgartner, la forma reciente de ambos equipos es idéntica con cuatro victorias, un empate y una derrota en sus últimos seis partidos. El modelo no detecta valor en las cuotas actuales de Bet365 y Winamax en ningún mercado, lo que implica que las probabilidades de las casas de apuestas están eficientemente valoradas en relación con las expectativas del modelo y la información disponible. Por lo tanto, no hay un argumento matemático claro para realizar una apuesta en este partido.",
+    "gemini_analysis": "La diferencia de Elo de 32.6 puntos a favor de Austria indica una ligera superioridad que el modelo traduce en casi el doble de probabilidades de victoria para Austria (48.2%) frente a Algeria (26.9%), lo cual es una ventaja moderada pero significativa en rendimiento esperado. La baja de Mohamed Amoura por parte de Algeria y Christoph Baumgartner en Austria son ausencias importantes, pero la forma reciente de ambos equipos, con victorias en siete de sus últimos diez partidos, sugiere un encuentro competitivo a pesar de la ventaja Elo. Austria, con un xG superior (1.6265 vs 1.1531), se perfila como el favorito para generar más oportunidades claras de gol.\n\nEl modelo no detecta valor en las cuotas actuales para este partido, con todas las value bets por debajo del umbral del 5% de EV. Esto sugiere que las casas de apuestas han valorado este encuentro de manera eficiente, incorporando factores como la leve superioridad de Austria y las ausencias clave. A pesar de que un empate podría beneficiar a ambos equipos para la clasificación, la mentalidad de Ralf Rangnick de buscar la victoria y la necesidad de Algeria de ganar para asegurar el segundo puesto complican la predicción.\n\nConsiderando que Austria ha mostrado un desempeño defensivo ligeramente mejor según los xGA y que Argelia depende mucho de la creatividad de Mahrez, la valoración del mercado parece ajustada. Aunque el modelo otorga una mayor probabilidad a la victoria de Austria y un over 2.5 goles del 52.6%, la falta de un EV positivo significativo indica que no hay una ventaja matemática clara para apostar en ningún mercado en este momento.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -591,7 +591,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de 356.8 puntos de Argentina sobre Jordania es un diferencial masivo que se traduce en una superioridad abrumadora en el campo, con el modelo prediciendo un 89.0% de probabilidad de victoria y 3.4866 goles esperados para Argentina frente a 0.609 de Jordania. Aunque Argentina llega con varias preocupaciones por lesiones como Messi, Martínez, y Romero, se espera que muchos estén disponibles para el Mundial, y Jordania también sufre bajas sensibles en su ataque como Sabra, Nue'imat y Qurashi, lo que aún más desequilibra el encuentro a favor de los argentinos. El modelo no detecta valor en las cuotas actuales en ningún mercado, indicando que las casas de apuestas han ajustado sus precios de forma muy eficiente a la altísima probabilidad de una victoria contundente de Argentina. No hay argumento matemático para apostar en este partido según nuestro modelo, ya que el mercado está bien valorado y no ofrece oportunidades con un EV positivo superior al 5%.",
+    "gemini_analysis": "La ventaja Elo de 356.8 puntos de Argentina sobre Jordania es una brecha significativa que el modelo traduce en un 89.0% de probabilidad de victoria y 3.4866 goles esperados, proyectando un dominio absoluto y una probable goleada. El modelo no detecta valor en las cuotas actuales, con un EV inferior al 5% en todos los mercados, lo que sugiere que las casas de apuestas han ajustado correctamente sus valoraciones ante la clara disparidad entre ambos equipos. Argentina llega con una forma excelente tras asegurar el pase como líder de grupo, aunque Cristian Romero es duda o está fuera por lesión, mientras que Jordan, ya eliminada, no presenta nuevas bajas destacadas. Por lo tanto, a pesar de la abrumadora superioridad de Argentina, no hay un argumento matemático claro para apostar en este partido.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -949,7 +949,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "medium",
-    "gemini_analysis": "El modelo asigna 36% de probabilidad a la victoria de Colombia, con Colombia 40.2 puntos Elo por encima de Portugal. Los goles esperados son 1.3308 para Colombia y 1.3707 para Portugal. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "El modelo Elo otorga una ligera ventaja a Colombia (40.2 puntos), sin embargo, los goles esperados son casi idénticos, con Portugal ligeramente por encima (1.37 vs 1.33), lo que se refleja en probabilidades de victoria muy parejas para ambos equipos. Colombia llega con una buena racha de cuatro victorias consecutivas y sin lesiones o suspensiones significativas, destacando Luis Díaz y James Rodríguez en buena forma. Portugal, pese a la incertidumbre previa sobre Rúben Dias y Joao Cancelo, parece contar con su plantilla principal en este encuentro, con Cristiano Ronaldo en buen estado tras anotar en el último partido y Bernardo Silva y Bruno Fernandes disponibles.\n\nConsiderando la paridad en las probabilidades del modelo (36.0% Colombia, 37.9% Portugal, 26.1% Empate) y la ausencia de información de lesiones o suspensiones clave que desequilibren sustancialmente las fuerzas, el mercado se presenta bien ajustado. El modelo no detecta valor en las cuotas actuales para ningún mercado (EV < 5%), lo que sugiere que las casas de apuestas han valorado correctamente la incertidumbre y la igualdad inherente a este enfrentamiento. Por lo tanto, no existe un argumento matemático sólido para realizar una apuesta en este partido.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1288,7 +1288,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La ventaja de Elo de 22.9 puntos a favor de Uzbekistán es marginal, lo que implica una ligera superioridad que se traduce en un mayor potencial ofensivo, reflejado en 1.59 goles esperados frente a los 1.17 de DR Congo. DR Congo ha mostrado resiliencia con un empate ante Portugal y una derrota ajustada contra Colombia, mientras que Uzbekistán viene de una goleada 5-0 ante Portugal, lo que podría afectar su moral. A pesar de que ambos equipos llegan sin lesiones clave ni suspensiones significativas que alteren drásticamente las alineaciones previstas, la reciente forma de Uzbekistán es preocupante, con una defensa que ha concedido muchos goles. El modelo no detecta valor en las cuotas actuales, ya que los mercados están eficientemente valorados, y el EV positivo es inferior al umbral del 5% debido a la cercanía de las probabilidades y la ausencia de desajustes notables tras considerar el contexto actual de los equipos.",
+    "gemini_analysis": "Uzbekistán tiene una ventaja Elo de 22.9 puntos, lo que sugiere una ligera superioridad que se alinea con los goles esperados del modelo (1.59 vs 1.1753), indicando que deberían generar más oportunidades de gol en condiciones normales de partido. Sin embargo, la reciente forma de Uzbekistán es preocupante, con una derrota por 5-0 ante Portugal y una por 3-1 contra Colombia, mientras que DR Congo, a pesar de una derrota por 1-0 ante Colombia, logró un meritorio empate 1-1 frente a Portugal, lo que muestra una mayor solidez defensiva y competitividad contra rivales fuertes. Ambos equipos llegan sin suspensiones significativas ni nuevas lesiones para este crucial encuentro, aunque la ausencia del capitán uzbeko Jaloliddin Masharipov por lesión espinal ya estaba contemplada. El modelo no detecta valor en las cuotas actuales, lo que sugiere que el mercado ha valorado correctamente las probabilidades de resultado basándose en la información disponible, incluyendo la forma reciente y la ausencia de value bets (EV < 5%) en todos los mercados.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1646,7 +1646,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La ventaja Elo de 235.8 puntos y los goles esperados de 2.62 para Inglaterra frente a 0.77 para Panamá indican una superioridad abrumadora de Inglaterra, proyectando un partido con claro dominio inglés y múltiples oportunidades de gol. Inglaterra, ya clasificada a la siguiente fase, ha mostrado solidez a pesar de un empate 0-0 contra Ghana, y aunque tiene a Reece James lesionado y algunas dudas físicas en jugadores clave como Saka y Rice, se espera que puedan manejar las rotaciones. Panamá, por su parte, está eliminada tras dos derrotas 1-0 sin anotar, lo que subraya aún más el pronóstico del modelo para una victoria contundente de Inglaterra. A pesar de este claro favoritismo y las circunstancias desfavorables para Panamá, el modelo no detecta valor en ninguna de las cuotas actuales, lo que sugiere que el mercado ya ha descontado ampliamente la superioridad de Inglaterra y los problemas de su oponente.",
+    "gemini_analysis": "El modelo asigna 9% de probabilidad a la victoria de Panama, con England 235.8 puntos Elo por encima de Panama. Los goles esperados son 0.7728 para Panama y 2.6231 para England. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -2004,7 +2004,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "El modelo asigna 60% de probabilidad a la victoria de Croatia, con Croatia 214.5 puntos Elo por encima de Ghana. Los goles esperados son 1.8759 para Croatia y 0.9097 para Ghana. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "La ventaja de 214.5 puntos Elo de Croacia sobre Ghana, junto con unos goles esperados de 1.8759 frente a 0.9097, indica una clara superioridad croata y predice un control significativo del partido por parte de los europeos. El modelo asigna a Croacia un 59.9% de probabilidad de victoria, lo que refleja su mayor calidad de plantilla y experiencia en grandes torneos, a pesar de que Ghana llega con buena forma tras un empate con Inglaterra y una victoria contra Panamá en la fase de grupos. Croacia no reporta nuevas lesiones ni suspensiones, con Luka Modric, Joško Gvardiol y Mateo Kovačić recuperados de dolencias previas y listos para jugar, mientras que Ghana sufre bajas importantes como Alexander Djiku, Mohammed Kudus, Mohammed Salisu y Abu Francis, lo que debilita su estructura defensiva y ataque. Dadas las cuotas actuales y el análisis del modelo, que no detecta value bets con EV positivo superior al 5% en ningún mercado, el mercado está bien ajustado a las probabilidades calculadas y no hay argumento matemático sólido para realizar una apuesta.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -2486,6 +2486,364 @@
       }
     ]
   },
+  "1C-2F-20260629": {
+    "match_id": "1C-2F-20260629",
+    "home_team": "1C",
+    "away_team": "2F",
+    "phase": "Round of 32",
+    "date": "2026-06-29",
+    "kickoff": "17:00",
+    "venue": "Houston",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8701,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.7807,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.1787,
+        "prob_away_covers": 0.6914,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.2192,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.5632,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.4368,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.3254,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.2193,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6746,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7842,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7593,
+        "prob_push": 0.0,
+        "prob_under": 0.2407,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5152,
+        "prob_push": 0.2441,
+        "prob_under": 0.2407,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5152,
+        "prob_push": 0.0,
+        "prob_under": 0.4848,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2939,
+        "prob_push": 0.2213,
+        "prob_under": 0.4848,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2939,
+        "prob_push": 0.0,
+        "prob_under": 0.7061,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1425,
+        "prob_push": 0.1514,
+        "prob_under": 0.7061,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2407
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4654
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2342
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0596
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de 1C, con 2F 0.0 puntos Elo por encima de 1C. Los goles esperados son 1.2295 para 1C y 1.5066 para 2F. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": null,
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    },
+    "smart_picks": [
+      {
+        "market_key": "corners_over_8_5",
+        "label": "Más de 8.5 córners",
+        "model_prob": 0.0856,
+        "baseline_mean": 0.52,
+        "baseline_std": 0.105,
+        "notability_score": -4.137,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Córners › Total Más de 8.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Saques de esquina › Total córners › Más de 8.5",
+        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
+      },
+      {
+        "market_key": "score_2_0",
+        "label": "Marcador exacto 2-0",
+        "model_prob": 0.0,
+        "baseline_mean": 0.09,
+        "baseline_std": 0.035,
+        "notability_score": -2.571,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Marcador Exacto › 2-0",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Resultado correcto › 2-0",
+        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
+      },
+      {
+        "market_key": "first_goal_away",
+        "label": "Equipo B marca primero",
+        "model_prob": 0.5149,
+        "baseline_mean": 0.34,
+        "baseline_std": 0.09,
+        "notability_score": 1.943,
+        "direction": "HIGH",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Equipo que marcará el 1er gol › 1C",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Primer equipo en marcar › 1C",
+        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: 1C 1.23 | 2F 1.51)"
+      },
+      {
+        "market_key": "home_clean_sheet",
+        "label": "Equipo A gana a cero",
+        "model_prob": 0.1568,
+        "baseline_mean": 0.31,
+        "baseline_std": 0.08,
+        "notability_score": -1.915,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Ganar a Cero › 1C",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Ganar a cero › 1C",
+        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
+      },
+      {
+        "market_key": "ah_home_minus_1_5",
+        "label": "Hándicap Asiático local -1.5",
+        "model_prob": 0.1299,
+        "baseline_mean": 0.27,
+        "baseline_std": 0.085,
+        "notability_score": -1.648,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Hándicap Europeo › 1C -1.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Hándicap asiático › 1C -1.5",
+        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
+      },
+      {
+        "market_key": "ht_draw_ft_win",
+        "label": "Empate 1ª parte, gana partido",
+        "model_prob": 0.0957,
+        "baseline_mean": 0.19,
+        "baseline_std": 0.06,
+        "notability_score": -1.572,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso / Final › Empate/1C",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso/Final › Empate/1C",
+        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
+      }
+    ]
+  },
   "GER-3A/-20260629": {
     "match_id": "GER-3A/-20260629",
     "home_team": "Germany",
@@ -2873,192 +3231,6 @@
         "has_ev": false,
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1F vs 2C › Descanso / Final › Empate/1F",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1F vs 2C › Descanso/Final › Empate/1F",
-        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
-      }
-    ]
-  },
-  "1C-2F-20260629": {
-    "match_id": "1C-2F-20260629",
-    "home_team": "1C",
-    "away_team": "2F",
-    "phase": "Round of 32",
-    "date": "2026-06-29",
-    "kickoff": "17:00",
-    "venue": "Houston",
-    "elo_home": 1500.0,
-    "elo_away": 1500.0,
-    "elo_advantage": 0.0,
-    "probs": {
-      "home_win": 0.3086,
-      "draw": 0.2563,
-      "away_win": 0.4351,
-      "over_0_5": 0.9337,
-      "over_1_5": 0.7593,
-      "over_2_5": 0.5152,
-      "over_3_5": 0.2939,
-      "btts": 0.5522,
-      "expected_goals_home": 1.2295,
-      "expected_goals_away": 1.5066
-    },
-    "top_scorelines": [
-      {
-        "score": "1-1",
-        "prob": 0.1215
-      },
-      {
-        "score": "0-1",
-        "prob": 0.0962
-      },
-      {
-        "score": "1-2",
-        "prob": 0.0905
-      },
-      {
-        "score": "1-0",
-        "prob": 0.0782
-      },
-      {
-        "score": "2-1",
-        "prob": 0.0738
-      },
-      {
-        "score": "0-2",
-        "prob": 0.0736
-      },
-      {
-        "score": "0-0",
-        "prob": 0.0663
-      },
-      {
-        "score": "2-2",
-        "prob": 0.0556
-      }
-    ],
-    "high_prob_events": [
-      {
-        "event": "Ambos equipos marcan",
-        "prob": 0.5522
-      },
-      {
-        "event": "Más de 1 gol",
-        "prob": 0.7593
-      },
-      {
-        "event": "Más de 2 goles",
-        "prob": 0.5152
-      },
-      {
-        "event": "Al menos 1 gol en cada tiempo",
-        "prob": 0.672
-      }
-    ],
-    "asian_handicap": {},
-    "asian_total": {},
-    "goal_ranges": [],
-    "value_bets": [],
-    "has_value_bet": false,
-    "confidence": "low",
-    "gemini_analysis": null,
-    "odds_updated_at": null,
-    "is_upcoming": false,
-    "top_scorers": {
-      "home": [],
-      "away": []
-    },
-    "smart_picks": [
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.0,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -3.176,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Hándicap Europeo › 1C -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Hándicap asiático › 1C -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 27%)"
-      },
-      {
-        "market_key": "score_2_0",
-        "label": "Marcador exacto 2-0",
-        "model_prob": 0.0,
-        "baseline_mean": 0.09,
-        "baseline_std": 0.035,
-        "notability_score": -2.571,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Marcador Exacto › 2-0",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Resultado correcto › 2-0",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
-      },
-      {
-        "market_key": "first_goal_away",
-        "label": "Equipo B marca primero",
-        "model_prob": 0.5149,
-        "baseline_mean": 0.34,
-        "baseline_std": 0.09,
-        "notability_score": 1.943,
-        "direction": "HIGH",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Equipo que marcará el 1er gol › 1C",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Primer equipo en marcar › 1C",
-        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: 1C 1.23 | 2F 1.51)"
-      },
-      {
-        "market_key": "home_clean_sheet",
-        "label": "Equipo A gana a cero",
-        "model_prob": 0.1568,
-        "baseline_mean": 0.31,
-        "baseline_std": 0.08,
-        "notability_score": -1.915,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Ganar a Cero › 1C",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Ganar a cero › 1C",
-        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
-      },
-      {
-        "market_key": "ht_draw_ft_win",
-        "label": "Empate 1ª parte, gana partido",
-        "model_prob": 0.0957,
-        "baseline_mean": 0.19,
-        "baseline_std": 0.06,
-        "notability_score": -1.572,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso / Final › Empate/1C",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso/Final › Empate/1C",
         "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
       }
     ]
