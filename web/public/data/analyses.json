@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de 2A, con 2B 0.0 puntos Elo por encima de 2A. Los goles esperados son 1.2295 para 2A y 1.5066 para 2B. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "El modelo, a pesar de la ventaja Elo de 0.0 puntos, proyecta a 2B como favorito claro con 1.5066 goles esperados frente a 1.2295 de 2A, lo que se traduce en una probabilidad de victoria del 43.5% para 2B. Sin información reciente sobre lesiones o la forma actual de los equipos, que podría desviar estas predicciones iniciales, el análisis se basa puramente en los datos históricos y de rendimiento. No se detecta valor en las cuotas de Bet365 o Winamax, lo que indica que el mercado está eficientemente valorado según las probabilidades del modelo. Por lo tanto, no hay un argumento matemático sólido para realizar ninguna apuesta en este encuentro.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -591,7 +591,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "high",
-    "gemini_analysis": "La enorme ventaja Elo de 494.9 puntos para Alemania la posiciona como un claro favorito, una situación que el modelo respalda con una probabilidad de victoria del 89.4% y 3.2582 goles esperados. A pesar de haber asegurado el primer puesto del Grupo E, Alemania sufrió la baja de su central Nico Schlotterbeck por una grave lesión de tobillo que lo deja fuera del torneo. Aunque esta ausencia es relevante, el modelo no detecta valor en las cuotas actuales, lo que sugiere que el mercado ya ha descontado la alta probabilidad de victoria alemana y cualquier factor adicional. Consecuentemente, no hay argumento matemático para realizar una apuesta en este encuentro.",
+    "gemini_analysis": "La ventaja Elo de Alemania de casi 500 puntos sobre el rival 3A/B/C/D/F es considerable y justifica plenamente las altas probabilidades de victoria del modelo, que le otorgan un 89.4%. Aunque la baja del defensa central clave Nico Schlotterbeck por lesión es un golpe, el seleccionador Julian Nagelsmann cuenta con alternativas sólidas como Jonathan Tah o Antonio Rüdiger, lo que mitiga el impacto negativo en un partido donde Alemania sigue siendo claramente superior. El modelo no detecta valor en las cuotas actuales de Bet365 y Winamax en ningún mercado, lo que indica que el mercado está valorando correctamente la gran disparidad de fuerza entre ambos equipos. Por lo tanto, no existe un argumento matemático para realizar una apuesta en este encuentro.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -949,7 +949,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La igualdad de 0.0 puntos Elo entre 1F y 2C sugiere un enfrentamiento teórico muy parejo en cuanto a la fuerza de ambos equipos. Sin embargo, el modelo de goles esperados otorga una ventaja a 2C con 1.5066 xG frente a los 1.2295 xG de 1F, lo que se traduce en una probabilidad de victoria del 43.5% para 2C. A pesar de esta inclinación del modelo, no se detectan value bets en ningún mercado, lo que indica que las cuotas actuales están bien ajustadas a las probabilidades calculadas. Por lo tanto, no hay un argumento matemático para apostar en este partido según el modelo, ya que el EV en todos los mercados es inferior al 5%.",
+    "gemini_analysis": "A pesar de tener un rating Elo idéntico de 1500.0, el modelo asigna una ventaja ofensiva clara al equipo 2C con 1.5066 goles esperados frente a 1.2295 de 1F, lo que se traduce en una probabilidad de victoria del 43.5% para 2C. No se puede incorporar información sobre lesiones o estado de forma reciente al carecer de identificadores de equipo específicos, lo que limita una evaluación más profunda de factores externos. Sin embargo, con base en los datos numéricos disponibles, el modelo no detecta valor en ninguna de las cuotas actuales, indicando que el mercado está bien ajustado a las probabilidades calculadas y no ofrece argumentos matemáticos para apostar.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1307,7 +1307,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La diferencia de Elo de 0.0 puntos indica una paridad histórica entre 1C y 2F; sin embargo, el modelo de Dixon-Coles Poisson bivariante otorga a 2F una ventaja significativa, proyectando 1.5066 goles esperados frente a 1.2295 de 1C y una probabilidad de victoria del 43.5% para 2F, lo que sugiere una disparidad en el rendimiento actual o un factor subyacente detectado por el modelo. Aunque hay reportes generales de lesiones clave y suspensiones en la Copa del Mundo 2026, como la baja de Nico Schlotterbeck para Alemania o las dudas con Nico Williams y Yéremy Pino en España, no podemos vincular estas noticias a los equipos genéricos 1C y 2F. Dado que el modelo no detecta valor en las cuotas actuales, con un EV inferior al 5% en todos los mercados, se concluye que las cuotas de Bet365 y Winamax están bien valoradas y reflejan de manera eficiente las probabilidades calculadas. Por lo tanto, no existe un argumento matemático para realizar una apuesta en este partido.",
+    "gemini_analysis": "A pesar de una diferencia Elo nula entre 1C (Brasil) y 2F (Japón), el modelo anticipa un ligero favoritismo para Japón con un xG de 1.5066 frente al 1.2295 de Brasil, lo que se traduce en una probabilidad de victoria del 43.5% para Japón contra el 30.9% para Brasil. La baja confirmada de Raphinha por lesión en el isquiotibial para Brasil y las previas de Mitoma y Minamino para Japón, aunque menos recientes, impactan el potencial ofensivo de ambos, justificando la proyección de un partido equilibrado pero con una ligera inclinación hacia el equipo asiático por el modelo. Dado que el modelo no detecta ningún value bet con un EV superior al 5% en los mercados de Bet365 y Winamax, las cuotas están eficientemente valoradas en este momento. Por lo tanto, no existe un argumento matemático sólido para realizar una apuesta en este encuentro.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1427,6 +1427,364 @@
         "has_ev": false,
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso / Final › Empate/1C",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1C vs 2F › Descanso/Final › Empate/1C",
+        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
+      }
+    ]
+  },
+  "2E-2I-20260630": {
+    "match_id": "2E-2I-20260630",
+    "home_team": "2E",
+    "away_team": "2I",
+    "phase": "Round of 32",
+    "date": "2026-06-30",
+    "kickoff": "17:00",
+    "venue": "Dallas (Arlington)",
+    "elo_home": 1500.0,
+    "elo_away": 1500.0,
+    "elo_advantage": 0.0,
+    "probs": {
+      "home_win": 0.3086,
+      "draw": 0.2563,
+      "away_win": 0.4351,
+      "over_0_5": 0.9337,
+      "over_1_5": 0.7593,
+      "over_2_5": 0.5152,
+      "over_3_5": 0.2939,
+      "btts": 0.5522,
+      "expected_goals_home": 1.2295,
+      "expected_goals_away": 1.5066
+    },
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.1215
+      },
+      {
+        "score": "0-1",
+        "prob": 0.0962
+      },
+      {
+        "score": "1-2",
+        "prob": 0.0905
+      },
+      {
+        "score": "1-0",
+        "prob": 0.0782
+      },
+      {
+        "score": "2-1",
+        "prob": 0.0738
+      },
+      {
+        "score": "0-2",
+        "prob": 0.0736
+      },
+      {
+        "score": "0-0",
+        "prob": 0.0663
+      },
+      {
+        "score": "2-2",
+        "prob": 0.0556
+      }
+    ],
+    "high_prob_events": [
+      {
+        "event": "Ambos equipos marcan",
+        "prob": 0.5522
+      },
+      {
+        "event": "Más de 1 gol",
+        "prob": 0.7593
+      },
+      {
+        "event": "Más de 2 goles",
+        "prob": 0.5152
+      },
+      {
+        "event": "Al menos 1 gol en cada tiempo",
+        "prob": 0.672
+      }
+    ],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8701,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.7807,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.1787,
+        "prob_away_covers": 0.6914,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.2192,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.5632,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.4368,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.3254,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.2193,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6746,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7842,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7593,
+        "prob_push": 0.0,
+        "prob_under": 0.2407,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5152,
+        "prob_push": 0.2441,
+        "prob_under": 0.2407,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5152,
+        "prob_push": 0.0,
+        "prob_under": 0.4848,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2939,
+        "prob_push": 0.2213,
+        "prob_under": 0.4848,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2939,
+        "prob_push": 0.0,
+        "prob_under": 0.7061,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1425,
+        "prob_push": 0.1514,
+        "prob_under": 0.7061,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2407
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4654
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2342
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0596
+      }
+    ],
+    "value_bets": [],
+    "has_value_bet": false,
+    "confidence": "low",
+    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de 2E, con 2I 0.0 puntos Elo por encima de 2E. Los goles esperados son 1.2295 para 2E y 1.5066 para 2I. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "odds_updated_at": null,
+    "is_upcoming": true,
+    "top_scorers": {
+      "home": [],
+      "away": []
+    },
+    "smart_picks": [
+      {
+        "market_key": "corners_over_8_5",
+        "label": "Más de 8.5 córners",
+        "model_prob": 0.0856,
+        "baseline_mean": 0.52,
+        "baseline_std": 0.105,
+        "notability_score": -4.137,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Córners › Total Más de 8.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Saques de esquina › Total córners › Más de 8.5",
+        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
+      },
+      {
+        "market_key": "score_2_0",
+        "label": "Marcador exacto 2-0",
+        "model_prob": 0.0,
+        "baseline_mean": 0.09,
+        "baseline_std": 0.035,
+        "notability_score": -2.571,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Marcador Exacto › 2-0",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Resultado correcto › 2-0",
+        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
+      },
+      {
+        "market_key": "first_goal_away",
+        "label": "Equipo B marca primero",
+        "model_prob": 0.5149,
+        "baseline_mean": 0.34,
+        "baseline_std": 0.09,
+        "notability_score": 1.943,
+        "direction": "HIGH",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Equipo que marcará el 1er gol › 2E",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Primer equipo en marcar › 2E",
+        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: 2E 1.23 | 2I 1.51)"
+      },
+      {
+        "market_key": "home_clean_sheet",
+        "label": "Equipo A gana a cero",
+        "model_prob": 0.1568,
+        "baseline_mean": 0.31,
+        "baseline_std": 0.08,
+        "notability_score": -1.915,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Ganar a Cero › 2E",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Ganar a cero › 2E",
+        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
+      },
+      {
+        "market_key": "ah_home_minus_1_5",
+        "label": "Hándicap Asiático local -1.5",
+        "model_prob": 0.1299,
+        "baseline_mean": 0.27,
+        "baseline_std": 0.085,
+        "notability_score": -1.648,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Hándicap Europeo › 2E -1.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Hándicap asiático › 2E -1.5",
+        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
+      },
+      {
+        "market_key": "ht_draw_ft_win",
+        "label": "Empate 1ª parte, gana partido",
+        "model_prob": 0.0957,
+        "baseline_mean": 0.19,
+        "baseline_std": 0.06,
+        "notability_score": -1.572,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Descanso / Final › Empate/2E",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Descanso/Final › Empate/2E",
         "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
       }
     ]
@@ -1613,192 +1971,6 @@
         "has_ev": false,
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 1I vs 3C/D/F/G/H › Descanso / Final › Empate/1I",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 1I vs 3C/D/F/G/H › Descanso/Final › Empate/1I",
-        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
-      }
-    ]
-  },
-  "2E-2I-20260630": {
-    "match_id": "2E-2I-20260630",
-    "home_team": "2E",
-    "away_team": "2I",
-    "phase": "Round of 32",
-    "date": "2026-06-30",
-    "kickoff": "17:00",
-    "venue": "Dallas (Arlington)",
-    "elo_home": 1500.0,
-    "elo_away": 1500.0,
-    "elo_advantage": 0.0,
-    "probs": {
-      "home_win": 0.3086,
-      "draw": 0.2563,
-      "away_win": 0.4351,
-      "over_0_5": 0.9337,
-      "over_1_5": 0.7593,
-      "over_2_5": 0.5152,
-      "over_3_5": 0.2939,
-      "btts": 0.5522,
-      "expected_goals_home": 1.2295,
-      "expected_goals_away": 1.5066
-    },
-    "top_scorelines": [
-      {
-        "score": "1-1",
-        "prob": 0.1215
-      },
-      {
-        "score": "0-1",
-        "prob": 0.0962
-      },
-      {
-        "score": "1-2",
-        "prob": 0.0905
-      },
-      {
-        "score": "1-0",
-        "prob": 0.0782
-      },
-      {
-        "score": "2-1",
-        "prob": 0.0738
-      },
-      {
-        "score": "0-2",
-        "prob": 0.0736
-      },
-      {
-        "score": "0-0",
-        "prob": 0.0663
-      },
-      {
-        "score": "2-2",
-        "prob": 0.0556
-      }
-    ],
-    "high_prob_events": [
-      {
-        "event": "Ambos equipos marcan",
-        "prob": 0.5522
-      },
-      {
-        "event": "Más de 1 gol",
-        "prob": 0.7593
-      },
-      {
-        "event": "Más de 2 goles",
-        "prob": 0.5152
-      },
-      {
-        "event": "Al menos 1 gol en cada tiempo",
-        "prob": 0.672
-      }
-    ],
-    "asian_handicap": {},
-    "asian_total": {},
-    "goal_ranges": [],
-    "value_bets": [],
-    "has_value_bet": false,
-    "confidence": "low",
-    "gemini_analysis": null,
-    "odds_updated_at": null,
-    "is_upcoming": false,
-    "top_scorers": {
-      "home": [],
-      "away": []
-    },
-    "smart_picks": [
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.0,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -3.176,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Hándicap Europeo › 2E -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Hándicap asiático › 2E -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 27%)"
-      },
-      {
-        "market_key": "score_2_0",
-        "label": "Marcador exacto 2-0",
-        "model_prob": 0.0,
-        "baseline_mean": 0.09,
-        "baseline_std": 0.035,
-        "notability_score": -2.571,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Marcador Exacto › 2-0",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Resultado correcto › 2-0",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
-      },
-      {
-        "market_key": "first_goal_away",
-        "label": "Equipo B marca primero",
-        "model_prob": 0.5149,
-        "baseline_mean": 0.34,
-        "baseline_std": 0.09,
-        "notability_score": 1.943,
-        "direction": "HIGH",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Equipo que marcará el 1er gol › 2E",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Primer equipo en marcar › 2E",
-        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: 2E 1.23 | 2I 1.51)"
-      },
-      {
-        "market_key": "home_clean_sheet",
-        "label": "Equipo A gana a cero",
-        "model_prob": 0.1568,
-        "baseline_mean": 0.31,
-        "baseline_std": 0.08,
-        "notability_score": -1.915,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Ganar a Cero › 2E",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Ganar a cero › 2E",
-        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
-      },
-      {
-        "market_key": "ht_draw_ft_win",
-        "label": "Empate 1ª parte, gana partido",
-        "model_prob": 0.0957,
-        "baseline_mean": 0.19,
-        "baseline_std": 0.06,
-        "notability_score": -1.572,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Descanso / Final › Empate/2E",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › 2E vs 2I › Descanso/Final › Empate/2E",
         "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
       }
     ]
