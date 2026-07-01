@@ -1,21 +1,5 @@
 [
   {
-    "id": "MEX-3C/-20260630",
-    "phase": "Round of 32",
-    "date": "2026-06-30",
-    "kickoff": "01:00",
-    "home_team": "Mexico",
-    "away_team": "3C/E/F/H/I",
-    "venue": "Mexico City",
-    "has_value_bet": false,
-    "confidence": "high",
-    "prob_home": 0.851,
-    "prob_draw": 0.1062,
-    "prob_away": 0.0428,
-    "is_upcoming": true,
-    "updated_at": "2026-06-30T21:18:02Z"
-  },
-  {
     "id": "USA-3B/-20260701",
     "phase": "Round of 32",
     "date": "2026-07-01",
@@ -29,23 +13,7 @@
     "prob_draw": 0.126,
     "prob_away": 0.0566,
     "is_upcoming": true,
-    "updated_at": "2026-06-30T21:18:02Z"
-  },
-  {
-    "id": "1L-3E/-20260701",
-    "phase": "Round of 32",
-    "date": "2026-07-01",
-    "kickoff": "16:00",
-    "home_team": "1L",
-    "away_team": "3E/H/I/J/K",
-    "venue": "Atlanta",
-    "has_value_bet": false,
-    "confidence": "low",
-    "prob_home": 0.3086,
-    "prob_draw": 0.2563,
-    "prob_away": 0.4351,
-    "is_upcoming": true,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "1G-3A/-20260701",
@@ -61,7 +29,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "1B-3E/-20260702",
@@ -76,8 +44,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "is_upcoming": true,
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "1H-2J-20260702",
@@ -93,7 +61,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "2K-2L-20260702",
@@ -108,8 +76,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "is_upcoming": true,
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "1K-3D/-20260703",
@@ -125,7 +93,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "2D-2G-20260703",
@@ -141,7 +109,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "1J-2H-20260703",
@@ -157,7 +125,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W73-W75-20260704",
@@ -173,7 +141,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W74-W77-20260704",
@@ -189,7 +157,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W79-W80-20260705",
@@ -205,7 +173,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W76-W78-20260705",
@@ -221,7 +189,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W81-W82-20260706",
@@ -237,7 +205,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W83-W84-20260706",
@@ -253,7 +221,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W86-W88-20260707",
@@ -269,7 +237,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W85-W87-20260707",
@@ -285,7 +253,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W89-W90-20260709",
@@ -301,7 +269,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W93-W94-20260710",
@@ -317,7 +285,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W95-W96-20260711",
@@ -333,7 +301,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W91-W92-20260711",
@@ -349,7 +317,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W97-W98-20260714",
@@ -365,7 +333,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W99-W10-20260715",
@@ -381,7 +349,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "L10-L10-20260718",
@@ -397,7 +365,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -413,6 +381,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-06-30T21:18:02Z"
+    "updated_at": "2026-07-01T16:11:50Z"
   }
 ]
