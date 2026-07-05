@@ -13,7 +13,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W76-W78-20260705",
@@ -29,7 +29,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W81-W82-20260706",
@@ -45,7 +45,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W83-W84-20260706",
@@ -61,7 +61,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W86-W88-20260707",
@@ -76,8 +76,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "is_upcoming": true,
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W85-W87-20260707",
@@ -93,7 +93,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W89-W90-20260709",
@@ -109,7 +109,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W93-W94-20260710",
@@ -125,7 +125,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W95-W96-20260711",
@@ -141,7 +141,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W91-W92-20260711",
@@ -157,7 +157,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W97-W98-20260714",
@@ -173,7 +173,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W99-W10-20260715",
@@ -189,7 +189,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "L10-L10-20260718",
@@ -205,7 +205,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -221,6 +221,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-05T12:04:51Z"
+    "updated_at": "2026-07-05T18:42:26Z"
   }
 ]
