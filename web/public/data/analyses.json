@@ -1,720 +1,4 @@
 {
-  "W76-W78-20260705": {
-    "match_id": "W76-W78-20260705",
-    "home_team": "W76",
-    "away_team": "W78",
-    "phase": "Round of 16",
-    "date": "2026-07-05",
-    "kickoff": "20:00",
-    "venue": "New York/New Jersey (East Rutherford)",
-    "elo_home": 1500.0,
-    "elo_away": 1500.0,
-    "elo_advantage": 0.0,
-    "probs": {
-      "home_win": 0.3086,
-      "draw": 0.2563,
-      "away_win": 0.4351,
-      "over_0_5": 0.9337,
-      "over_1_5": 0.7593,
-      "over_2_5": 0.5152,
-      "over_3_5": 0.2939,
-      "btts": 0.5522,
-      "expected_goals_home": 1.2295,
-      "expected_goals_away": 1.5066
-    },
-    "top_scorelines": [
-      {
-        "score": "1-1",
-        "prob": 0.1215
-      },
-      {
-        "score": "0-1",
-        "prob": 0.0962
-      },
-      {
-        "score": "1-2",
-        "prob": 0.0905
-      },
-      {
-        "score": "1-0",
-        "prob": 0.0782
-      },
-      {
-        "score": "2-1",
-        "prob": 0.0738
-      },
-      {
-        "score": "0-2",
-        "prob": 0.0736
-      },
-      {
-        "score": "0-0",
-        "prob": 0.0663
-      },
-      {
-        "score": "2-2",
-        "prob": 0.0556
-      }
-    ],
-    "high_prob_events": [
-      {
-        "event": "Ambos equipos marcan",
-        "prob": 0.5522
-      },
-      {
-        "event": "Más de 1 gol",
-        "prob": 0.7593
-      },
-      {
-        "event": "Más de 2 goles",
-        "prob": 0.5152
-      },
-      {
-        "event": "Al menos 1 gol en cada tiempo",
-        "prob": 0.672
-      }
-    ],
-    "asian_handicap": {
-      "-1.5": {
-        "handicap": -1.5,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.8701,
-        "description": "AH -1.5: Local necesita ganar por 3+ goles"
-      },
-      "-1.25": {
-        "handicap": -1.25,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.0894,
-        "prob_away_covers": 0.7807,
-        "description": "AH -1.25 (split: -1.5/-1.0)"
-      },
-      "-1.0": {
-        "handicap": -1.0,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.1787,
-        "prob_away_covers": 0.6914,
-        "description": "AH -1.0: Local necesita ganar por 2+ goles"
-      },
-      "-0.75": {
-        "handicap": -0.75,
-        "prob_home_covers": 0.2192,
-        "prob_push": 0.0894,
-        "prob_away_covers": 0.6914,
-        "description": "AH -0.75 (split: -1.0/-0.5)"
-      },
-      "-0.5": {
-        "handicap": -0.5,
-        "prob_home_covers": 0.3086,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.6914,
-        "description": "AH -0.5: Local necesita ganar por 1+ goles"
-      },
-      "-0.25": {
-        "handicap": -0.25,
-        "prob_home_covers": 0.3086,
-        "prob_push": 0.1281,
-        "prob_away_covers": 0.5632,
-        "description": "AH -0.25 (split: -0.5/+0.0)"
-      },
-      "0.25": {
-        "handicap": 0.25,
-        "prob_home_covers": 0.4368,
-        "prob_push": 0.1281,
-        "prob_away_covers": 0.4351,
-        "description": "AH +0.25 (split: +0.0/+0.5)"
-      },
-      "0.5": {
-        "handicap": 0.5,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.4351,
-        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
-      },
-      "0.75": {
-        "handicap": 0.75,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.1096,
-        "prob_away_covers": 0.3254,
-        "description": "AH +0.75 (split: +0.5/+1.0)"
-      },
-      "1.0": {
-        "handicap": 1.0,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.2193,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
-      },
-      "1.25": {
-        "handicap": 1.25,
-        "prob_home_covers": 0.6746,
-        "prob_push": 0.1096,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.25 (split: +1.0/+1.5)"
-      },
-      "1.5": {
-        "handicap": 1.5,
-        "prob_home_covers": 0.7842,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
-      }
-    },
-    "asian_total": {
-      "1.5": {
-        "line": 1.5,
-        "prob_over": 0.7593,
-        "prob_push": 0.0,
-        "prob_under": 0.2407,
-        "is_asian": false
-      },
-      "2.0": {
-        "line": 2.0,
-        "prob_over": 0.5152,
-        "prob_push": 0.2441,
-        "prob_under": 0.2407,
-        "is_asian": true
-      },
-      "2.5": {
-        "line": 2.5,
-        "prob_over": 0.5152,
-        "prob_push": 0.0,
-        "prob_under": 0.4848,
-        "is_asian": false
-      },
-      "3.0": {
-        "line": 3.0,
-        "prob_over": 0.2939,
-        "prob_push": 0.2213,
-        "prob_under": 0.4848,
-        "is_asian": true
-      },
-      "3.5": {
-        "line": 3.5,
-        "prob_over": 0.2939,
-        "prob_push": 0.0,
-        "prob_under": 0.7061,
-        "is_asian": false
-      },
-      "4.0": {
-        "line": 4.0,
-        "prob_over": 0.1425,
-        "prob_push": 0.1514,
-        "prob_under": 0.7061,
-        "is_asian": true
-      }
-    },
-    "goal_ranges": [
-      {
-        "label": "0-1",
-        "min_goals": 0,
-        "max_goals": 1,
-        "prob": 0.2407
-      },
-      {
-        "label": "2-3",
-        "min_goals": 2,
-        "max_goals": 3,
-        "prob": 0.4654
-      },
-      {
-        "label": "4-5",
-        "min_goals": 4,
-        "max_goals": 5,
-        "prob": 0.2342
-      },
-      {
-        "label": "6+",
-        "min_goals": 6,
-        "max_goals": null,
-        "prob": 0.0596
-      }
-    ],
-    "value_bets": [],
-    "has_value_bet": false,
-    "confidence": "low",
-    "gemini_analysis": "The Elo ratings being identical at 1500.0 indicate the model perceives both W76 and W78 as having equal underlying strength. However, the xG values show a clear advantage for W78 (1.5066 vs 1.2295), suggesting they are expected to create more scoring opportunities, which translates to a higher win probability of 43.5% for W78 compared to W76's 30.9% and a 25.6% chance of a draw. While recent news sources confirm this Round of 16 match is scheduled for July 5, 2026, there is no specific information available regarding current injuries, suspensions, or recent form for either W76 or W78 that would contradict these model predictions, as the search results provided general match details and broad injury reports for other sports or past events. Given the model's explicit finding of \"Ninguno detectado (EV < 5% en todos los mercados),\" y la ausencia de información externa que altere significativamente el balance, no hay argumento matemático para realizar una apuesta en este encuentro. El mercado parece estar correctamente valorado por las casas de apuestas en función de las probabilidades implícitas del modelo.El Elo idéntico en 1500.0 para W76 y W78 sugiere una paridad inicial de fuerza, pero los goles esperados (xG) de 1.5066 para W78 frente a 1.2295 para W76 indican que W78 tiene una ventaja esperada en la generación de oportunidades de gol. Esto se refleja en las probabilidades del modelo, que otorgan a W78 un 43.5% de victoria, significativamente mayor que el 30.9% de W76. A pesar de la confirmación del partido de octavos de final para el 5 de julio de 2026, no se ha encontrado información reciente sobre lesiones clave, suspensiones o estados de forma específicos de ambos equipos que pudieran alterar sustancialmente estas proyecciones del modelo. Con un Valor Esperado (EV) inferior al 5% en todos los mercados, el modelo no detecta argumentos matemáticos para realizar apuestas en este partido, indicando que las cuotas actuales están eficientemente valoradas.",
-    "odds_updated_at": null,
-    "is_upcoming": true,
-    "top_scorers": {
-      "home": [],
-      "away": []
-    },
-    "smart_picks": [
-      {
-        "market_key": "corners_over_8_5",
-        "label": "Más de 8.5 córners",
-        "model_prob": 0.0856,
-        "baseline_mean": 0.52,
-        "baseline_std": 0.105,
-        "notability_score": -4.137,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Córners › Total Más de 8.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Saques de esquina › Total córners › Más de 8.5",
-        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
-      },
-      {
-        "market_key": "score_2_0",
-        "label": "Marcador exacto 2-0",
-        "model_prob": 0.0,
-        "baseline_mean": 0.09,
-        "baseline_std": 0.035,
-        "notability_score": -2.571,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Marcador Exacto › 2-0",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Resultado correcto › 2-0",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
-      },
-      {
-        "market_key": "first_goal_away",
-        "label": "Equipo B marca primero",
-        "model_prob": 0.5149,
-        "baseline_mean": 0.34,
-        "baseline_std": 0.09,
-        "notability_score": 1.943,
-        "direction": "HIGH",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Equipo que marcará el 1er gol › W76",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Primer equipo en marcar › W76",
-        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: W76 1.23 | W78 1.51)"
-      },
-      {
-        "market_key": "home_clean_sheet",
-        "label": "Equipo A gana a cero",
-        "model_prob": 0.1568,
-        "baseline_mean": 0.31,
-        "baseline_std": 0.08,
-        "notability_score": -1.915,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Ganar a Cero › W76",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Ganar a cero › W76",
-        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
-      },
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.1299,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -1.648,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Hándicap Europeo › W76 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Hándicap asiático › W76 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
-      },
-      {
-        "market_key": "ht_draw_ft_win",
-        "label": "Empate 1ª parte, gana partido",
-        "model_prob": 0.0957,
-        "baseline_mean": 0.19,
-        "baseline_std": 0.06,
-        "notability_score": -1.572,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Descanso / Final › Empate/W76",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W76 vs W78 › Descanso/Final › Empate/W76",
-        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
-      }
-    ]
-  },
-  "W79-W80-20260705": {
-    "match_id": "W79-W80-20260705",
-    "home_team": "W79",
-    "away_team": "W80",
-    "phase": "Round of 16",
-    "date": "2026-07-05",
-    "kickoff": "00:00",
-    "venue": "Mexico City",
-    "elo_home": 1500.0,
-    "elo_away": 1500.0,
-    "elo_advantage": 0.0,
-    "probs": {
-      "home_win": 0.3086,
-      "draw": 0.2563,
-      "away_win": 0.4351,
-      "over_0_5": 0.9337,
-      "over_1_5": 0.7593,
-      "over_2_5": 0.5152,
-      "over_3_5": 0.2939,
-      "btts": 0.5522,
-      "expected_goals_home": 1.2295,
-      "expected_goals_away": 1.5066
-    },
-    "top_scorelines": [
-      {
-        "score": "1-1",
-        "prob": 0.1215
-      },
-      {
-        "score": "0-1",
-        "prob": 0.0962
-      },
-      {
-        "score": "1-2",
-        "prob": 0.0905
-      },
-      {
-        "score": "1-0",
-        "prob": 0.0782
-      },
-      {
-        "score": "2-1",
-        "prob": 0.0738
-      },
-      {
-        "score": "0-2",
-        "prob": 0.0736
-      },
-      {
-        "score": "0-0",
-        "prob": 0.0663
-      },
-      {
-        "score": "2-2",
-        "prob": 0.0556
-      }
-    ],
-    "high_prob_events": [
-      {
-        "event": "Ambos equipos marcan",
-        "prob": 0.5522
-      },
-      {
-        "event": "Más de 1 gol",
-        "prob": 0.7593
-      },
-      {
-        "event": "Más de 2 goles",
-        "prob": 0.5152
-      },
-      {
-        "event": "Al menos 1 gol en cada tiempo",
-        "prob": 0.672
-      }
-    ],
-    "asian_handicap": {
-      "-1.5": {
-        "handicap": -1.5,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.8701,
-        "description": "AH -1.5: Local necesita ganar por 3+ goles"
-      },
-      "-1.25": {
-        "handicap": -1.25,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.0894,
-        "prob_away_covers": 0.7807,
-        "description": "AH -1.25 (split: -1.5/-1.0)"
-      },
-      "-1.0": {
-        "handicap": -1.0,
-        "prob_home_covers": 0.1299,
-        "prob_push": 0.1787,
-        "prob_away_covers": 0.6914,
-        "description": "AH -1.0: Local necesita ganar por 2+ goles"
-      },
-      "-0.75": {
-        "handicap": -0.75,
-        "prob_home_covers": 0.2192,
-        "prob_push": 0.0894,
-        "prob_away_covers": 0.6914,
-        "description": "AH -0.75 (split: -1.0/-0.5)"
-      },
-      "-0.5": {
-        "handicap": -0.5,
-        "prob_home_covers": 0.3086,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.6914,
-        "description": "AH -0.5: Local necesita ganar por 1+ goles"
-      },
-      "-0.25": {
-        "handicap": -0.25,
-        "prob_home_covers": 0.3086,
-        "prob_push": 0.1281,
-        "prob_away_covers": 0.5632,
-        "description": "AH -0.25 (split: -0.5/+0.0)"
-      },
-      "0.25": {
-        "handicap": 0.25,
-        "prob_home_covers": 0.4368,
-        "prob_push": 0.1281,
-        "prob_away_covers": 0.4351,
-        "description": "AH +0.25 (split: +0.0/+0.5)"
-      },
-      "0.5": {
-        "handicap": 0.5,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.4351,
-        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
-      },
-      "0.75": {
-        "handicap": 0.75,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.1096,
-        "prob_away_covers": 0.3254,
-        "description": "AH +0.75 (split: +0.5/+1.0)"
-      },
-      "1.0": {
-        "handicap": 1.0,
-        "prob_home_covers": 0.5649,
-        "prob_push": 0.2193,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
-      },
-      "1.25": {
-        "handicap": 1.25,
-        "prob_home_covers": 0.6746,
-        "prob_push": 0.1096,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.25 (split: +1.0/+1.5)"
-      },
-      "1.5": {
-        "handicap": 1.5,
-        "prob_home_covers": 0.7842,
-        "prob_push": 0.0,
-        "prob_away_covers": 0.2158,
-        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
-      }
-    },
-    "asian_total": {
-      "1.5": {
-        "line": 1.5,
-        "prob_over": 0.7593,
-        "prob_push": 0.0,
-        "prob_under": 0.2407,
-        "is_asian": false
-      },
-      "2.0": {
-        "line": 2.0,
-        "prob_over": 0.5152,
-        "prob_push": 0.2441,
-        "prob_under": 0.2407,
-        "is_asian": true
-      },
-      "2.5": {
-        "line": 2.5,
-        "prob_over": 0.5152,
-        "prob_push": 0.0,
-        "prob_under": 0.4848,
-        "is_asian": false
-      },
-      "3.0": {
-        "line": 3.0,
-        "prob_over": 0.2939,
-        "prob_push": 0.2213,
-        "prob_under": 0.4848,
-        "is_asian": true
-      },
-      "3.5": {
-        "line": 3.5,
-        "prob_over": 0.2939,
-        "prob_push": 0.0,
-        "prob_under": 0.7061,
-        "is_asian": false
-      },
-      "4.0": {
-        "line": 4.0,
-        "prob_over": 0.1425,
-        "prob_push": 0.1514,
-        "prob_under": 0.7061,
-        "is_asian": true
-      }
-    },
-    "goal_ranges": [
-      {
-        "label": "0-1",
-        "min_goals": 0,
-        "max_goals": 1,
-        "prob": 0.2407
-      },
-      {
-        "label": "2-3",
-        "min_goals": 2,
-        "max_goals": 3,
-        "prob": 0.4654
-      },
-      {
-        "label": "4-5",
-        "min_goals": 4,
-        "max_goals": 5,
-        "prob": 0.2342
-      },
-      {
-        "label": "6+",
-        "min_goals": 6,
-        "max_goals": null,
-        "prob": 0.0596
-      }
-    ],
-    "value_bets": [],
-    "has_value_bet": false,
-    "confidence": "low",
-    "gemini_analysis": "Dado que los equipos W79 y W80 son identificadores genéricos, no se ha podido recabar información específica sobre lesiones, suspensiones o la forma reciente de ningún equipo en particular. El modelo indica que, a pesar de la igualdad en los ratings Elo (ambos en 1500.0), W80 es el favorito con un 43.5% de probabilidad de victoria frente al 30.9% de W79, respaldado por un mayor número de goles esperados (1.5066 vs 1.2295). Sin embargo, al no detectarse value bets con un EV superior al 5% en ningún mercado, el modelo sugiere que las cuotas actuales ya están ajustadas a estas probabilidades. Por lo tanto, no hay argumento matemático para realizar una apuesta en este encuentro según los datos disponibles.",
-    "odds_updated_at": null,
-    "is_upcoming": true,
-    "top_scorers": {
-      "home": [],
-      "away": []
-    },
-    "smart_picks": [
-      {
-        "market_key": "corners_over_8_5",
-        "label": "Más de 8.5 córners",
-        "model_prob": 0.0856,
-        "baseline_mean": 0.52,
-        "baseline_std": 0.105,
-        "notability_score": -4.137,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Córners › Total Más de 8.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Saques de esquina › Total córners › Más de 8.5",
-        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
-      },
-      {
-        "market_key": "score_2_0",
-        "label": "Marcador exacto 2-0",
-        "model_prob": 0.0,
-        "baseline_mean": 0.09,
-        "baseline_std": 0.035,
-        "notability_score": -2.571,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Marcador Exacto › 2-0",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Resultado correcto › 2-0",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
-      },
-      {
-        "market_key": "first_goal_away",
-        "label": "Equipo B marca primero",
-        "model_prob": 0.5149,
-        "baseline_mean": 0.34,
-        "baseline_std": 0.09,
-        "notability_score": 1.943,
-        "direction": "HIGH",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Equipo que marcará el 1er gol › W79",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Primer equipo en marcar › W79",
-        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: W79 1.23 | W80 1.51)"
-      },
-      {
-        "market_key": "home_clean_sheet",
-        "label": "Equipo A gana a cero",
-        "model_prob": 0.1568,
-        "baseline_mean": 0.31,
-        "baseline_std": 0.08,
-        "notability_score": -1.915,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Ganar a Cero › W79",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Ganar a cero › W79",
-        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
-      },
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.1299,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -1.648,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Hándicap Europeo › W79 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Hándicap asiático › W79 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
-      },
-      {
-        "market_key": "ht_draw_ft_win",
-        "label": "Empate 1ª parte, gana partido",
-        "model_prob": 0.0957,
-        "baseline_mean": 0.19,
-        "baseline_std": 0.06,
-        "notability_score": -1.572,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Descanso / Final › Empate/W79",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W79 vs W80 › Descanso/Final › Empate/W79",
-        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
-      }
-    ]
-  },
   "W83-W84-20260706": {
     "match_id": "W83-W84-20260706",
     "home_team": "W83",
@@ -949,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de W83, con W84 0.0 puntos Elo por encima de W83. Los goles esperados son 1.2295 para W83 y 1.5066 para W84. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "A pesar de la igualdad en los ratings Elo, el modelo proyecta una ligera ventaja para W84 con un 43.5% de probabilidad de victoria frente al 30.9% de W83, lo que sugiere que factores internos del modelo, como el ataque y la defensa, favorecen a W84 para generar más goles esperados (1.5066 vs 1.2295). No se ha encontrado información reciente sobre lesiones o suspensiones que puedan alterar significativamente estas proyecciones para W83 o W84. Dado que el modelo no detecta value bets con un EV superior al 5% en ningún mercado, las cuotas actuales de Bet365 y Winamax están consideradas como correctamente valoradas, sin ofrecer una oportunidad clara de apuesta matemática.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1307,7 +591,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de W81, con W82 0.0 puntos Elo por encima de W81. Los goles esperados son 1.2295 para W81 y 1.5066 para W82. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "El modelo Elo no detecta diferencia de calidad inicial entre W81 y W82, ambos con 1500 puntos, lo que sugiere que en condiciones normales partirían con igualdad. Sin embargo, los goles esperados indican una ligera ventaja ofensiva para W82 (1.5066 xG) sobre W81 (1.2295 xG), traduciéndose en una mayor probabilidad de victoria del 43.5% para W82 según nuestro cálculo. No se ha encontrado información específica sobre lesiones, suspensiones o la forma reciente de los equipos W81 y W82 que pueda alterar significativamente las probabilidades del modelo, debido a la naturaleza genérica de los nombres y la fecha futura del encuentro. Dada la inexistencia de value bets detectadas (EV < 5% en todos los mercados), concluimos que las cuotas de Bet365 y Winamax están bien ajustadas a las probabilidades del modelo. Por lo tanto, no hay un argumento matemático sólido para realizar apuestas en este partido en los mercados evaluados.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1665,7 +949,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "A pesar de un Elo idéntico de 1500.0 para ambos equipos, el modelo predice una victoria más probable para W88 (43.5%) con 1.5066 goles esperados, frente al 30.9% de W86 con 1.2295 xG, sugiriendo una ligera ventaja en el rendimiento esperado del partido para W88 que no se refleja en el Elo base. La ausencia de información específica sobre lesiones o suspensiones recientes para W86 y W88 impide una valoración adicional que pudiera justificar esta disparidad en los goles esperados. Con un valor esperado inferior al 5% en todos los mercados, el modelo no detecta valor en las cuotas actuales de Bet365 y Winamax, lo que indica que el mercado está eficientemente valorado para este encuentro. En consecuencia, no hay argumento matemático para realizar una apuesta en este partido.",
+    "gemini_analysis": "La diferencia de Elo entre W86 y W88 es nula, lo que indica un punto de partida matemáticamente equilibrado; sin embargo, el modelo asigna una ventaja clara a W88 con un 43.5% de probabilidad de victoria y un xG de 1.5066, frente al 30.9% y 1.2295 de W86. Debido a los nombres genéricos de los equipos (W86 y W88), no ha sido posible encontrar información específica sobre lesiones, suspensiones o la forma reciente que pueda influir en este análisis. Por tanto, el modelo no detecta valor en las cuotas actuales para este partido, ya que el EV es inferior al 5% en todos los mercados, sugiriendo que las casas de apuestas han valorado bien el encuentro según la información disponible.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -1864,27 +1148,180 @@
         "prob": 0.672
       }
     ],
-    "asian_handicap": {},
-    "asian_total": {},
-    "goal_ranges": [],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8701,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.7807,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.1787,
+        "prob_away_covers": 0.6914,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.2192,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.5632,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.4368,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.3254,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.2193,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6746,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7842,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7593,
+        "prob_push": 0.0,
+        "prob_under": 0.2407,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5152,
+        "prob_push": 0.2441,
+        "prob_under": 0.2407,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5152,
+        "prob_push": 0.0,
+        "prob_under": 0.4848,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2939,
+        "prob_push": 0.2213,
+        "prob_under": 0.4848,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2939,
+        "prob_push": 0.0,
+        "prob_under": 0.7061,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1425,
+        "prob_push": 0.1514,
+        "prob_under": 0.7061,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2407
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4654
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2342
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0596
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": null,
+    "gemini_analysis": "La paridad en los ratings Elo iniciales sugiere un enfrentamiento equilibrado, pero el modelo Dixon-Coles Poisson bivariante inclina la balanza hacia W87 con un 43.5% de probabilidad de victoria y un xG de 1.5066, lo que indica una mayor capacidad ofensiva esperada en comparación con W85. Analistas externos también posicionan a Colombia como favorita en el partido real que se disputa en esta sede (Suiza vs. Colombia), destacando su buen momento y calidad ofensiva sin reportes de lesiones o suspensiones significativas que alteren las expectativas. Sin embargo, dado que el Valor Esperado (EV) es inferior al 5% en todos los mercados, el modelo no encuentra argumentos matemáticos de valor en las cuotas actuales para este partido.",
     "odds_updated_at": null,
-    "is_upcoming": false,
+    "is_upcoming": true,
     "top_scorers": {
       "home": [],
       "away": []
     },
     "smart_picks": [
       {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.0,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -3.176,
+        "market_key": "corners_over_8_5",
+        "label": "Más de 8.5 córners",
+        "model_prob": 0.0856,
+        "baseline_mean": 0.52,
+        "baseline_std": 0.105,
+        "notability_score": -4.137,
         "direction": "LOW",
         "ev_bet365": null,
         "ev_winamax": null,
@@ -1893,9 +1330,9 @@
         "best_ev": null,
         "best_bookmaker": null,
         "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap Europeo › W85 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap asiático › W85 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 27%)"
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Córners › Total Más de 8.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Saques de esquina › Total córners › Más de 8.5",
+        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
       },
       {
         "market_key": "score_2_0",
@@ -1953,6 +1390,25 @@
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Ganar a Cero › W85",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Ganar a cero › W85",
         "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
+      },
+      {
+        "market_key": "ah_home_minus_1_5",
+        "label": "Hándicap Asiático local -1.5",
+        "model_prob": 0.1299,
+        "baseline_mean": 0.27,
+        "baseline_std": 0.085,
+        "notability_score": -1.648,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap Europeo › W85 -1.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap asiático › W85 -1.5",
+        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
       },
       {
         "market_key": "ht_draw_ft_win",
