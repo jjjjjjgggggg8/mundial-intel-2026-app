@@ -1,21 +1,5 @@
 [
   {
-    "id": "W85-W87-20260707",
-    "phase": "Round of 16",
-    "date": "2026-07-07",
-    "kickoff": "20:00",
-    "home_team": "W85",
-    "away_team": "W87",
-    "venue": "Vancouver",
-    "has_value_bet": false,
-    "confidence": "low",
-    "prob_home": 0.3086,
-    "prob_draw": 0.2563,
-    "prob_away": 0.4351,
-    "is_upcoming": true,
-    "updated_at": "2026-07-07T16:13:18Z"
-  },
-  {
     "id": "W89-W90-20260709",
     "phase": "Quarter-final",
     "date": "2026-07-09",
@@ -28,8 +12,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "is_upcoming": true,
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W93-W94-20260710",
@@ -45,7 +29,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W95-W96-20260711",
@@ -61,7 +45,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W91-W92-20260711",
@@ -77,7 +61,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W97-W98-20260714",
@@ -93,7 +77,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W99-W10-20260715",
@@ -109,7 +93,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "L10-L10-20260718",
@@ -125,7 +109,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -141,6 +125,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-07T16:13:18Z"
+    "updated_at": "2026-07-07T21:00:25Z"
   }
 ]

@@ -1,12 +1,12 @@
 {
-  "W85-W87-20260707": {
-    "match_id": "W85-W87-20260707",
-    "home_team": "W85",
-    "away_team": "W87",
-    "phase": "Round of 16",
-    "date": "2026-07-07",
+  "W89-W90-20260709": {
+    "match_id": "W89-W90-20260709",
+    "home_team": "W89",
+    "away_team": "W90",
+    "phase": "Quarter-final",
+    "date": "2026-07-09",
     "kickoff": "20:00",
-    "venue": "Vancouver",
+    "venue": "Boston (Foxborough)",
     "elo_home": 1500.0,
     "elo_away": 1500.0,
     "elo_advantage": 0.0,
@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "La diferencia de Elo de 0.0 puntos entre W85 y W87 es nula, lo que el modelo contrarresta con una ventaja esperada en goles para W87 (1.5066 vs 1.2295), justificando su mayor probabilidad de victoria del 43.5% sobre el 30.9% de W85. El modelo no detecta valor en las cuotas de Bet365 ni Winamax, ya que el EV es inferior al 5% en todos los mercados, lo que sugiere que el mercado está valorando las probabilidades de forma eficiente sin ofrecer oportunidades de apuesta con ventaja matemática. Al no disponer de información reciente sobre lesiones o suspensiones debido a los nombres genéricos de los equipos, el análisis se basa exclusivamente en los datos del modelo. Por lo tanto, no hay argumento matemático para apostar en este partido.",
+    "gemini_analysis": "A pesar de la igualdad en los ratings Elo, el modelo Dixon-Coles Poisson bivariante otorga una ligera ventaja a W90, con un 43.5% de probabilidad de victoria y un xG superior de 1.5066, lo que implica una mayor expectativa ofensiva en este encuentro. La ausencia de valor detectado en todos los mercados (EV < 5%) sugiere que las cuotas actuales de las casas de apuestas están eficientemente ajustadas a las probabilidades intrínsecas del partido según nuestro modelo. Lamentablemente, debido a la naturaleza genérica de los nombres de los equipos (W89 y W90), no ha sido posible encontrar información específica reciente sobre lesiones, suspensiones o la forma actual de los equipos que pudiera alterar significativamente esta valoración. Por lo tanto, no hay argumento matemático para realizar una apuesta en este partido.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -256,214 +256,9 @@
         "best_ev": null,
         "best_bookmaker": null,
         "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Córners › Total Más de 8.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Saques de esquina › Total córners › Más de 8.5",
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Córners › Total Más de 8.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Saques de esquina › Total córners › Más de 8.5",
         "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
-      },
-      {
-        "market_key": "score_2_0",
-        "label": "Marcador exacto 2-0",
-        "model_prob": 0.0,
-        "baseline_mean": 0.09,
-        "baseline_std": 0.035,
-        "notability_score": -2.571,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Marcador Exacto › 2-0",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Resultado correcto › 2-0",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 9%)"
-      },
-      {
-        "market_key": "first_goal_away",
-        "label": "Equipo B marca primero",
-        "model_prob": 0.5149,
-        "baseline_mean": 0.34,
-        "baseline_std": 0.09,
-        "notability_score": 1.943,
-        "direction": "HIGH",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Equipo que marcará el 1er gol › W85",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Primer equipo en marcar › W85",
-        "reasoning": "Tasa de primer gol — modelo 51% vs media WC 34% (xG: W85 1.23 | W87 1.51)"
-      },
-      {
-        "market_key": "home_clean_sheet",
-        "label": "Equipo A gana a cero",
-        "model_prob": 0.1568,
-        "baseline_mean": 0.31,
-        "baseline_std": 0.08,
-        "notability_score": -1.915,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Ganar a Cero › W85",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Ganar a cero › W85",
-        "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
-      },
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.1299,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -1.648,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap Europeo › W85 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Hándicap asiático › W85 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
-      },
-      {
-        "market_key": "ht_draw_ft_win",
-        "label": "Empate 1ª parte, gana partido",
-        "model_prob": 0.0957,
-        "baseline_mean": 0.19,
-        "baseline_std": 0.06,
-        "notability_score": -1.572,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Descanso / Final › Empate/W85",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W85 vs W87 › Descanso/Final › Empate/W85",
-        "reasoning": "Diferencia Elo +0 pts — modelo 10% (por debajo de media WC 19%)"
-      }
-    ]
-  },
-  "W89-W90-20260709": {
-    "match_id": "W89-W90-20260709",
-    "home_team": "W89",
-    "away_team": "W90",
-    "phase": "Quarter-final",
-    "date": "2026-07-09",
-    "kickoff": "20:00",
-    "venue": "Boston (Foxborough)",
-    "elo_home": 1500.0,
-    "elo_away": 1500.0,
-    "elo_advantage": 0.0,
-    "probs": {
-      "home_win": 0.3086,
-      "draw": 0.2563,
-      "away_win": 0.4351,
-      "over_0_5": 0.9337,
-      "over_1_5": 0.7593,
-      "over_2_5": 0.5152,
-      "over_3_5": 0.2939,
-      "btts": 0.5522,
-      "expected_goals_home": 1.2295,
-      "expected_goals_away": 1.5066
-    },
-    "top_scorelines": [
-      {
-        "score": "1-1",
-        "prob": 0.1215
-      },
-      {
-        "score": "0-1",
-        "prob": 0.0962
-      },
-      {
-        "score": "1-2",
-        "prob": 0.0905
-      },
-      {
-        "score": "1-0",
-        "prob": 0.0782
-      },
-      {
-        "score": "2-1",
-        "prob": 0.0738
-      },
-      {
-        "score": "0-2",
-        "prob": 0.0736
-      },
-      {
-        "score": "0-0",
-        "prob": 0.0663
-      },
-      {
-        "score": "2-2",
-        "prob": 0.0556
-      }
-    ],
-    "high_prob_events": [
-      {
-        "event": "Ambos equipos marcan",
-        "prob": 0.5522
-      },
-      {
-        "event": "Más de 1 gol",
-        "prob": 0.7593
-      },
-      {
-        "event": "Más de 2 goles",
-        "prob": 0.5152
-      },
-      {
-        "event": "Al menos 1 gol en cada tiempo",
-        "prob": 0.672
-      }
-    ],
-    "asian_handicap": {},
-    "asian_total": {},
-    "goal_ranges": [],
-    "value_bets": [],
-    "has_value_bet": false,
-    "confidence": "low",
-    "gemini_analysis": null,
-    "odds_updated_at": null,
-    "is_upcoming": false,
-    "top_scorers": {
-      "home": [],
-      "away": []
-    },
-    "smart_picks": [
-      {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.0,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -3.176,
-        "direction": "LOW",
-        "ev_bet365": null,
-        "ev_winamax": null,
-        "odds_bet365": null,
-        "odds_winamax": null,
-        "best_ev": null,
-        "best_bookmaker": null,
-        "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Hándicap Europeo › W89 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Hándicap asiático › W89 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 27%)"
       },
       {
         "market_key": "score_2_0",
@@ -521,6 +316,25 @@
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Ganar a Cero › W89",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Ganar a cero › W89",
         "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
+      },
+      {
+        "market_key": "ah_home_minus_1_5",
+        "label": "Hándicap Asiático local -1.5",
+        "model_prob": 0.1299,
+        "baseline_mean": 0.27,
+        "baseline_std": 0.085,
+        "notability_score": -1.648,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Hándicap Europeo › W89 -1.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › W89 vs W90 › Hándicap asiático › W89 -1.5",
+        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
       },
       {
         "market_key": "ht_draw_ft_win",
