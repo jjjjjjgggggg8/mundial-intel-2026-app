@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "Aunque el Elo es idéntico para W91 y W92, el modelo asigna a W92 un xG superior (1.5066 frente a 1.2295) y, consecuentemente, una probabilidad de victoria significativamente mayor del 43.5% frente al 30.9% de W91. No obstante, al no disponer de los nombres reales de los equipos, no es posible incorporar datos de lesiones o la forma reciente que justifiquen esta divergencia en las probabilidades de gol. Dado que el sistema no detecta valor en las cuotas actuales para ningún mercado (EV < 5%), las casas de apuestas han ajustado sus líneas de manera eficiente a las expectativas implícitas en estos encuentros de cuartos de final. Por lo tanto, el argumento matemático para apostar es nulo, ya que el modelo no encuentra ninguna discrepancia favorable.",
+    "gemini_analysis": "La paridad en los ratings Elo (1500.0 para ambos) sugiere que, históricamente, los equipos son de fuerza idéntica, lo que el modelo ajusta con los goles esperados favoreciendo ligeramente a W92 (1.5066 vs 1.2295). Esta pequeña ventaja de xG se traduce en una probabilidad de victoria del 43.5% para W92 frente al 30.9% de W91, implicando que W92 tiene una ligera ventaja en el rendimiento esperado del partido. A pesar de esta inclinación del modelo, la ausencia de valor en las apuestas (EV < 5%) indica que las cuotas del mercado ya están ajustadas eficientemente a estas probabilidades. Por lo tanto, el modelo no detecta argumento matemático para realizar ninguna apuesta en este encuentro.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
@@ -591,7 +591,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "Con Elo ratings idénticos de 1500.0, el modelo ajusta las probabilidades basándose en goles esperados que otorgan una clara ventaja a W96 (1.5066 xG) sobre W95 (1.2295 xG), lo que se traduce en una probabilidad de victoria del 43.5% para W96 frente al 30.9% de W95 y un 25.6% de empate. A pesar de la ventaja proyectada para W96, el modelo no detecta valor en ninguna de las cuotas actuales, lo que sugiere que el mercado está eficientemente valorado o que la incertidumbre inherente a un encuentro de cuartos de final con equipos tan parejos en ranking Elo ha sido bien descontada por las casas de apuestas. Sin información reciente sobre lesiones, suspensiones o estados de forma que alteren significativamente el balance pre-partido, no existe un argumento matemático para realizar una apuesta en este encuentro.",
+    "gemini_analysis": "A pesar de una diferencia Elo nula que sugiere paridad, el modelo otorga a W96 un mayor promedio de goles esperados (1.5066 vs 1.2295), posicionándolo como favorito con una probabilidad de victoria del 43.5% frente al 30.9% de W95. Dado que W95 y W96 son equipos hipotéticos, no hay información reciente sobre lesiones, suspensiones o la forma actual de los equipos que pueda alterar estas probabilidades calculadas. Con una probabilidad de empate del 25.6%, el mercado está bien equilibrado y el modelo no detecta argumentos matemáticos para realizar apuestas con valor positivo en ninguna dirección. Por lo tanto, no hay una value bet clara en este encuentro según el análisis del modelo.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
