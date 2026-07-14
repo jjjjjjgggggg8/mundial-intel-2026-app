@@ -13,7 +13,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-14T09:04:29Z"
+    "updated_at": "2026-07-14T16:09:26Z"
   },
   {
     "id": "W99-W10-20260715",
@@ -29,7 +29,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-14T09:04:29Z"
+    "updated_at": "2026-07-14T16:09:26Z"
   },
   {
     "id": "L10-L10-20260718",
@@ -45,7 +45,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-14T09:04:29Z"
+    "updated_at": "2026-07-14T16:09:26Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -61,6 +61,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-14T09:04:29Z"
+    "updated_at": "2026-07-14T16:09:26Z"
   }
 ]
