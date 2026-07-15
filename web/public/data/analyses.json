@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "A pesar de que ambos equipos, W99 y W100, tienen una valoración Elo idéntica de 1500.0, el modelo predice una ligera ventaja para W100, con un 43.5% de probabilidad de victoria frente al 30.9% de W99, justificado por sus goles esperados (xG) de 1.5066 contra 1.2295, lo que sugiere una mayor capacidad ofensiva proyectada para W100. La diferencia en los xG indica que W100 se espera que genere más y mejores oportunidades de gol en el partido, a pesar de la paridad en Elo.\n\nEl modelo no ha detectado value bets en ninguno de los mercados (EV < 5%), lo que implica que las cuotas ofrecidas por Bet365 y Winamax están bien ajustadas a las probabilidades calculadas, sin ofrecer un margen significativo para el apostador en este momento. Esto suele ocurrir cuando el mercado es eficiente y los bookmakers han valorado correctamente los riesgos y las probabilidades subyacentes del encuentro.\n\nConsiderando la ausencia de información externa sobre lesiones o suspensiones clave que pudieran alterar drásticamente estas proyecciones, y dado que las cuotas ya reflejan las probabilidades del modelo, no hay un argumento matemático claro para realizar apuestas en este partido.",
+    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de W99, con W100 0.0 puntos Elo por encima de W99. Los goles esperados son 1.2295 para W99 y 1.5066 para W100. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
