@@ -1,21 +1,5 @@
 [
   {
-    "id": "W99-W10-20260715",
-    "phase": "Semi-final",
-    "date": "2026-07-15",
-    "kickoff": "19:00",
-    "home_team": "W99",
-    "away_team": "W100",
-    "venue": "Atlanta",
-    "has_value_bet": false,
-    "confidence": "low",
-    "prob_home": 0.3086,
-    "prob_draw": 0.2563,
-    "prob_away": 0.4351,
-    "is_upcoming": true,
-    "updated_at": "2026-07-15T16:14:45Z"
-  },
-  {
     "id": "L10-L10-20260718",
     "phase": "Match for third place",
     "date": "2026-07-18",
@@ -29,7 +13,7 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-15T16:14:45Z"
+    "updated_at": "2026-07-16T09:13:34Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -45,6 +29,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-15T16:14:45Z"
+    "updated_at": "2026-07-16T09:13:34Z"
   }
 ]
