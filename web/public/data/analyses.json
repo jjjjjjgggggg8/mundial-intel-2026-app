@@ -233,7 +233,7 @@
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de L101, con L102 0.0 puntos Elo por encima de L101. Los goles esperados son 1.2295 para L101 y 1.5066 para L102. El modelo no detecta valor claro en las cuotas actuales del mercado.",
+    "gemini_analysis": "Los ratings Elo idénticos indican que, históricamente, ambos equipos están al mismo nivel, sin ventaja previa para L101 ni L102. Sin embargo, el modelo de goles esperados sugiere un ligero favoritismo ofensivo para L102 con 1.5066 xG frente a 1.2295 xG de L101, lo que se traduce en un 43.5% de probabilidad de victoria para L102. No se ha encontrado información específica sobre lesiones, suspensiones o la forma reciente de los equipos \"L101\" y \"L102\" para esta fase de la competición. Con un valor esperado (EV) inferior al 5% en todos los mercados, el modelo no detecta valor en las cuotas actuales, lo que implica que las casas de apuestas han valorado correctamente este partido para el tercer puesto. Por lo tanto, no existe un argumento matemático convincente para apostar en este encuentro.",
     "odds_updated_at": null,
     "is_upcoming": true,
     "top_scorers": {
