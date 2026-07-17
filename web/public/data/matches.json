@@ -12,8 +12,8 @@
     "prob_home": 0.3086,
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
-    "is_upcoming": false,
-    "updated_at": "2026-07-16T16:10:52Z"
+    "is_upcoming": true,
+    "updated_at": "2026-07-17T09:09:47Z"
   },
   {
     "id": "W10-W10-20260719",
@@ -29,6 +29,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": false,
-    "updated_at": "2026-07-16T16:10:52Z"
+    "updated_at": "2026-07-17T09:09:47Z"
   }
 ]

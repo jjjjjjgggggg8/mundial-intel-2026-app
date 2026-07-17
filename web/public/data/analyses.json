@@ -74,27 +74,180 @@
         "prob": 0.672
       }
     ],
-    "asian_handicap": {},
-    "asian_total": {},
-    "goal_ranges": [],
+    "asian_handicap": {
+      "-1.5": {
+        "handicap": -1.5,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.8701,
+        "description": "AH -1.5: Local necesita ganar por 3+ goles"
+      },
+      "-1.25": {
+        "handicap": -1.25,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.7807,
+        "description": "AH -1.25 (split: -1.5/-1.0)"
+      },
+      "-1.0": {
+        "handicap": -1.0,
+        "prob_home_covers": 0.1299,
+        "prob_push": 0.1787,
+        "prob_away_covers": 0.6914,
+        "description": "AH -1.0: Local necesita ganar por 2+ goles"
+      },
+      "-0.75": {
+        "handicap": -0.75,
+        "prob_home_covers": 0.2192,
+        "prob_push": 0.0894,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.75 (split: -1.0/-0.5)"
+      },
+      "-0.5": {
+        "handicap": -0.5,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.6914,
+        "description": "AH -0.5: Local necesita ganar por 1+ goles"
+      },
+      "-0.25": {
+        "handicap": -0.25,
+        "prob_home_covers": 0.3086,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.5632,
+        "description": "AH -0.25 (split: -0.5/+0.0)"
+      },
+      "0.25": {
+        "handicap": 0.25,
+        "prob_home_covers": 0.4368,
+        "prob_push": 0.1281,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.25 (split: +0.0/+0.5)"
+      },
+      "0.5": {
+        "handicap": 0.5,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.4351,
+        "description": "AH +0.5: Visitante necesita ganar por 1+ goles"
+      },
+      "0.75": {
+        "handicap": 0.75,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.3254,
+        "description": "AH +0.75 (split: +0.5/+1.0)"
+      },
+      "1.0": {
+        "handicap": 1.0,
+        "prob_home_covers": 0.5649,
+        "prob_push": 0.2193,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.0: Visitante necesita ganar por 2+ goles"
+      },
+      "1.25": {
+        "handicap": 1.25,
+        "prob_home_covers": 0.6746,
+        "prob_push": 0.1096,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.25 (split: +1.0/+1.5)"
+      },
+      "1.5": {
+        "handicap": 1.5,
+        "prob_home_covers": 0.7842,
+        "prob_push": 0.0,
+        "prob_away_covers": 0.2158,
+        "description": "AH +1.5: Visitante necesita ganar por 3+ goles"
+      }
+    },
+    "asian_total": {
+      "1.5": {
+        "line": 1.5,
+        "prob_over": 0.7593,
+        "prob_push": 0.0,
+        "prob_under": 0.2407,
+        "is_asian": false
+      },
+      "2.0": {
+        "line": 2.0,
+        "prob_over": 0.5152,
+        "prob_push": 0.2441,
+        "prob_under": 0.2407,
+        "is_asian": true
+      },
+      "2.5": {
+        "line": 2.5,
+        "prob_over": 0.5152,
+        "prob_push": 0.0,
+        "prob_under": 0.4848,
+        "is_asian": false
+      },
+      "3.0": {
+        "line": 3.0,
+        "prob_over": 0.2939,
+        "prob_push": 0.2213,
+        "prob_under": 0.4848,
+        "is_asian": true
+      },
+      "3.5": {
+        "line": 3.5,
+        "prob_over": 0.2939,
+        "prob_push": 0.0,
+        "prob_under": 0.7061,
+        "is_asian": false
+      },
+      "4.0": {
+        "line": 4.0,
+        "prob_over": 0.1425,
+        "prob_push": 0.1514,
+        "prob_under": 0.7061,
+        "is_asian": true
+      }
+    },
+    "goal_ranges": [
+      {
+        "label": "0-1",
+        "min_goals": 0,
+        "max_goals": 1,
+        "prob": 0.2407
+      },
+      {
+        "label": "2-3",
+        "min_goals": 2,
+        "max_goals": 3,
+        "prob": 0.4654
+      },
+      {
+        "label": "4-5",
+        "min_goals": 4,
+        "max_goals": 5,
+        "prob": 0.2342
+      },
+      {
+        "label": "6+",
+        "min_goals": 6,
+        "max_goals": null,
+        "prob": 0.0596
+      }
+    ],
     "value_bets": [],
     "has_value_bet": false,
     "confidence": "low",
-    "gemini_analysis": null,
+    "gemini_analysis": "El modelo asigna 31% de probabilidad a la victoria de L101, con L102 0.0 puntos Elo por encima de L101. Los goles esperados son 1.2295 para L101 y 1.5066 para L102. El modelo no detecta valor claro en las cuotas actuales del mercado.",
     "odds_updated_at": null,
-    "is_upcoming": false,
+    "is_upcoming": true,
     "top_scorers": {
       "home": [],
       "away": []
     },
     "smart_picks": [
       {
-        "market_key": "ah_home_minus_1_5",
-        "label": "Hándicap Asiático local -1.5",
-        "model_prob": 0.0,
-        "baseline_mean": 0.27,
-        "baseline_std": 0.085,
-        "notability_score": -3.176,
+        "market_key": "corners_over_8_5",
+        "label": "Más de 8.5 córners",
+        "model_prob": 0.0856,
+        "baseline_mean": 0.52,
+        "baseline_std": 0.105,
+        "notability_score": -4.137,
         "direction": "LOW",
         "ev_bet365": null,
         "ev_winamax": null,
@@ -103,9 +256,9 @@
         "best_ev": null,
         "best_bookmaker": null,
         "has_ev": false,
-        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Hándicap Europeo › L101 -1.5",
-        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Hándicap asiático › L101 -1.5",
-        "reasoning": "Diferencia Elo +0 pts — modelo 0% (por debajo de media WC 27%)"
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Córners › Total Más de 8.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Saques de esquina › Total córners › Más de 8.5",
+        "reasoning": "Estimación del partido: 9% vs media WC 52% (z=-4.14)"
       },
       {
         "market_key": "score_2_0",
@@ -163,6 +316,25 @@
         "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Ganar a Cero › L101",
         "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Ganar a cero › L101",
         "reasoning": "Diferencia Elo +0 pts — modelo 16% (por debajo de media WC 31%)"
+      },
+      {
+        "market_key": "ah_home_minus_1_5",
+        "label": "Hándicap Asiático local -1.5",
+        "model_prob": 0.1299,
+        "baseline_mean": 0.27,
+        "baseline_std": 0.085,
+        "notability_score": -1.648,
+        "direction": "LOW",
+        "ev_bet365": null,
+        "ev_winamax": null,
+        "odds_bet365": null,
+        "odds_winamax": null,
+        "best_ev": null,
+        "best_bookmaker": null,
+        "has_ev": false,
+        "where_to_bet_winamax": "Winamax › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Hándicap Europeo › L101 -1.5",
+        "where_to_bet_bet365": "Bet365 › Fútbol › Copa del Mundo 2026 › L101 vs L102 › Hándicap asiático › L101 -1.5",
+        "reasoning": "Diferencia Elo +0 pts — modelo 13% (por debajo de media WC 27%)"
       },
       {
         "market_key": "ht_draw_ft_win",
