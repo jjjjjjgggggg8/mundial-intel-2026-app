@@ -1,21 +1,5 @@
 [
   {
-    "id": "L10-L10-20260718",
-    "phase": "Match for third place",
-    "date": "2026-07-18",
-    "kickoff": "21:00",
-    "home_team": "L101",
-    "away_team": "L102",
-    "venue": "Miami (Miami Gardens)",
-    "has_value_bet": false,
-    "confidence": "low",
-    "prob_home": 0.3086,
-    "prob_draw": 0.2563,
-    "prob_away": 0.4351,
-    "is_upcoming": true,
-    "updated_at": "2026-07-18T15:47:11Z"
-  },
-  {
     "id": "W10-W10-20260719",
     "phase": "Final",
     "date": "2026-07-19",
@@ -29,6 +13,6 @@
     "prob_draw": 0.2563,
     "prob_away": 0.4351,
     "is_upcoming": true,
-    "updated_at": "2026-07-18T15:47:11Z"
+    "updated_at": "2026-07-19T09:05:03Z"
   }
 ]
