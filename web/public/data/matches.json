@@ -1,18 +1,1 @@
-[
-  {
-    "id": "W10-W10-20260719",
-    "phase": "Final",
-    "date": "2026-07-19",
-    "kickoff": "19:00",
-    "home_team": "W101",
-    "away_team": "W102",
-    "venue": "New York/New Jersey (East Rutherford)",
-    "has_value_bet": false,
-    "confidence": "low",
-    "prob_home": 0.3086,
-    "prob_draw": 0.2563,
-    "prob_away": 0.4351,
-    "is_upcoming": true,
-    "updated_at": "2026-07-19T15:50:16Z"
-  }
-]
+[]
